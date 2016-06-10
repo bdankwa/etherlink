@@ -2,7 +2,7 @@
 #define GUICONTROLLER_H
 #include <QObject>
 #include <stdlib.h>
-#include "clinkMainWindow.h"
+#include "etherlinkMainWindow.h"
 #include "EthernetReader.h"
 #include "global.h"
 
