@@ -6,13 +6,13 @@ SRCDIR = ./src/
 DESIGNDIR = ./gui/
 UISRCDIR = $(SRCDIR)ui/
 
-QTDIR = /usr/include/qt4/
-QTCOREDIR = $(QTDIR)QtCore/
-QTGUIDIR = $(QTDIR)QtGui/
+#QTDIR = /usr/include/qt4/
+#QTCOREDIR = $(QTDIR)QtCore/
+#QTGUIDIR = $(QTDIR)QtGui/
 
-#QTDIR = /usr/include/Qt/
-#QTCOREDIR = /usr/include/QtCore/
-#QTGUIDIR = /usr/include/QtGui/
+QTDIR = /usr/include/Qt/
+QTCOREDIR = /usr/include/QtCore/
+QTGUIDIR = /usr/include/QtGui/
 
 CNTRLDIR = $(SRCDIR)controller/
 INFRADIR = $(SRCDIR)infrustructure/

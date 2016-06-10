@@ -4,9 +4,13 @@
 #include <stdlib.h>
 #include "guicontroller.h"
 
-#define PORT_PACKET1	0
-#define PORT_PACKET2	1
-#define PORT_PACKET3	2
+#define PACKET1	0
+#define PACKET2	1
+#define PACKET3	2
+#define PACKET4	3
+#define USERDEF	4
+#define FAULTS	5
+
 
 using namespace Ui;
 
@@ -25,7 +29,7 @@ void GuiController::showGui()
     QMainWindow* main = new QMainWindow();
 
     ereader = new EthernetReader((args->global_data->rxBuff), NUM_PORTS);
-    connect(ereader, SIGNAL(newPacket(unsigned int*, unsigned int)), this, SLOT(streamPacket(unsigned int*, unsigned int)) );
+    connect(ereader, SIGNAL(newPacket(unsigned int*, unsigned int, int)), this, SLOT(streamPacket(unsigned int*, unsigned int, int)) );
 
     //ereader->moveToThread(QApplication::instance()->thread());
 
@@ -37,14 +41,44 @@ void GuiController::showGui()
     app.exec();
 }
 
-void GuiController::streamPacket(unsigned int* packet, unsigned int size)
+void GuiController::streamPacket(unsigned int* packet, unsigned int size, int portIdx)
 {
 	static int num = 0;
 	//TODO Determine packet type
 
 	//TODO Use switch statement to set appropriate tab info
-	printf("new packet signal received, processing..\n");
+	//printf("new packet signal received, processing..\n");
 	mainWind->lineEdit_SpdVibPacketNumber->setText(QString::number(size));
+
+	switch(portIdx){
+
+	case PACKET1:
+		//process packet1
+		printf("GOT PACKET 1\n");
+		break;
+	case PACKET2:
+		//process packet2
+		printf("GOT PACKET 2\n");
+		break;
+	case PACKET3:
+		//process packet3
+		printf("GOT PACKET 3\n");
+		break;
+	case PACKET4:
+		//process packet4
+		printf("GOT PACKET 4\n");
+		break;
+	case USERDEF:
+		//process user packet
+		printf("GOT PACKET 5\n");
+		break;
+	case FAULTS:
+		processFaults();
+		printf("GOT PACKET 6\n");
+		break;
+	default:
+		;
+	}
 
 }
 
@@ -62,4 +96,8 @@ void GuiController::startStream()
     ereader->start();
 }
 
+void GuiController::processFaults()
+{
+
+}
 

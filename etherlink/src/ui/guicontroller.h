@@ -19,7 +19,7 @@ public:
 signals:
 	//void streamPacket1();
 private slots:
-	void streamPacket(unsigned int* packet, unsigned int num);
+	void streamPacket(unsigned int* packet, unsigned int num, int portIdx);
 	void readPacketNumber(QString);
     void startStream();
     //void pauseStream();
@@ -29,6 +29,7 @@ private:
     Ui_MainWindow *mainWind;
     UIThreadArgs_t* args;
     EthernetReader* ereader;
+    void processFaults(void);
 };
 
 #endif // GUICONTROLLER_H

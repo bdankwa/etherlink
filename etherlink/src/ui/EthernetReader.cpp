@@ -24,11 +24,11 @@ void EthernetReader::run() {
 
 		for(i=0; i< numPorts; i++){
 			if (removeDataFromBuffer(&(rxBuffer[i]), &packet, &size) == -1){
-				printf("Buffer is empty, tail at %d \n", (&(rxBuffer[i]))->tail);
+				//printf("Buffer is empty, tail at %d \n", (&(rxBuffer[i]))->tail);
 				continue;
 			}
-		    printf("Packet of size %i received, emiting signal\n", size);
-			emit newPacket(packet, size);
+		    //printf("Port %i received something, emiting signal\n", i);
+			emit newPacket(packet, size, i);
 		}
 
 

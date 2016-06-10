@@ -17,7 +17,7 @@ class EthernetReader : public QThread {
 	Q_OBJECT
 
 signals:
-	void newPacket(unsigned int* packet, unsigned int size );
+	void newPacket(unsigned int* packet, unsigned int size, int portIdx );
 
 public:
 	EthernetReader(ringBuffer_t* rxBuffer, int numPorts);

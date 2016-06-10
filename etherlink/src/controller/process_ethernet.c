@@ -71,7 +71,7 @@ void* ethernet_thread(void* params){
 	        			print_error(msg);
 
 	                }
-	                printf("Producer added data to buffer, head @ %d.\n", rxUDPBuffer[i].head );
+	                //printf("Producer added data to buffer, head @ %d.\n", rxUDPBuffer[i].head );
 	              }
 	          }
 	          // Reset the FD set

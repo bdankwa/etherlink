@@ -1,7 +1,8 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'EthernetReader.h'
 **
-** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
+** Created:
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,7 +11,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'EthernetReader.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.6. It"
+#error "This file was generated using the moc from 4.8.4. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -30,14 +31,14 @@ static const uint qt_meta_data_EthernetReader[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      28,   16,   15,   15, 0x05,
+      36,   16,   15,   15, 0x05,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_EthernetReader[] = {
-    "EthernetReader\0\0packet,size\0"
-    "newPacket(uint*,uint)\0"
+    "EthernetReader\0\0packet,size,portIdx\0"
+    "newPacket(uint*,uint,int)\0"
 };
 
 void EthernetReader::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -46,7 +47,7 @@ void EthernetReader::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         Q_ASSERT(staticMetaObject.cast(_o));
         EthernetReader *_t = static_cast<EthernetReader *>(_o);
         switch (_id) {
-        case 0: _t->newPacket((*reinterpret_cast< uint*(*)>(_a[1])),(*reinterpret_cast< uint(*)>(_a[2]))); break;
+        case 0: _t->newPacket((*reinterpret_cast< uint*(*)>(_a[1])),(*reinterpret_cast< uint(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
         default: ;
         }
     }
@@ -92,9 +93,9 @@ int EthernetReader::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void EthernetReader::newPacket(unsigned int * _t1, unsigned int _t2)
+void EthernetReader::newPacket(unsigned int * _t1, unsigned int _t2, int _t3)
 {
-    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_END_MOC_NAMESPACE
