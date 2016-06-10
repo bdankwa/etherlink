@@ -22,7 +22,7 @@ static const uint qt_meta_data_GuiController[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -33,8 +33,6 @@ static const uint qt_meta_data_GuiController[] = {
       26,   15,   14,   14, 0x08,
       51,   14,   14,   14, 0x08,
       77,   14,   14,   14, 0x08,
-      91,   14,   14,   14, 0x08,
-     105,   14,   14,   14, 0x08,
 
        0        // eod
 };
@@ -43,7 +41,6 @@ static const char qt_meta_stringdata_GuiController[] = {
     "GuiController\0\0packet,num\0"
     "streamPacket(uint*,uint)\0"
     "readPacketNumber(QString)\0startStream()\0"
-    "pauseStream()\0stopStream()\0"
 };
 
 void GuiController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -55,8 +52,6 @@ void GuiController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 0: _t->streamPacket((*reinterpret_cast< uint*(*)>(_a[1])),(*reinterpret_cast< uint(*)>(_a[2]))); break;
         case 1: _t->readPacketNumber((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 2: _t->startStream(); break;
-        case 3: _t->pauseStream(); break;
-        case 4: _t->stopStream(); break;
         default: ;
         }
     }
@@ -94,9 +89,9 @@ int GuiController::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 3;
     }
     return _id;
 }

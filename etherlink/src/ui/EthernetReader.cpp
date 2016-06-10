@@ -8,8 +8,9 @@
 #include "EthernetReader.h"
 #include <stdio.h>
 
-EthernetReader::EthernetReader(ringBuffer_t* rxBuffer) {
+EthernetReader::EthernetReader(ringBuffer_t* rxBuffer, int numPorts) {
 	this->rxBuffer = rxBuffer;
+	this->numPorts = numPorts;
 
 }
 
@@ -17,14 +18,23 @@ void EthernetReader::run() {
 
 	unsigned int* packet;
 	unsigned int size;
+	int i;
 
 	while(1){
-		if (removeDataFromBuffer(rxBuffer, &packet, &size) == -1){
-			printf("Buffer is empty, tail at %d \n", rxBuffer->tail);
-			continue;
+
+		for(i=0; i< numPorts; i++){
+			if (removeDataFromBuffer(&(rxBuffer[i]), &packet, &size) == -1){
+				printf("Buffer is empty, tail at %d \n", (&(rxBuffer[i]))->tail);
+				continue;
+			}
+		    printf("Packet of size %i received, emiting signal\n", size);
+			emit newPacket(packet, size);
 		}
-	    printf("Packet of size %i received, emiting signal\n", size);
-		emit newPacket(packet, size);
+
+
+
+
+
 	}
 }
 

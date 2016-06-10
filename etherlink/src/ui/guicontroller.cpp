@@ -6,6 +6,7 @@
 
 #define PORT_PACKET1	0
 #define PORT_PACKET2	1
+#define PORT_PACKET3	2
 
 using namespace Ui;
 
@@ -23,7 +24,7 @@ void GuiController::showGui()
 
     QMainWindow* main = new QMainWindow();
 
-    ereader = new EthernetReader(&((args->global_data->rxBuff)[PORT_PACKET1]));
+    ereader = new EthernetReader((args->global_data->rxBuff), NUM_PORTS);
     connect(ereader, SIGNAL(newPacket(unsigned int*, unsigned int)), this, SLOT(streamPacket(unsigned int*, unsigned int)) );
 
     //ereader->moveToThread(QApplication::instance()->thread());

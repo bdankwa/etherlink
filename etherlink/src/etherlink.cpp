@@ -14,8 +14,6 @@
 
 #define UI_THREADS	(1)
 #define INFR_THREADS	(1)
-#define NUM_BUFFS	(18)
-#define NUM_PORTS	(NUM_BUFFS)
 
 struct global ethernetGlobalData;
 

@@ -20,10 +20,11 @@ signals:
 	void newPacket(unsigned int* packet, unsigned int size );
 
 public:
-	EthernetReader(ringBuffer_t* rxBuffer);
+	EthernetReader(ringBuffer_t* rxBuffer, int numPorts);
 
 private:
 	ringBuffer_t* rxBuffer;
+	int numPorts;
 	void run();
 };
 
