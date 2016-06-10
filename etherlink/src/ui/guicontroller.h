@@ -29,7 +29,7 @@ private:
     Ui_MainWindow *mainWind;
     UIThreadArgs_t* args;
     EthernetReader* ereader;
-    void processFaults(void);
+    void processFaults(unsigned int* faults);
 };
 
 #endif // GUICONTROLLER_H

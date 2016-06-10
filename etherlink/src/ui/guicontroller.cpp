@@ -11,6 +11,8 @@
 #define USERDEF	4
 #define FAULTS	5
 
+#define EXTRACT_BIT(k)
+
 
 using namespace Ui;
 
@@ -44,6 +46,7 @@ void GuiController::showGui()
 void GuiController::streamPacket(unsigned int* packet, unsigned int size, int portIdx)
 {
 	static int num = 0;
+
 	//TODO Determine packet type
 
 	//TODO Use switch statement to set appropriate tab info
@@ -96,8 +99,29 @@ void GuiController::startStream()
     ereader->start();
 }
 
-void GuiController::processFaults()
+void GuiController::processFaults(unsigned int* faults)
 {
+	unsigned int cbitFaultWord;
+	unsigned int pbitFaultWord;
+	unsigned int nvmFaultWord;
+	unsigned int bootFaultWord;
+	unsigned int mcbspFaultWord;
+	unsigned int rs422FaultWord;
+	unsigned int ethernetStatusWord;
+	unsigned int ethernetFaultWord;
+	unsigned int ptmFaultWord;
+
+	cbitFaultWord = faults[0];
+	pbitFaultWord = faults[1];
+	nvmFaultWord = faults[2];
+	bootFaultWord = faults[3];
+	mcbspFaultWord = faults[4];
+	rs422FaultWord = faults[5];
+	ethernetStatusWord = faults[6];
+	ethernetFaultWord = faults[7];
+	ptmFaultWord = faults[8];
+
+	mainWind->lineEdit_ethStatus_0 =  ethernetStatusWord
 
 }
 
