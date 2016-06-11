@@ -13,6 +13,7 @@
 struct global {
 	ringBuffer_t* rxBuff;
 	ringBuffer_t* txBuff;
+	int connectionStatus;
 	void* exitStatus;
 };
 

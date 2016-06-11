@@ -64,6 +64,7 @@ int main( int argc, char* argv[] )
 
 	ethernetGlobalData.rxBuff = Ethernet_Buffs;
 	ethernetGlobalData.txBuff = NULL;
+	ethernetGlobalData.connectionStatus = -1;
 	ethernetGlobalData.exitStatus = (void*)threadRetVal;
 
 	/***********************************

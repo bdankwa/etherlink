@@ -20,7 +20,15 @@ signals:
 	//void streamPacket1();
 private slots:
 	void streamPacket(unsigned int* packet, unsigned int num, int portIdx);
-	void readPacketNumber(QString);
+	void readPacket1Index(QString);
+	void readPacket2Index(QString);
+	void readPacket3Index(QString);
+	void decrementPacket1Idx();
+	void decrementPacket2Idx();
+	void decrementPacket3Idx();
+	void incrementPacket1Idx();
+	void incrementPacket2Idx();
+	void incrementPacket3Idx();
     void startStream();
     void pauseStream();
     void stopStream();
@@ -29,6 +37,14 @@ private:
     Ui_MainWindow *mainWind;
     UIThreadArgs_t* args;
     EthernetReader* ereader;
+    QLabel* connectionLabel;
+    QPalette* redPalette;
+    QPalette* greenPalette;
+    int connectionStatus;
+    u_int32_t packet1_idx;
+    u_int32_t packet2_idx;
+    u_int32_t packet3_idx;
+
     void processPacket1(unsigned int* packets);
     void processPacket2(unsigned int* packets);
     void processPacket3(unsigned int* packets);

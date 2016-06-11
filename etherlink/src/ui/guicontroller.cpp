@@ -2,6 +2,7 @@
 #include <QString>
 #include <QTextDocument>
 #include <stdlib.h>
+#include <stdio.h>
 #include "guicontroller.h"
 
 #define PACKET1	0
@@ -20,8 +21,14 @@ GuiController::GuiController(UIThreadArgs_t* threadParams)
 {
 	 mainWind = new Ui_MainWindow();
 	 args = threadParams;
-
-
+	 connectionStatus = args->global_data->connectionStatus;
+	 redPalette = new QPalette();
+	 redPalette->setColor(QPalette::WindowText, Qt::red);
+	 greenPalette = new QPalette();
+	 greenPalette->setColor(QPalette::WindowText, Qt::darkBlue);
+	 packet1_idx = 0;
+	 packet2_idx = 0;
+	 packet3_idx = 0;
 }
 
 void GuiController::showGui()
@@ -37,10 +44,21 @@ void GuiController::showGui()
 
     app.setActiveWindow( main );
     mainWind->setupUi(main);
-    //connect(mainWind->lineEdit_SpdVibPacketNumber, SIGNAL(textChanged(QString)), this , SLOT(readPacketNumber(QString)));
+    connect(mainWind->lineEdit_SpdVibPacketNumber, SIGNAL(textChanged(QString)), this , SLOT(readPacket1Index(QString)));
+    connect(mainWind->lineEdit_PressPacketNumber, SIGNAL(textChanged(QString)), this , SLOT(readPacket2Index(QString)));
+    connect(mainWind->lineEdit_CalPacketNumber, SIGNAL(textChanged(QString)), this , SLOT(readPacket3Index(QString)));
+
+    connect(mainWind->pushButton_spdVib_dec, SIGNAL(clicked()), this , SLOT(readPacket1Index(QString)));
+
     connect(mainWind->actionStart, SIGNAL(triggered()), this , SLOT(startStream()));
     connect(mainWind->actionPause, SIGNAL(triggered()), this , SLOT(pauseStream()));
     connect(mainWind->actionStop, SIGNAL(triggered()), this , SLOT(stopStream()));
+
+	connectionLabel = new QLabel(mainWind->statusbar);
+	mainWind->statusbar->addPermanentWidget(connectionLabel);
+    connectionLabel->setText("NO CONNECTION!");
+    connectionLabel->setPalette(*redPalette);
+
     main->show();
     app.exec();
 }
@@ -54,6 +72,15 @@ void GuiController::streamPacket(unsigned int* packets, unsigned int size, int p
 	//TODO Use switch statement to set appropriate tab info
 	//printf("new packet signal received, processing..\n");
 	mainWind->lineEdit_SpdVibPacketNumber->setText(QString::number(size));
+
+	if(!connectionStatus){
+		connectionLabel->setText("NO CONNECTION!");
+		connectionLabel->setPalette(*redPalette);
+	}
+	else{
+		connectionLabel->setText("CONNECTED!");
+		connectionLabel->setPalette(*greenPalette);
+	}
 
 	switch(portIdx){
 
@@ -92,29 +119,71 @@ void GuiController::streamPacket(unsigned int* packets, unsigned int size, int p
 
 }
 
-void GuiController::readPacketNumber(QString packetNumberString)
+void GuiController::readPacket1Index(QString packetNumberString)
 {
-	QTextDocument* text = new QTextDocument(packetNumberString);
-	int packetNum = packetNumberString.toInt();
+	packet1_idx = packetNumberString.toInt();
 	mainWind->lineEdit_SpdVibRefreshRate->setText(packetNumberString);
-	mainWind->plainTextEdit_3->setDocument(text);
+	//mainWind->plainTextEdit_3->setDocument(text);
+}
 
+void GuiController::readPacket2Index(QString packetNumberString)
+{
+	packet2_idx = packetNumberString.toInt();
+}
+
+void GuiController::readPacket3Index(QString packetNumberString)
+{
+	packet3_idx = packetNumberString.toInt();
+}
+
+void GuiController::decrementPacket1Idx()
+{
+	packet1_idx = (packet1_idx-- <= 0) ? 0 : packet1_idx ;
+}
+
+void GuiController::decrementPacket2Idx()
+{
+	packet2_idx = (packet2_idx-- <= 0) ? 0 : packet2_idx ;
+}
+
+void GuiController::decrementPacket3Idx()
+{
+	packet3_idx = (packet3_idx-- <= 0) ? 0 : packet3_idx ;
+}
+
+void GuiController::incrementPacket1Idx()
+{
+	packet1_idx = (packet1_idx++ >= 1023) ? 1023 : packet1_idx ;
+}
+
+void GuiController::incrementPacket2Idx()
+{
+	packet2_idx = (packet2_idx++ >= 1023) ? 1023 : packet2_idx ;
+}
+
+void GuiController::incrementPacket3Idx()
+{
+	packet3_idx = (packet3_idx++ >= 1023) ? 1023 : packet3_idx ;
 }
 
 void GuiController::startStream()
 {
 	ereader->resume();
     ereader->start();
+    mainWind->statusbar->showMessage("Streaming...");
+    //connectionLabel->setText("CONNECTED TO EMU!");
 }
 
 void GuiController::pauseStream()
 {
     ereader->pause();
+    mainWind->statusbar->showMessage("Paused");
 }
 
 void GuiController::stopStream()
 {
     ereader->pause();
+    mainWind->statusbar->showMessage("Stopped");
 }
 
 void GuiController::processPacket1(unsigned int* packets)
