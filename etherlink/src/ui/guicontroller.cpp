@@ -11,7 +11,7 @@
 #define USERDEF	4
 #define FAULTS	5
 
-#define EXTRACT_BIT(k)
+#define EXTRACT_BIT(word, k) ((word & (1 << k)) >> k)
 
 
 using namespace Ui;
@@ -121,7 +121,39 @@ void GuiController::processFaults(unsigned int* faults)
 	ethernetFaultWord = faults[7];
 	ptmFaultWord = faults[8];
 
-	mainWind->lineEdit_ethStatus_0 =  ethernetStatusWord
+	mainWind->lineEdit_ethStatus_0 =  EXTRACT_BIT(ethernetStatusWord, 0);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+	mainWind->lineEdit_ethStatus_2 =  EXTRACT_BIT(ethernetStatusWord, 2);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 3);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 4);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 5);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 6);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 7);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 8);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 9);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 10);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 11);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 12);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 13);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 14);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 15);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 16);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 17);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 18);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 19);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 20);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+	mainWind->lineEdit_ethStatus_1 =  EXTRACT_BIT(ethernetStatusWord, 1);
+
 
 }
 
