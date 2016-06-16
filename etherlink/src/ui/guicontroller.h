@@ -29,6 +29,11 @@ private:
     Ui_MainWindow *mainWind;
     UIThreadArgs_t* args;
     EthernetReader* ereader;
+    void processPacket1(unsigned int* packets);
+    void processPacket2(unsigned int* packets);
+    void processPacket3(unsigned int* packets);
+    void processPacket4(unsigned int* packets);
+    void processPacket5(unsigned int* packets);
     void processFaults(unsigned int* faults);
 };
 

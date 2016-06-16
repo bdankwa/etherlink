@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'etherlink.ui'
 **
-** Created
-**      by: Qt User Interface Compiler version 4.8.4
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -320,7 +319,7 @@ public:
     QLineEdit *lineEdit_pbit20;
     QLineEdit *lineEdit_pbit19;
     QLineEdit *lineEdit_pbit15;
-    QLineEdit *lineEdit_pbit0_2;
+    QLineEdit *lineEdit_pbit14;
     QLineEdit *lineEdit_pbit12;
     QLineEdit *lineEdit_pbit11;
     QLineEdit *lineEdit_pbit10;
@@ -565,17 +564,17 @@ public:
     QLineEdit *lineEdit_ptm17;
     QLineEdit *lineEdit_ptm31;
     QLineEdit *lineEdit_ptm15;
-    QLineEdit *lineEdit_ptm28;
+    QLineEdit *lineEdit_ptm27;
     QLineEdit *lineEdit_ptm29;
     QLineEdit *lineEdit_ptm30;
-    QLineEdit *lineEdit_ptm28_2;
-    QLineEdit *lineEdit_ptm27;
+    QLineEdit *lineEdit_ptm28;
     QLineEdit *lineEdit_ptm26;
-    QLineEdit *lineEdit_ptm24;
     QLineEdit *lineEdit_ptm25;
     QLineEdit *lineEdit_ptm23;
-    QLineEdit *lineEdit_ptm21;
+    QLineEdit *lineEdit_ptm24;
     QLineEdit *lineEdit_ptm22;
+    QLineEdit *lineEdit_ptm20;
+    QLineEdit *lineEdit_ptm21;
     QLineEdit *lineEdit_ptm19;
     QLineEdit *lineEdit_ptm14;
     QLineEdit *lineEdit_ptm11;
@@ -604,7 +603,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(900, 897);
+        MainWindow->resize(900, 1032);
         actionSettings = new QAction(MainWindow);
         actionSettings->setObjectName(QString::fromUtf8("actionSettings"));
         actionStart = new QAction(MainWindow);
@@ -2070,11 +2069,11 @@ public:
 
         gridLayout_21->addWidget(lineEdit_pbit15, 2, 0, 1, 1);
 
-        lineEdit_pbit0_2 = new QLineEdit(tab_6);
-        lineEdit_pbit0_2->setObjectName(QString::fromUtf8("lineEdit_pbit0_2"));
-        lineEdit_pbit0_2->setReadOnly(true);
+        lineEdit_pbit14 = new QLineEdit(tab_6);
+        lineEdit_pbit14->setObjectName(QString::fromUtf8("lineEdit_pbit14"));
+        lineEdit_pbit14->setReadOnly(true);
 
-        gridLayout_21->addWidget(lineEdit_pbit0_2, 2, 1, 1, 1);
+        gridLayout_21->addWidget(lineEdit_pbit14, 2, 1, 1, 1);
 
         lineEdit_pbit12 = new QLineEdit(tab_6);
         lineEdit_pbit12->setObjectName(QString::fromUtf8("lineEdit_pbit12"));
@@ -3506,11 +3505,11 @@ public:
 
         gridLayout_28->addWidget(lineEdit_ptm15, 2, 0, 1, 1);
 
-        lineEdit_ptm28 = new QLineEdit(tab_6);
-        lineEdit_ptm28->setObjectName(QString::fromUtf8("lineEdit_ptm28"));
-        lineEdit_ptm28->setReadOnly(true);
+        lineEdit_ptm27 = new QLineEdit(tab_6);
+        lineEdit_ptm27->setObjectName(QString::fromUtf8("lineEdit_ptm27"));
+        lineEdit_ptm27->setReadOnly(true);
 
-        gridLayout_28->addWidget(lineEdit_ptm28, 1, 4, 1, 1);
+        gridLayout_28->addWidget(lineEdit_ptm27, 1, 4, 1, 1);
 
         lineEdit_ptm29 = new QLineEdit(tab_6);
         lineEdit_ptm29->setObjectName(QString::fromUtf8("lineEdit_ptm29"));
@@ -3524,53 +3523,53 @@ public:
 
         gridLayout_28->addWidget(lineEdit_ptm30, 1, 1, 1, 1);
 
-        lineEdit_ptm28_2 = new QLineEdit(tab_6);
-        lineEdit_ptm28_2->setObjectName(QString::fromUtf8("lineEdit_ptm28_2"));
-        lineEdit_ptm28_2->setReadOnly(true);
+        lineEdit_ptm28 = new QLineEdit(tab_6);
+        lineEdit_ptm28->setObjectName(QString::fromUtf8("lineEdit_ptm28"));
+        lineEdit_ptm28->setReadOnly(true);
 
-        gridLayout_28->addWidget(lineEdit_ptm28_2, 1, 3, 1, 1);
-
-        lineEdit_ptm27 = new QLineEdit(tab_6);
-        lineEdit_ptm27->setObjectName(QString::fromUtf8("lineEdit_ptm27"));
-        lineEdit_ptm27->setReadOnly(true);
-
-        gridLayout_28->addWidget(lineEdit_ptm27, 1, 5, 1, 1);
+        gridLayout_28->addWidget(lineEdit_ptm28, 1, 3, 1, 1);
 
         lineEdit_ptm26 = new QLineEdit(tab_6);
         lineEdit_ptm26->setObjectName(QString::fromUtf8("lineEdit_ptm26"));
         lineEdit_ptm26->setReadOnly(true);
 
-        gridLayout_28->addWidget(lineEdit_ptm26, 1, 6, 1, 1);
-
-        lineEdit_ptm24 = new QLineEdit(tab_6);
-        lineEdit_ptm24->setObjectName(QString::fromUtf8("lineEdit_ptm24"));
-        lineEdit_ptm24->setReadOnly(true);
-
-        gridLayout_28->addWidget(lineEdit_ptm24, 1, 8, 1, 1);
+        gridLayout_28->addWidget(lineEdit_ptm26, 1, 5, 1, 1);
 
         lineEdit_ptm25 = new QLineEdit(tab_6);
         lineEdit_ptm25->setObjectName(QString::fromUtf8("lineEdit_ptm25"));
         lineEdit_ptm25->setReadOnly(true);
 
-        gridLayout_28->addWidget(lineEdit_ptm25, 1, 7, 1, 1);
+        gridLayout_28->addWidget(lineEdit_ptm25, 1, 6, 1, 1);
 
         lineEdit_ptm23 = new QLineEdit(tab_6);
         lineEdit_ptm23->setObjectName(QString::fromUtf8("lineEdit_ptm23"));
         lineEdit_ptm23->setReadOnly(true);
 
-        gridLayout_28->addWidget(lineEdit_ptm23, 1, 9, 1, 1);
+        gridLayout_28->addWidget(lineEdit_ptm23, 1, 8, 1, 1);
 
-        lineEdit_ptm21 = new QLineEdit(tab_6);
-        lineEdit_ptm21->setObjectName(QString::fromUtf8("lineEdit_ptm21"));
-        lineEdit_ptm21->setReadOnly(true);
+        lineEdit_ptm24 = new QLineEdit(tab_6);
+        lineEdit_ptm24->setObjectName(QString::fromUtf8("lineEdit_ptm24"));
+        lineEdit_ptm24->setReadOnly(true);
 
-        gridLayout_28->addWidget(lineEdit_ptm21, 1, 11, 1, 1);
+        gridLayout_28->addWidget(lineEdit_ptm24, 1, 7, 1, 1);
 
         lineEdit_ptm22 = new QLineEdit(tab_6);
         lineEdit_ptm22->setObjectName(QString::fromUtf8("lineEdit_ptm22"));
         lineEdit_ptm22->setReadOnly(true);
 
-        gridLayout_28->addWidget(lineEdit_ptm22, 1, 10, 1, 1);
+        gridLayout_28->addWidget(lineEdit_ptm22, 1, 9, 1, 1);
+
+        lineEdit_ptm20 = new QLineEdit(tab_6);
+        lineEdit_ptm20->setObjectName(QString::fromUtf8("lineEdit_ptm20"));
+        lineEdit_ptm20->setReadOnly(true);
+
+        gridLayout_28->addWidget(lineEdit_ptm20, 1, 11, 1, 1);
+
+        lineEdit_ptm21 = new QLineEdit(tab_6);
+        lineEdit_ptm21->setObjectName(QString::fromUtf8("lineEdit_ptm21"));
+        lineEdit_ptm21->setReadOnly(true);
+
+        gridLayout_28->addWidget(lineEdit_ptm21, 1, 10, 1, 1);
 
         lineEdit_ptm19 = new QLineEdit(tab_6);
         lineEdit_ptm19->setObjectName(QString::fromUtf8("lineEdit_ptm19"));
@@ -3880,7 +3879,7 @@ public:
         lineEdit_pbit20->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_pbit19->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_pbit15->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_pbit0_2->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_pbit14->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_pbit12->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_pbit11->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_pbit10->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
@@ -4118,17 +4117,17 @@ public:
         lineEdit_ptm17->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm31->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm15->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_ptm28->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_ptm27->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm29->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm30->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_ptm28_2->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_ptm27->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_ptm28->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm26->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_ptm24->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm25->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm23->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_ptm21->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_ptm24->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm22->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_ptm20->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_ptm21->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm19->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm14->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm11->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));

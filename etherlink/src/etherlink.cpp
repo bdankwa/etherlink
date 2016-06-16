@@ -111,7 +111,8 @@ int main( int argc, char* argv[] )
 			fprintf(stderr, "pthread_join: unable to join threads");
 		}
 
-		printf("some thread joined \n");
+		printf("exiting app... \n");
+		exit(0);
 
 	}
 

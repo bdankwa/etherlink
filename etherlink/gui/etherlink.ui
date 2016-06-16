@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>900</width>
-    <height>897</height>
+    <height>1032</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -1768,7 +1768,7 @@
              </widget>
             </item>
             <item row="2" column="1">
-             <widget class="QLineEdit" name="lineEdit_pbit0_2">
+             <widget class="QLineEdit" name="lineEdit_pbit14">
               <property name="text">
                <string>0</string>
               </property>
@@ -4095,7 +4095,7 @@
              </widget>
             </item>
             <item row="1" column="4">
-             <widget class="QLineEdit" name="lineEdit_ptm28">
+             <widget class="QLineEdit" name="lineEdit_ptm27">
               <property name="text">
                <string>0</string>
               </property>
@@ -4125,7 +4125,7 @@
              </widget>
             </item>
             <item row="1" column="3">
-             <widget class="QLineEdit" name="lineEdit_ptm28_2">
+             <widget class="QLineEdit" name="lineEdit_ptm28">
               <property name="text">
                <string>0</string>
               </property>
@@ -4135,16 +4135,6 @@
              </widget>
             </item>
             <item row="1" column="5">
-             <widget class="QLineEdit" name="lineEdit_ptm27">
-              <property name="text">
-               <string>0</string>
-              </property>
-              <property name="readOnly">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="6">
              <widget class="QLineEdit" name="lineEdit_ptm26">
               <property name="text">
                <string>0</string>
@@ -4154,17 +4144,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="8">
-             <widget class="QLineEdit" name="lineEdit_ptm24">
-              <property name="text">
-               <string>0</string>
-              </property>
-              <property name="readOnly">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="7">
+            <item row="1" column="6">
              <widget class="QLineEdit" name="lineEdit_ptm25">
               <property name="text">
                <string>0</string>
@@ -4174,7 +4154,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="9">
+            <item row="1" column="8">
              <widget class="QLineEdit" name="lineEdit_ptm23">
               <property name="text">
                <string>0</string>
@@ -4184,8 +4164,28 @@
               </property>
              </widget>
             </item>
+            <item row="1" column="7">
+             <widget class="QLineEdit" name="lineEdit_ptm24">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="9">
+             <widget class="QLineEdit" name="lineEdit_ptm22">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
             <item row="1" column="11">
-             <widget class="QLineEdit" name="lineEdit_ptm21">
+             <widget class="QLineEdit" name="lineEdit_ptm20">
               <property name="text">
                <string>0</string>
               </property>
@@ -4195,7 +4195,7 @@
              </widget>
             </item>
             <item row="1" column="10">
-             <widget class="QLineEdit" name="lineEdit_ptm22">
+             <widget class="QLineEdit" name="lineEdit_ptm21">
               <property name="text">
                <string>0</string>
               </property>

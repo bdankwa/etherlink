@@ -76,6 +76,10 @@ u_int32_t ethernet_tx(int socket_id, void* msgBuff, int msgLenBytes, struct sock
 
 u_int32_t ethernet_loopback(u_int8_t* destMAC, u_int8_t* spoofedMAC, u_int8_t* spoofedIP, int portOffset, int basePort, int numPorts, char* interfaceName){
 
+	//start the udp2a664 process
+
+	//Receive Ethernet packets and send them to 127.0.0.1
+
 
 
 	return 0;
