@@ -22,8 +22,8 @@ private slots:
 	void streamPacket(unsigned int* packet, unsigned int num, int portIdx);
 	void readPacketNumber(QString);
     void startStream();
-    //void pauseStream();
-    //void stopStream();
+    void pauseStream();
+    void stopStream();
 
 private:
     Ui_MainWindow *mainWind;

@@ -39,6 +39,8 @@ void GuiController::showGui()
     mainWind->setupUi(main);
     //connect(mainWind->lineEdit_SpdVibPacketNumber, SIGNAL(textChanged(QString)), this , SLOT(readPacketNumber(QString)));
     connect(mainWind->actionStart, SIGNAL(triggered()), this , SLOT(startStream()));
+    connect(mainWind->actionPause, SIGNAL(triggered()), this , SLOT(pauseStream()));
+    connect(mainWind->actionStop, SIGNAL(triggered()), this , SLOT(stopStream()));
     main->show();
     app.exec();
 }
@@ -101,7 +103,18 @@ void GuiController::readPacketNumber(QString packetNumberString)
 
 void GuiController::startStream()
 {
+	ereader->resume();
     ereader->start();
+}
+
+void GuiController::pauseStream()
+{
+    ereader->pause();
+}
+
+void GuiController::stopStream()
+{
+    ereader->pause();
 }
 
 void GuiController::processPacket1(unsigned int* packets)

@@ -21,10 +21,13 @@ signals:
 
 public:
 	EthernetReader(ringBuffer_t* rxBuffer, int numPorts);
+	void pause(void);
+	void resume(void);
 
 private:
 	ringBuffer_t* rxBuffer;
 	int numPorts;
+	bool pauseFlag;
 	void run();
 };
 

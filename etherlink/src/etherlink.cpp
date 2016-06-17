@@ -33,7 +33,7 @@ int main( int argc, char* argv[] )
 {
 	int i;
 	int* threadRetVal = NULL;
-	u_int32_t ports[18] = {
+	u_int32_t ports[NUM_BUFFS] = {
 			22024,
 			32024,
 			22029,

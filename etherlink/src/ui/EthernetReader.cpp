@@ -8,10 +8,20 @@
 #include "EthernetReader.h"
 #include <stdio.h>
 
+
 EthernetReader::EthernetReader(ringBuffer_t* rxBuffer, int numPorts) {
 	this->rxBuffer = rxBuffer;
 	this->numPorts = numPorts;
+	pauseFlag = false;
 
+}
+
+void EthernetReader::pause() {
+	pauseFlag = true;
+}
+
+void EthernetReader::resume() {
+	pauseFlag = false;
 }
 
 void EthernetReader::run() {
@@ -20,7 +30,7 @@ void EthernetReader::run() {
 	unsigned int size;
 	int i;
 
-	while(1){
+	while(!pauseFlag){
 
 		for(i=0; i< numPorts; i++){
 			if (removeDataFromBuffer(&(rxBuffer[i]), &packet, &size) == -1){
@@ -30,10 +40,6 @@ void EthernetReader::run() {
 		    //printf("Port %i received something, emiting signal\n", i);
 			emit newPacket(packet, size, i);
 		}
-
-
-
-
 
 	}
 }
