@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'etherlink.ui'
 **
-** Created
-**      by: Qt User Interface Compiler version 4.8.4
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -14,6 +13,7 @@
 #include <QtGui/QAction>
 #include <QtGui/QApplication>
 #include <QtGui/QButtonGroup>
+#include <QtGui/QFrame>
 #include <QtGui/QGridLayout>
 #include <QtGui/QHBoxLayout>
 #include <QtGui/QHeaderView>
@@ -44,23 +44,23 @@ public:
     QVBoxLayout *verticalLayout_3;
     QGridLayout *gridLayout;
     QGridLayout *gridLayout_2;
-    QLineEdit *lineEdit_14;
-    QLineEdit *lineEdit_8;
-    QLineEdit *lineEdit_10;
-    QLineEdit *lineEdit_7;
-    QLineEdit *lineEdit_4;
-    QLineEdit *lineEdit_5;
-    QLineEdit *lineEdit_15;
-    QLineEdit *lineEdit_3;
-    QLineEdit *lineEdit_16;
-    QLineEdit *lineEdit_18;
-    QLineEdit *lineEdit_17;
-    QLineEdit *lineEdit_19;
-    QLineEdit *lineEdit_6;
-    QLineEdit *lineEdit_9;
-    QLineEdit *lineEdit_11;
-    QLineEdit *lineEdit_13;
-    QLineEdit *lineEdit_12;
+    QLineEdit *lineEdit_spdVib_Unused1_raw;
+    QLineEdit *lineEdit_spdVib_N2CB_raw;
+    QLineEdit *lineEdit_spdVib_N1T_raw;
+    QLineEdit *lineEdit_spdVib_N1CB_raw;
+    QLineEdit *lineEdit_spdVib_Status_raw;
+    QLineEdit *lineEdit_spdVib_N1CA_raw;
+    QLineEdit *lineEdit_spdVib_EngVib2_raw;
+    QLineEdit *lineEdit_spdVib_Header_raw;
+    QLineEdit *lineEdit_spdVib_Unused2_raw;
+    QLineEdit *lineEdit_spdVib_GearVib_raw;
+    QLineEdit *lineEdit_spdVib_OPRDet_raw;
+    QLineEdit *lineEdit_spdVib_EngVib1_raw;
+    QLineEdit *lineEdit_spdVib_N2CA_raw;
+    QLineEdit *lineEdit_spdVib_N3A_raw;
+    QLineEdit *lineEdit_spdVib_Wdt_raw;
+    QLineEdit *lineEdit_spdVib_ADCSmpl_raw;
+    QLineEdit *lineEdit_spdVib_CFPGANum_raw;
     QLabel *label_22;
     QLabel *label_23;
     QLabel *label_24;
@@ -80,23 +80,23 @@ public:
     QLabel *label_38;
     QGridLayout *gridLayout_3;
     QGridLayout *gridLayout_4;
-    QLineEdit *lineEdit_22;
-    QLineEdit *lineEdit_36;
-    QLineEdit *lineEdit_30;
-    QLineEdit *lineEdit_27;
-    QLineEdit *lineEdit_33;
-    QLineEdit *lineEdit_28;
-    QLineEdit *lineEdit_20;
-    QLineEdit *lineEdit_21;
-    QLineEdit *lineEdit_35;
-    QLineEdit *lineEdit_26;
-    QLineEdit *lineEdit_23;
-    QLineEdit *lineEdit_32;
-    QLineEdit *lineEdit_34;
-    QLineEdit *lineEdit_24;
-    QLineEdit *lineEdit_29;
-    QLineEdit *lineEdit_31;
-    QLineEdit *lineEdit_25;
+    QLineEdit *lineEdit_spdVib_N1CB_conv;
+    QLineEdit *lineEdit_spdVib_CFPGANum_conv;
+    QLineEdit *lineEdit_spdVib_EngVib1_conv;
+    QLineEdit *lineEdit_spdVib_Unused2_conv;
+    QLineEdit *lineEdit_spdVib_Wdt_conv;
+    QLineEdit *lineEdit_spdVib_GearVib_conv;
+    QLineEdit *lineEdit_spdVib_N2CB_conv;
+    QLineEdit *lineEdit_spdVib_N1T_conv;
+    QLineEdit *lineEdit_spdVib_ADCSmpl_conv;
+    QLineEdit *lineEdit_spdVib_Header_conv;
+    QLineEdit *lineEdit_spdVib_Status_conv;
+    QLineEdit *lineEdit_spdVib_N3A_conv;
+    QLineEdit *lineEdit_spdVib_Unused1_conv;
+    QLineEdit *lineEdit_spdVib_N1CA_conv;
+    QLineEdit *lineEdit_spdVib_OPRDet_conv;
+    QLineEdit *lineEdit_spdVib_N2CA_conv;
+    QLineEdit *lineEdit_spdVib_EngVib2_conv;
     QLabel *label_3;
     QLabel *label_4;
     QLabel *label_5;
@@ -120,47 +120,45 @@ public:
     QLabel *label_2;
     QSpacerItem *horizontalSpacer_2;
     QGridLayout *gridLayout_5;
-    QLabel *label_6;
     QLineEdit *lineEdit_SpdVibPacketNumber;
     QLabel *label;
+    QLabel *label_6;
     QPushButton *pushButton_spdVib_dec;
     QPushButton *pushButton_spdVib_inc;
-    QSpacerItem *horizontalSpacer;
     QSpacerItem *verticalSpacer;
     QWidget *tab_2;
     QVBoxLayout *verticalLayout;
     QGridLayout *gridLayout_7;
     QGridLayout *gridLayout_10;
     QGridLayout *gridLayout_11;
-    QLabel *label_13;
     QLineEdit *lineEdit_PressPacketNumber;
-    QPushButton *pushButton_Press_inc;
-    QLabel *label_11;
     QPushButton *pushButton_Press_dec;
-    QSpacerItem *horizontalSpacer_3;
+    QLabel *label_13;
+    QLabel *label_11;
+    QPushButton *pushButton_Press_inc;
     QGridLayout *gridLayout_12;
     QLineEdit *lineEdit_PressRefreshRate;
     QLabel *label_14;
     QLabel *label_9;
     QSpacerItem *horizontalSpacer_4;
     QGridLayout *gridLayout_9;
-    QLineEdit *lineEdit_56;
-    QLineEdit *lineEdit_57;
-    QLineEdit *lineEdit_58;
-    QLineEdit *lineEdit_59;
-    QLineEdit *lineEdit_60;
-    QLineEdit *lineEdit_61;
-    QLineEdit *lineEdit_62;
-    QLineEdit *lineEdit_63;
-    QLineEdit *lineEdit_64;
-    QLineEdit *lineEdit_65;
-    QLineEdit *lineEdit_66;
-    QLineEdit *lineEdit_67;
-    QLineEdit *lineEdit_68;
-    QLineEdit *lineEdit_69;
-    QLineEdit *lineEdit_70;
-    QLineEdit *lineEdit_71;
-    QLineEdit *lineEdit_72;
+    QLineEdit *lineEdit_Press_T26_conv;
+    QLineEdit *lineEdit_Press_P160V0_conv;
+    QLineEdit *lineEdit_Press_T160_conv;
+    QLineEdit *lineEdit_Press_Status_conv;
+    QLineEdit *lineEdit_Press_P160_conv;
+    QLineEdit *lineEdit_Press_P26V5_conv;
+    QLineEdit *lineEdit_Press_Header_conv;
+    QLineEdit *lineEdit_Press_Excit5_conv;
+    QLineEdit *lineEdit_Press_Excit0_conv;
+    QLineEdit *lineEdit_Press_T160V5_conv;
+    QLineEdit *lineEdit_Press_P160V5_conv;
+    QLineEdit *lineEdit_Press_P26_conv;
+    QLineEdit *lineEdit_Press_ExcitR_conv;
+    QLineEdit *lineEdit_Press_P26V0_conv;
+    QLineEdit *lineEdit_Press_T160V0_conv;
+    QLineEdit *lineEdit_Press_T26V0_conv;
+    QLineEdit *lineEdit_Press_T26V5_conv;
     QLabel *label_8;
     QLabel *label_10;
     QLabel *label_12;
@@ -179,23 +177,23 @@ public:
     QLabel *label_141;
     QLabel *label_142;
     QGridLayout *gridLayout_8;
-    QLineEdit *lineEdit_42;
-    QLineEdit *lineEdit_41;
-    QLineEdit *lineEdit_39;
-    QLineEdit *lineEdit_40;
-    QLineEdit *lineEdit_43;
-    QLineEdit *lineEdit_44;
-    QLineEdit *lineEdit_45;
-    QLineEdit *lineEdit_46;
-    QLineEdit *lineEdit_47;
-    QLineEdit *lineEdit_48;
-    QLineEdit *lineEdit_49;
-    QLineEdit *lineEdit_50;
-    QLineEdit *lineEdit_51;
-    QLineEdit *lineEdit_52;
-    QLineEdit *lineEdit_53;
-    QLineEdit *lineEdit_54;
-    QLineEdit *lineEdit_55;
+    QLineEdit *lineEdit_Press_Status_raw;
+    QLineEdit *lineEdit_Press_T160_raw;
+    QLineEdit *lineEdit_Press_T26_raw;
+    QLineEdit *lineEdit_Press_P160V0_raw;
+    QLineEdit *lineEdit_Press_P160_raw;
+    QLineEdit *lineEdit_Press_P26V5_raw;
+    QLineEdit *lineEdit_Press_Header_raw;
+    QLineEdit *lineEdit_Press_Excit5_raw;
+    QLineEdit *lineEdit_Press_Excit0_raw;
+    QLineEdit *lineEdit_Press_T160V5_raw;
+    QLineEdit *lineEdit_Press_P160V5_raw;
+    QLineEdit *lineEdit_Press_P26_raw;
+    QLineEdit *lineEdit_Press_ExcitR_raw;
+    QLineEdit *lineEdit_Press_P26V0_raw;
+    QLineEdit *lineEdit_Press_T160V0_raw;
+    QLineEdit *lineEdit_Press_T26V0_raw;
+    QLineEdit *lineEdit_Press_T26V5_raw;
     QLabel *label_48;
     QLabel *label_39;
     QLabel *label_40;
@@ -224,30 +222,29 @@ public:
     QLabel *label_18;
     QPushButton *pushButton_Cal_dec;
     QPushButton *pushButton_Cal_inc;
-    QSpacerItem *horizontalSpacer_5;
     QGridLayout *gridLayout_18;
     QLineEdit *lineEdit_CalRefreshRate;
     QLabel *label_21;
     QLabel *label_16;
     QSpacerItem *horizontalSpacer_6;
     QGridLayout *gridLayout_14;
-    QLineEdit *lineEdit_79;
-    QLineEdit *lineEdit_75;
-    QLineEdit *lineEdit_76;
-    QLineEdit *lineEdit_77;
-    QLineEdit *lineEdit_78;
-    QLineEdit *lineEdit_80;
-    QLineEdit *lineEdit_81;
-    QLineEdit *lineEdit_82;
-    QLineEdit *lineEdit_83;
-    QLineEdit *lineEdit_84;
-    QLineEdit *lineEdit_85;
-    QLineEdit *lineEdit_86;
-    QLineEdit *lineEdit_87;
-    QLineEdit *lineEdit_88;
-    QLineEdit *lineEdit_89;
-    QLineEdit *lineEdit_90;
-    QLineEdit *lineEdit_91;
+    QLineEdit *lineEdit_Cal_N1CA_raw;
+    QLineEdit *lineEdit_Cal_N1CB_raw_2;
+    QLineEdit *lineEdit_Cal_N1TA_raw;
+    QLineEdit *lineEdit_Cal_N1CB_raw;
+    QLineEdit *lineEdit_Cal_Status_raw;
+    QLineEdit *lineEdit_Cal_EngVib2_raw;
+    QLineEdit *lineEdit_Cal_Header_raw;
+    QLineEdit *lineEdit_Cal_Unused2_raw;
+    QLineEdit *lineEdit_Cal_GearVib_raw;
+    QLineEdit *lineEdit_Cal_OPRDet_raw;
+    QLineEdit *lineEdit_Cal_EngVib1_raw;
+    QLineEdit *lineEdit_Cal_N2CA_raw;
+    QLineEdit *lineEdit_Cal_N3A_raw;
+    QLineEdit *lineEdit_Cal_Wdt_raw;
+    QLineEdit *lineEdit_Cal_Unused1_raw;
+    QLineEdit *lineEdit_Cal_ADCSample_raw;
+    QLineEdit *lineEdit_Cal_CFPGANum_raw;
     QLabel *label_65;
     QLabel *label_56;
     QLabel *label_57;
@@ -266,23 +263,23 @@ public:
     QLabel *label_64;
     QLabel *label_60;
     QGridLayout *gridLayout_15;
-    QLineEdit *lineEdit_92;
-    QLineEdit *lineEdit_93;
-    QLineEdit *lineEdit_94;
-    QLineEdit *lineEdit_95;
-    QLineEdit *lineEdit_96;
-    QLineEdit *lineEdit_97;
-    QLineEdit *lineEdit_98;
-    QLineEdit *lineEdit_99;
-    QLineEdit *lineEdit_100;
-    QLineEdit *lineEdit_101;
-    QLineEdit *lineEdit_102;
-    QLineEdit *lineEdit_103;
-    QLineEdit *lineEdit_104;
-    QLineEdit *lineEdit_105;
-    QLineEdit *lineEdit_106;
-    QLineEdit *lineEdit_107;
-    QLineEdit *lineEdit_108;
+    QLineEdit *lineEdit_Cal_N1CB_conv_2;
+    QLineEdit *lineEdit_Cal_N1TA_conv;
+    QLineEdit *lineEdit_Cal_N1CB_conv;
+    QLineEdit *lineEdit_Cal_Status_conv;
+    QLineEdit *lineEdit_Cal_N1CA_conv;
+    QLineEdit *lineEdit_Cal_EngVib2_conv;
+    QLineEdit *lineEdit_Cal_Header_conv;
+    QLineEdit *lineEdit_Cal_Unused2_conv;
+    QLineEdit *lineEdit_Cal_GearVib_conv;
+    QLineEdit *lineEdit_Cal_OPRDet_conv;
+    QLineEdit *lineEdit_Cal_EngVib1_conv;
+    QLineEdit *lineEdit_Cal_N2CA_conv;
+    QLineEdit *lineEdit_Cal_N3A_conv;
+    QLineEdit *lineEdit_Cal_Wdt_conv;
+    QLineEdit *lineEdit_Cal_Unused1_conv;
+    QLineEdit *lineEdit_Cal_ADCSample_conv;
+    QLineEdit *lineEdit_Cal_CFPGANum_conv;
     QLabel *label_143;
     QLabel *label_144;
     QLabel *label_145;
@@ -306,6 +303,8 @@ public:
     QWidget *tab_6;
     QHBoxLayout *horizontalLayout_2;
     QGridLayout *gridLayout_19;
+    QFrame *line_7;
+    QFrame *line_8;
     QGridLayout *gridLayout_23;
     QLineEdit *lineEdit_205;
     QLineEdit *lineEdit_215;
@@ -389,6 +388,7 @@ public:
     QLabel *label_117;
     QLabel *label_114;
     QLabel *label_115;
+    QFrame *line_10;
     QGridLayout *gridLayout_21;
     QLineEdit *lineEdit_pbit8;
     QLineEdit *lineEdit_pbit29;
@@ -426,6 +426,7 @@ public:
     QLabel *label_88;
     QLabel *label_89;
     QLabel *label_87;
+    QFrame *line_2;
     QGridLayout *gridLayout_20;
     QLineEdit *lineEdit_cbit26;
     QLineEdit *lineEdit_cbit23;
@@ -463,6 +464,7 @@ public:
     QLabel *label_82;
     QLabel *label_85;
     QLabel *label_83;
+    QFrame *line;
     QGridLayout *gridLayout_22;
     QLineEdit *lineEdit_183;
     QLineEdit *lineEdit_191;
@@ -648,6 +650,11 @@ public:
     QLabel *label_100;
     QLabel *label_99;
     QLabel *label_98;
+    QFrame *line_5;
+    QFrame *line_3;
+    QFrame *line_6;
+    QFrame *line_4;
+    QFrame *line_9;
     QStatusBar *statusbar;
     QToolBar *toolBar;
 
@@ -655,7 +662,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(872, 573);
+        MainWindow->resize(872, 762);
         actionSettings = new QAction(MainWindow);
         actionSettings->setObjectName(QString::fromUtf8("actionSettings"));
         actionStart = new QAction(MainWindow);
@@ -678,107 +685,107 @@ public:
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout_2 = new QGridLayout();
         gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
-        lineEdit_14 = new QLineEdit(tab);
-        lineEdit_14->setObjectName(QString::fromUtf8("lineEdit_14"));
-        lineEdit_14->setReadOnly(true);
+        lineEdit_spdVib_Unused1_raw = new QLineEdit(tab);
+        lineEdit_spdVib_Unused1_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_Unused1_raw"));
+        lineEdit_spdVib_Unused1_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_14, 9, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_Unused1_raw, 9, 2, 1, 1);
 
-        lineEdit_8 = new QLineEdit(tab);
-        lineEdit_8->setObjectName(QString::fromUtf8("lineEdit_8"));
-        lineEdit_8->setReadOnly(true);
+        lineEdit_spdVib_N2CB_raw = new QLineEdit(tab);
+        lineEdit_spdVib_N2CB_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_N2CB_raw"));
+        lineEdit_spdVib_N2CB_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_8, 5, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_N2CB_raw, 5, 2, 1, 1);
 
-        lineEdit_10 = new QLineEdit(tab);
-        lineEdit_10->setObjectName(QString::fromUtf8("lineEdit_10"));
-        lineEdit_10->setReadOnly(true);
+        lineEdit_spdVib_N1T_raw = new QLineEdit(tab);
+        lineEdit_spdVib_N1T_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_N1T_raw"));
+        lineEdit_spdVib_N1T_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_10, 7, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_N1T_raw, 7, 2, 1, 1);
 
-        lineEdit_7 = new QLineEdit(tab);
-        lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
-        lineEdit_7->setReadOnly(true);
+        lineEdit_spdVib_N1CB_raw = new QLineEdit(tab);
+        lineEdit_spdVib_N1CB_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_N1CB_raw"));
+        lineEdit_spdVib_N1CB_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_7, 4, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_N1CB_raw, 4, 2, 1, 1);
 
-        lineEdit_4 = new QLineEdit(tab);
-        lineEdit_4->setObjectName(QString::fromUtf8("lineEdit_4"));
-        lineEdit_4->setReadOnly(true);
+        lineEdit_spdVib_Status_raw = new QLineEdit(tab);
+        lineEdit_spdVib_Status_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_Status_raw"));
+        lineEdit_spdVib_Status_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_4, 1, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_Status_raw, 1, 2, 1, 1);
 
-        lineEdit_5 = new QLineEdit(tab);
-        lineEdit_5->setObjectName(QString::fromUtf8("lineEdit_5"));
-        lineEdit_5->setReadOnly(true);
+        lineEdit_spdVib_N1CA_raw = new QLineEdit(tab);
+        lineEdit_spdVib_N1CA_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_N1CA_raw"));
+        lineEdit_spdVib_N1CA_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_5, 2, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_N1CA_raw, 2, 2, 1, 1);
 
-        lineEdit_15 = new QLineEdit(tab);
-        lineEdit_15->setObjectName(QString::fromUtf8("lineEdit_15"));
-        lineEdit_15->setReadOnly(true);
+        lineEdit_spdVib_EngVib2_raw = new QLineEdit(tab);
+        lineEdit_spdVib_EngVib2_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_EngVib2_raw"));
+        lineEdit_spdVib_EngVib2_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_15, 13, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_EngVib2_raw, 13, 2, 1, 1);
 
-        lineEdit_3 = new QLineEdit(tab);
-        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
-        lineEdit_3->setReadOnly(true);
+        lineEdit_spdVib_Header_raw = new QLineEdit(tab);
+        lineEdit_spdVib_Header_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_Header_raw"));
+        lineEdit_spdVib_Header_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_3, 0, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_Header_raw, 0, 2, 1, 1);
 
-        lineEdit_16 = new QLineEdit(tab);
-        lineEdit_16->setObjectName(QString::fromUtf8("lineEdit_16"));
-        lineEdit_16->setReadOnly(true);
+        lineEdit_spdVib_Unused2_raw = new QLineEdit(tab);
+        lineEdit_spdVib_Unused2_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_Unused2_raw"));
+        lineEdit_spdVib_Unused2_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_16, 16, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_Unused2_raw, 16, 2, 1, 1);
 
-        lineEdit_18 = new QLineEdit(tab);
-        lineEdit_18->setObjectName(QString::fromUtf8("lineEdit_18"));
-        lineEdit_18->setReadOnly(true);
+        lineEdit_spdVib_GearVib_raw = new QLineEdit(tab);
+        lineEdit_spdVib_GearVib_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_GearVib_raw"));
+        lineEdit_spdVib_GearVib_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_18, 11, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_GearVib_raw, 11, 2, 1, 1);
 
-        lineEdit_17 = new QLineEdit(tab);
-        lineEdit_17->setObjectName(QString::fromUtf8("lineEdit_17"));
-        lineEdit_17->setReadOnly(true);
+        lineEdit_spdVib_OPRDet_raw = new QLineEdit(tab);
+        lineEdit_spdVib_OPRDet_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_OPRDet_raw"));
+        lineEdit_spdVib_OPRDet_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_17, 14, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_OPRDet_raw, 14, 2, 1, 1);
 
-        lineEdit_19 = new QLineEdit(tab);
-        lineEdit_19->setObjectName(QString::fromUtf8("lineEdit_19"));
-        lineEdit_19->setReadOnly(true);
+        lineEdit_spdVib_EngVib1_raw = new QLineEdit(tab);
+        lineEdit_spdVib_EngVib1_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_EngVib1_raw"));
+        lineEdit_spdVib_EngVib1_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_19, 12, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_EngVib1_raw, 12, 2, 1, 1);
 
-        lineEdit_6 = new QLineEdit(tab);
-        lineEdit_6->setObjectName(QString::fromUtf8("lineEdit_6"));
-        lineEdit_6->setReadOnly(true);
+        lineEdit_spdVib_N2CA_raw = new QLineEdit(tab);
+        lineEdit_spdVib_N2CA_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_N2CA_raw"));
+        lineEdit_spdVib_N2CA_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_6, 3, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_N2CA_raw, 3, 2, 1, 1);
 
-        lineEdit_9 = new QLineEdit(tab);
-        lineEdit_9->setObjectName(QString::fromUtf8("lineEdit_9"));
-        lineEdit_9->setReadOnly(true);
+        lineEdit_spdVib_N3A_raw = new QLineEdit(tab);
+        lineEdit_spdVib_N3A_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_N3A_raw"));
+        lineEdit_spdVib_N3A_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_9, 6, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_N3A_raw, 6, 2, 1, 1);
 
-        lineEdit_11 = new QLineEdit(tab);
-        lineEdit_11->setObjectName(QString::fromUtf8("lineEdit_11"));
-        lineEdit_11->setReadOnly(true);
+        lineEdit_spdVib_Wdt_raw = new QLineEdit(tab);
+        lineEdit_spdVib_Wdt_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_Wdt_raw"));
+        lineEdit_spdVib_Wdt_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_11, 8, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_Wdt_raw, 8, 2, 1, 1);
 
-        lineEdit_13 = new QLineEdit(tab);
-        lineEdit_13->setObjectName(QString::fromUtf8("lineEdit_13"));
-        lineEdit_13->setReadOnly(true);
+        lineEdit_spdVib_ADCSmpl_raw = new QLineEdit(tab);
+        lineEdit_spdVib_ADCSmpl_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_ADCSmpl_raw"));
+        lineEdit_spdVib_ADCSmpl_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_13, 10, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_ADCSmpl_raw, 10, 2, 1, 1);
 
-        lineEdit_12 = new QLineEdit(tab);
-        lineEdit_12->setObjectName(QString::fromUtf8("lineEdit_12"));
-        lineEdit_12->setReadOnly(true);
+        lineEdit_spdVib_CFPGANum_raw = new QLineEdit(tab);
+        lineEdit_spdVib_CFPGANum_raw->setObjectName(QString::fromUtf8("lineEdit_spdVib_CFPGANum_raw"));
+        lineEdit_spdVib_CFPGANum_raw->setReadOnly(true);
 
-        gridLayout_2->addWidget(lineEdit_12, 15, 2, 1, 1);
+        gridLayout_2->addWidget(lineEdit_spdVib_CFPGANum_raw, 15, 2, 1, 1);
 
         label_22 = new QLabel(tab);
         label_22->setObjectName(QString::fromUtf8("label_22"));
@@ -875,107 +882,107 @@ public:
 
         gridLayout_4 = new QGridLayout();
         gridLayout_4->setObjectName(QString::fromUtf8("gridLayout_4"));
-        lineEdit_22 = new QLineEdit(tab);
-        lineEdit_22->setObjectName(QString::fromUtf8("lineEdit_22"));
-        lineEdit_22->setReadOnly(true);
+        lineEdit_spdVib_N1CB_conv = new QLineEdit(tab);
+        lineEdit_spdVib_N1CB_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_N1CB_conv"));
+        lineEdit_spdVib_N1CB_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_22, 4, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_N1CB_conv, 4, 1, 1, 1);
 
-        lineEdit_36 = new QLineEdit(tab);
-        lineEdit_36->setObjectName(QString::fromUtf8("lineEdit_36"));
-        lineEdit_36->setReadOnly(true);
+        lineEdit_spdVib_CFPGANum_conv = new QLineEdit(tab);
+        lineEdit_spdVib_CFPGANum_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_CFPGANum_conv"));
+        lineEdit_spdVib_CFPGANum_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_36, 15, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_CFPGANum_conv, 15, 1, 1, 1);
 
-        lineEdit_30 = new QLineEdit(tab);
-        lineEdit_30->setObjectName(QString::fromUtf8("lineEdit_30"));
-        lineEdit_30->setReadOnly(true);
+        lineEdit_spdVib_EngVib1_conv = new QLineEdit(tab);
+        lineEdit_spdVib_EngVib1_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_EngVib1_conv"));
+        lineEdit_spdVib_EngVib1_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_30, 12, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_EngVib1_conv, 12, 1, 1, 1);
 
-        lineEdit_27 = new QLineEdit(tab);
-        lineEdit_27->setObjectName(QString::fromUtf8("lineEdit_27"));
-        lineEdit_27->setReadOnly(true);
+        lineEdit_spdVib_Unused2_conv = new QLineEdit(tab);
+        lineEdit_spdVib_Unused2_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_Unused2_conv"));
+        lineEdit_spdVib_Unused2_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_27, 16, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_Unused2_conv, 16, 1, 1, 1);
 
-        lineEdit_33 = new QLineEdit(tab);
-        lineEdit_33->setObjectName(QString::fromUtf8("lineEdit_33"));
-        lineEdit_33->setReadOnly(true);
+        lineEdit_spdVib_Wdt_conv = new QLineEdit(tab);
+        lineEdit_spdVib_Wdt_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_Wdt_conv"));
+        lineEdit_spdVib_Wdt_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_33, 8, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_Wdt_conv, 8, 1, 1, 1);
 
-        lineEdit_28 = new QLineEdit(tab);
-        lineEdit_28->setObjectName(QString::fromUtf8("lineEdit_28"));
-        lineEdit_28->setReadOnly(true);
+        lineEdit_spdVib_GearVib_conv = new QLineEdit(tab);
+        lineEdit_spdVib_GearVib_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_GearVib_conv"));
+        lineEdit_spdVib_GearVib_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_28, 11, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_GearVib_conv, 11, 1, 1, 1);
 
-        lineEdit_20 = new QLineEdit(tab);
-        lineEdit_20->setObjectName(QString::fromUtf8("lineEdit_20"));
-        lineEdit_20->setReadOnly(true);
+        lineEdit_spdVib_N2CB_conv = new QLineEdit(tab);
+        lineEdit_spdVib_N2CB_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_N2CB_conv"));
+        lineEdit_spdVib_N2CB_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_20, 5, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_N2CB_conv, 5, 1, 1, 1);
 
-        lineEdit_21 = new QLineEdit(tab);
-        lineEdit_21->setObjectName(QString::fromUtf8("lineEdit_21"));
-        lineEdit_21->setReadOnly(true);
+        lineEdit_spdVib_N1T_conv = new QLineEdit(tab);
+        lineEdit_spdVib_N1T_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_N1T_conv"));
+        lineEdit_spdVib_N1T_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_21, 7, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_N1T_conv, 7, 1, 1, 1);
 
-        lineEdit_35 = new QLineEdit(tab);
-        lineEdit_35->setObjectName(QString::fromUtf8("lineEdit_35"));
-        lineEdit_35->setReadOnly(true);
+        lineEdit_spdVib_ADCSmpl_conv = new QLineEdit(tab);
+        lineEdit_spdVib_ADCSmpl_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_ADCSmpl_conv"));
+        lineEdit_spdVib_ADCSmpl_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_35, 10, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_ADCSmpl_conv, 10, 1, 1, 1);
 
-        lineEdit_26 = new QLineEdit(tab);
-        lineEdit_26->setObjectName(QString::fromUtf8("lineEdit_26"));
-        lineEdit_26->setReadOnly(true);
+        lineEdit_spdVib_Header_conv = new QLineEdit(tab);
+        lineEdit_spdVib_Header_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_Header_conv"));
+        lineEdit_spdVib_Header_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_26, 0, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_Header_conv, 0, 1, 1, 1);
 
-        lineEdit_23 = new QLineEdit(tab);
-        lineEdit_23->setObjectName(QString::fromUtf8("lineEdit_23"));
-        lineEdit_23->setReadOnly(true);
+        lineEdit_spdVib_Status_conv = new QLineEdit(tab);
+        lineEdit_spdVib_Status_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_Status_conv"));
+        lineEdit_spdVib_Status_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_23, 1, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_Status_conv, 1, 1, 1, 1);
 
-        lineEdit_32 = new QLineEdit(tab);
-        lineEdit_32->setObjectName(QString::fromUtf8("lineEdit_32"));
-        lineEdit_32->setReadOnly(true);
+        lineEdit_spdVib_N3A_conv = new QLineEdit(tab);
+        lineEdit_spdVib_N3A_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_N3A_conv"));
+        lineEdit_spdVib_N3A_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_32, 6, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_N3A_conv, 6, 1, 1, 1);
 
-        lineEdit_34 = new QLineEdit(tab);
-        lineEdit_34->setObjectName(QString::fromUtf8("lineEdit_34"));
-        lineEdit_34->setReadOnly(true);
+        lineEdit_spdVib_Unused1_conv = new QLineEdit(tab);
+        lineEdit_spdVib_Unused1_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_Unused1_conv"));
+        lineEdit_spdVib_Unused1_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_34, 9, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_Unused1_conv, 9, 1, 1, 1);
 
-        lineEdit_24 = new QLineEdit(tab);
-        lineEdit_24->setObjectName(QString::fromUtf8("lineEdit_24"));
-        lineEdit_24->setReadOnly(true);
+        lineEdit_spdVib_N1CA_conv = new QLineEdit(tab);
+        lineEdit_spdVib_N1CA_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_N1CA_conv"));
+        lineEdit_spdVib_N1CA_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_24, 2, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_N1CA_conv, 2, 1, 1, 1);
 
-        lineEdit_29 = new QLineEdit(tab);
-        lineEdit_29->setObjectName(QString::fromUtf8("lineEdit_29"));
-        lineEdit_29->setReadOnly(true);
+        lineEdit_spdVib_OPRDet_conv = new QLineEdit(tab);
+        lineEdit_spdVib_OPRDet_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_OPRDet_conv"));
+        lineEdit_spdVib_OPRDet_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_29, 14, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_OPRDet_conv, 14, 1, 1, 1);
 
-        lineEdit_31 = new QLineEdit(tab);
-        lineEdit_31->setObjectName(QString::fromUtf8("lineEdit_31"));
-        lineEdit_31->setReadOnly(true);
+        lineEdit_spdVib_N2CA_conv = new QLineEdit(tab);
+        lineEdit_spdVib_N2CA_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_N2CA_conv"));
+        lineEdit_spdVib_N2CA_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_31, 3, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_N2CA_conv, 3, 1, 1, 1);
 
-        lineEdit_25 = new QLineEdit(tab);
-        lineEdit_25->setObjectName(QString::fromUtf8("lineEdit_25"));
-        lineEdit_25->setReadOnly(true);
+        lineEdit_spdVib_EngVib2_conv = new QLineEdit(tab);
+        lineEdit_spdVib_EngVib2_conv->setObjectName(QString::fromUtf8("lineEdit_spdVib_EngVib2_conv"));
+        lineEdit_spdVib_EngVib2_conv->setReadOnly(true);
 
-        gridLayout_4->addWidget(lineEdit_25, 13, 1, 1, 1);
+        gridLayout_4->addWidget(lineEdit_spdVib_EngVib2_conv, 13, 1, 1, 1);
 
         label_3 = new QLabel(tab);
         label_3->setObjectName(QString::fromUtf8("label_3"));
@@ -1091,20 +1098,20 @@ public:
 
         gridLayout_5 = new QGridLayout();
         gridLayout_5->setObjectName(QString::fromUtf8("gridLayout_5"));
-        label_6 = new QLabel(tab);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
-
-        gridLayout_5->addWidget(label_6, 0, 1, 1, 1);
-
         lineEdit_SpdVibPacketNumber = new QLineEdit(tab);
         lineEdit_SpdVibPacketNumber->setObjectName(QString::fromUtf8("lineEdit_SpdVibPacketNumber"));
 
-        gridLayout_5->addWidget(lineEdit_SpdVibPacketNumber, 0, 5, 1, 1);
+        gridLayout_5->addWidget(lineEdit_SpdVibPacketNumber, 0, 4, 1, 1);
 
         label = new QLabel(tab);
         label->setObjectName(QString::fromUtf8("label"));
 
         gridLayout_5->addWidget(label, 0, 0, 1, 1);
+
+        label_6 = new QLabel(tab);
+        label_6->setObjectName(QString::fromUtf8("label_6"));
+
+        gridLayout_5->addWidget(label_6, 0, 1, 1, 1);
 
         pushButton_spdVib_dec = new QPushButton(tab);
         pushButton_spdVib_dec->setObjectName(QString::fromUtf8("pushButton_spdVib_dec"));
@@ -1114,11 +1121,7 @@ public:
         pushButton_spdVib_inc = new QPushButton(tab);
         pushButton_spdVib_inc->setObjectName(QString::fromUtf8("pushButton_spdVib_inc"));
 
-        gridLayout_5->addWidget(pushButton_spdVib_inc, 0, 3, 1, 1);
-
-        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        gridLayout_5->addItem(horizontalSpacer, 0, 4, 1, 1);
+        gridLayout_5->addWidget(pushButton_spdVib_inc, 0, 5, 1, 1);
 
 
         gridLayout->addLayout(gridLayout_5, 0, 0, 1, 1);
@@ -1144,34 +1147,30 @@ public:
 
         gridLayout_11 = new QGridLayout();
         gridLayout_11->setObjectName(QString::fromUtf8("gridLayout_11"));
-        label_13 = new QLabel(tab_2);
-        label_13->setObjectName(QString::fromUtf8("label_13"));
-
-        gridLayout_11->addWidget(label_13, 0, 1, 1, 1);
-
         lineEdit_PressPacketNumber = new QLineEdit(tab_2);
         lineEdit_PressPacketNumber->setObjectName(QString::fromUtf8("lineEdit_PressPacketNumber"));
 
-        gridLayout_11->addWidget(lineEdit_PressPacketNumber, 0, 5, 1, 1);
-
-        pushButton_Press_inc = new QPushButton(tab_2);
-        pushButton_Press_inc->setObjectName(QString::fromUtf8("pushButton_Press_inc"));
-
-        gridLayout_11->addWidget(pushButton_Press_inc, 0, 3, 1, 1);
-
-        label_11 = new QLabel(tab_2);
-        label_11->setObjectName(QString::fromUtf8("label_11"));
-
-        gridLayout_11->addWidget(label_11, 0, 0, 1, 1);
+        gridLayout_11->addWidget(lineEdit_PressPacketNumber, 0, 4, 1, 1);
 
         pushButton_Press_dec = new QPushButton(tab_2);
         pushButton_Press_dec->setObjectName(QString::fromUtf8("pushButton_Press_dec"));
 
         gridLayout_11->addWidget(pushButton_Press_dec, 0, 2, 1, 1);
 
-        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+        label_13 = new QLabel(tab_2);
+        label_13->setObjectName(QString::fromUtf8("label_13"));
 
-        gridLayout_11->addItem(horizontalSpacer_3, 0, 4, 1, 1);
+        gridLayout_11->addWidget(label_13, 0, 1, 1, 1);
+
+        label_11 = new QLabel(tab_2);
+        label_11->setObjectName(QString::fromUtf8("label_11"));
+
+        gridLayout_11->addWidget(label_11, 0, 0, 1, 1);
+
+        pushButton_Press_inc = new QPushButton(tab_2);
+        pushButton_Press_inc->setObjectName(QString::fromUtf8("pushButton_Press_inc"));
+
+        gridLayout_11->addWidget(pushButton_Press_inc, 0, 5, 1, 1);
 
 
         gridLayout_7->addLayout(gridLayout_11, 0, 1, 1, 1);
@@ -1202,90 +1201,107 @@ public:
 
         gridLayout_9 = new QGridLayout();
         gridLayout_9->setObjectName(QString::fromUtf8("gridLayout_9"));
-        lineEdit_56 = new QLineEdit(tab_2);
-        lineEdit_56->setObjectName(QString::fromUtf8("lineEdit_56"));
+        lineEdit_Press_T26_conv = new QLineEdit(tab_2);
+        lineEdit_Press_T26_conv->setObjectName(QString::fromUtf8("lineEdit_Press_T26_conv"));
+        lineEdit_Press_T26_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_56, 6, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_T26_conv, 6, 1, 1, 1);
 
-        lineEdit_57 = new QLineEdit(tab_2);
-        lineEdit_57->setObjectName(QString::fromUtf8("lineEdit_57"));
+        lineEdit_Press_P160V0_conv = new QLineEdit(tab_2);
+        lineEdit_Press_P160V0_conv->setObjectName(QString::fromUtf8("lineEdit_Press_P160V0_conv"));
+        lineEdit_Press_P160V0_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_57, 8, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_P160V0_conv, 8, 1, 1, 1);
 
-        lineEdit_58 = new QLineEdit(tab_2);
-        lineEdit_58->setObjectName(QString::fromUtf8("lineEdit_58"));
+        lineEdit_Press_T160_conv = new QLineEdit(tab_2);
+        lineEdit_Press_T160_conv->setObjectName(QString::fromUtf8("lineEdit_Press_T160_conv"));
+        lineEdit_Press_T160_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_58, 5, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_T160_conv, 5, 1, 1, 1);
 
-        lineEdit_59 = new QLineEdit(tab_2);
-        lineEdit_59->setObjectName(QString::fromUtf8("lineEdit_59"));
+        lineEdit_Press_Status_conv = new QLineEdit(tab_2);
+        lineEdit_Press_Status_conv->setObjectName(QString::fromUtf8("lineEdit_Press_Status_conv"));
+        lineEdit_Press_Status_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_59, 2, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_Status_conv, 2, 1, 1, 1);
 
-        lineEdit_60 = new QLineEdit(tab_2);
-        lineEdit_60->setObjectName(QString::fromUtf8("lineEdit_60"));
+        lineEdit_Press_P160_conv = new QLineEdit(tab_2);
+        lineEdit_Press_P160_conv->setObjectName(QString::fromUtf8("lineEdit_Press_P160_conv"));
+        lineEdit_Press_P160_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_60, 3, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_P160_conv, 3, 1, 1, 1);
 
-        lineEdit_61 = new QLineEdit(tab_2);
-        lineEdit_61->setObjectName(QString::fromUtf8("lineEdit_61"));
+        lineEdit_Press_P26V5_conv = new QLineEdit(tab_2);
+        lineEdit_Press_P26V5_conv->setObjectName(QString::fromUtf8("lineEdit_Press_P26V5_conv"));
+        lineEdit_Press_P26V5_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_61, 14, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_P26V5_conv, 14, 1, 1, 1);
 
-        lineEdit_62 = new QLineEdit(tab_2);
-        lineEdit_62->setObjectName(QString::fromUtf8("lineEdit_62"));
+        lineEdit_Press_Header_conv = new QLineEdit(tab_2);
+        lineEdit_Press_Header_conv->setObjectName(QString::fromUtf8("lineEdit_Press_Header_conv"));
+        lineEdit_Press_Header_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_62, 1, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_Header_conv, 1, 1, 1, 1);
 
-        lineEdit_63 = new QLineEdit(tab_2);
-        lineEdit_63->setObjectName(QString::fromUtf8("lineEdit_63"));
+        lineEdit_Press_Excit5_conv = new QLineEdit(tab_2);
+        lineEdit_Press_Excit5_conv->setObjectName(QString::fromUtf8("lineEdit_Press_Excit5_conv"));
+        lineEdit_Press_Excit5_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_63, 17, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_Excit5_conv, 17, 1, 1, 1);
 
-        lineEdit_64 = new QLineEdit(tab_2);
-        lineEdit_64->setObjectName(QString::fromUtf8("lineEdit_64"));
+        lineEdit_Press_Excit0_conv = new QLineEdit(tab_2);
+        lineEdit_Press_Excit0_conv->setObjectName(QString::fromUtf8("lineEdit_Press_Excit0_conv"));
+        lineEdit_Press_Excit0_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_64, 12, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_Excit0_conv, 12, 1, 1, 1);
 
-        lineEdit_65 = new QLineEdit(tab_2);
-        lineEdit_65->setObjectName(QString::fromUtf8("lineEdit_65"));
+        lineEdit_Press_T160V5_conv = new QLineEdit(tab_2);
+        lineEdit_Press_T160V5_conv->setObjectName(QString::fromUtf8("lineEdit_Press_T160V5_conv"));
+        lineEdit_Press_T160V5_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_65, 15, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_T160V5_conv, 15, 1, 1, 1);
 
-        lineEdit_66 = new QLineEdit(tab_2);
-        lineEdit_66->setObjectName(QString::fromUtf8("lineEdit_66"));
+        lineEdit_Press_P160V5_conv = new QLineEdit(tab_2);
+        lineEdit_Press_P160V5_conv->setObjectName(QString::fromUtf8("lineEdit_Press_P160V5_conv"));
+        lineEdit_Press_P160V5_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_66, 13, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_P160V5_conv, 13, 1, 1, 1);
 
-        lineEdit_67 = new QLineEdit(tab_2);
-        lineEdit_67->setObjectName(QString::fromUtf8("lineEdit_67"));
+        lineEdit_Press_P26_conv = new QLineEdit(tab_2);
+        lineEdit_Press_P26_conv->setObjectName(QString::fromUtf8("lineEdit_Press_P26_conv"));
+        lineEdit_Press_P26_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_67, 4, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_P26_conv, 4, 1, 1, 1);
 
-        lineEdit_68 = new QLineEdit(tab_2);
-        lineEdit_68->setObjectName(QString::fromUtf8("lineEdit_68"));
+        lineEdit_Press_ExcitR_conv = new QLineEdit(tab_2);
+        lineEdit_Press_ExcitR_conv->setObjectName(QString::fromUtf8("lineEdit_Press_ExcitR_conv"));
+        lineEdit_Press_ExcitR_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_68, 7, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_ExcitR_conv, 7, 1, 1, 1);
 
-        lineEdit_69 = new QLineEdit(tab_2);
-        lineEdit_69->setObjectName(QString::fromUtf8("lineEdit_69"));
+        lineEdit_Press_P26V0_conv = new QLineEdit(tab_2);
+        lineEdit_Press_P26V0_conv->setObjectName(QString::fromUtf8("lineEdit_Press_P26V0_conv"));
+        lineEdit_Press_P26V0_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_69, 9, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_P26V0_conv, 9, 1, 1, 1);
 
-        lineEdit_70 = new QLineEdit(tab_2);
-        lineEdit_70->setObjectName(QString::fromUtf8("lineEdit_70"));
+        lineEdit_Press_T160V0_conv = new QLineEdit(tab_2);
+        lineEdit_Press_T160V0_conv->setObjectName(QString::fromUtf8("lineEdit_Press_T160V0_conv"));
+        lineEdit_Press_T160V0_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_70, 10, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_T160V0_conv, 10, 1, 1, 1);
 
-        lineEdit_71 = new QLineEdit(tab_2);
-        lineEdit_71->setObjectName(QString::fromUtf8("lineEdit_71"));
+        lineEdit_Press_T26V0_conv = new QLineEdit(tab_2);
+        lineEdit_Press_T26V0_conv->setObjectName(QString::fromUtf8("lineEdit_Press_T26V0_conv"));
+        lineEdit_Press_T26V0_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_71, 11, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_T26V0_conv, 11, 1, 1, 1);
 
-        lineEdit_72 = new QLineEdit(tab_2);
-        lineEdit_72->setObjectName(QString::fromUtf8("lineEdit_72"));
+        lineEdit_Press_T26V5_conv = new QLineEdit(tab_2);
+        lineEdit_Press_T26V5_conv->setObjectName(QString::fromUtf8("lineEdit_Press_T26V5_conv"));
+        lineEdit_Press_T26V5_conv->setReadOnly(true);
 
-        gridLayout_9->addWidget(lineEdit_72, 16, 1, 1, 1);
+        gridLayout_9->addWidget(lineEdit_Press_T26V5_conv, 16, 1, 1, 1);
 
         label_8 = new QLabel(tab_2);
         label_8->setObjectName(QString::fromUtf8("label_8"));
@@ -1377,90 +1393,107 @@ public:
 
         gridLayout_8 = new QGridLayout();
         gridLayout_8->setObjectName(QString::fromUtf8("gridLayout_8"));
-        lineEdit_42 = new QLineEdit(tab_2);
-        lineEdit_42->setObjectName(QString::fromUtf8("lineEdit_42"));
+        lineEdit_Press_Status_raw = new QLineEdit(tab_2);
+        lineEdit_Press_Status_raw->setObjectName(QString::fromUtf8("lineEdit_Press_Status_raw"));
+        lineEdit_Press_Status_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_42, 1, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_Status_raw, 1, 2, 1, 1);
 
-        lineEdit_41 = new QLineEdit(tab_2);
-        lineEdit_41->setObjectName(QString::fromUtf8("lineEdit_41"));
+        lineEdit_Press_T160_raw = new QLineEdit(tab_2);
+        lineEdit_Press_T160_raw->setObjectName(QString::fromUtf8("lineEdit_Press_T160_raw"));
+        lineEdit_Press_T160_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_41, 4, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_T160_raw, 4, 2, 1, 1);
 
-        lineEdit_39 = new QLineEdit(tab_2);
-        lineEdit_39->setObjectName(QString::fromUtf8("lineEdit_39"));
+        lineEdit_Press_T26_raw = new QLineEdit(tab_2);
+        lineEdit_Press_T26_raw->setObjectName(QString::fromUtf8("lineEdit_Press_T26_raw"));
+        lineEdit_Press_T26_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_39, 5, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_T26_raw, 5, 2, 1, 1);
 
-        lineEdit_40 = new QLineEdit(tab_2);
-        lineEdit_40->setObjectName(QString::fromUtf8("lineEdit_40"));
+        lineEdit_Press_P160V0_raw = new QLineEdit(tab_2);
+        lineEdit_Press_P160V0_raw->setObjectName(QString::fromUtf8("lineEdit_Press_P160V0_raw"));
+        lineEdit_Press_P160V0_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_40, 7, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_P160V0_raw, 7, 2, 1, 1);
 
-        lineEdit_43 = new QLineEdit(tab_2);
-        lineEdit_43->setObjectName(QString::fromUtf8("lineEdit_43"));
+        lineEdit_Press_P160_raw = new QLineEdit(tab_2);
+        lineEdit_Press_P160_raw->setObjectName(QString::fromUtf8("lineEdit_Press_P160_raw"));
+        lineEdit_Press_P160_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_43, 2, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_P160_raw, 2, 2, 1, 1);
 
-        lineEdit_44 = new QLineEdit(tab_2);
-        lineEdit_44->setObjectName(QString::fromUtf8("lineEdit_44"));
+        lineEdit_Press_P26V5_raw = new QLineEdit(tab_2);
+        lineEdit_Press_P26V5_raw->setObjectName(QString::fromUtf8("lineEdit_Press_P26V5_raw"));
+        lineEdit_Press_P26V5_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_44, 13, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_P26V5_raw, 13, 2, 1, 1);
 
-        lineEdit_45 = new QLineEdit(tab_2);
-        lineEdit_45->setObjectName(QString::fromUtf8("lineEdit_45"));
+        lineEdit_Press_Header_raw = new QLineEdit(tab_2);
+        lineEdit_Press_Header_raw->setObjectName(QString::fromUtf8("lineEdit_Press_Header_raw"));
+        lineEdit_Press_Header_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_45, 0, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_Header_raw, 0, 2, 1, 1);
 
-        lineEdit_46 = new QLineEdit(tab_2);
-        lineEdit_46->setObjectName(QString::fromUtf8("lineEdit_46"));
+        lineEdit_Press_Excit5_raw = new QLineEdit(tab_2);
+        lineEdit_Press_Excit5_raw->setObjectName(QString::fromUtf8("lineEdit_Press_Excit5_raw"));
+        lineEdit_Press_Excit5_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_46, 16, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_Excit5_raw, 16, 2, 1, 1);
 
-        lineEdit_47 = new QLineEdit(tab_2);
-        lineEdit_47->setObjectName(QString::fromUtf8("lineEdit_47"));
+        lineEdit_Press_Excit0_raw = new QLineEdit(tab_2);
+        lineEdit_Press_Excit0_raw->setObjectName(QString::fromUtf8("lineEdit_Press_Excit0_raw"));
+        lineEdit_Press_Excit0_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_47, 11, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_Excit0_raw, 11, 2, 1, 1);
 
-        lineEdit_48 = new QLineEdit(tab_2);
-        lineEdit_48->setObjectName(QString::fromUtf8("lineEdit_48"));
+        lineEdit_Press_T160V5_raw = new QLineEdit(tab_2);
+        lineEdit_Press_T160V5_raw->setObjectName(QString::fromUtf8("lineEdit_Press_T160V5_raw"));
+        lineEdit_Press_T160V5_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_48, 14, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_T160V5_raw, 14, 2, 1, 1);
 
-        lineEdit_49 = new QLineEdit(tab_2);
-        lineEdit_49->setObjectName(QString::fromUtf8("lineEdit_49"));
+        lineEdit_Press_P160V5_raw = new QLineEdit(tab_2);
+        lineEdit_Press_P160V5_raw->setObjectName(QString::fromUtf8("lineEdit_Press_P160V5_raw"));
+        lineEdit_Press_P160V5_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_49, 12, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_P160V5_raw, 12, 2, 1, 1);
 
-        lineEdit_50 = new QLineEdit(tab_2);
-        lineEdit_50->setObjectName(QString::fromUtf8("lineEdit_50"));
+        lineEdit_Press_P26_raw = new QLineEdit(tab_2);
+        lineEdit_Press_P26_raw->setObjectName(QString::fromUtf8("lineEdit_Press_P26_raw"));
+        lineEdit_Press_P26_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_50, 3, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_P26_raw, 3, 2, 1, 1);
 
-        lineEdit_51 = new QLineEdit(tab_2);
-        lineEdit_51->setObjectName(QString::fromUtf8("lineEdit_51"));
+        lineEdit_Press_ExcitR_raw = new QLineEdit(tab_2);
+        lineEdit_Press_ExcitR_raw->setObjectName(QString::fromUtf8("lineEdit_Press_ExcitR_raw"));
+        lineEdit_Press_ExcitR_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_51, 6, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_ExcitR_raw, 6, 2, 1, 1);
 
-        lineEdit_52 = new QLineEdit(tab_2);
-        lineEdit_52->setObjectName(QString::fromUtf8("lineEdit_52"));
+        lineEdit_Press_P26V0_raw = new QLineEdit(tab_2);
+        lineEdit_Press_P26V0_raw->setObjectName(QString::fromUtf8("lineEdit_Press_P26V0_raw"));
+        lineEdit_Press_P26V0_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_52, 8, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_P26V0_raw, 8, 2, 1, 1);
 
-        lineEdit_53 = new QLineEdit(tab_2);
-        lineEdit_53->setObjectName(QString::fromUtf8("lineEdit_53"));
+        lineEdit_Press_T160V0_raw = new QLineEdit(tab_2);
+        lineEdit_Press_T160V0_raw->setObjectName(QString::fromUtf8("lineEdit_Press_T160V0_raw"));
+        lineEdit_Press_T160V0_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_53, 9, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_T160V0_raw, 9, 2, 1, 1);
 
-        lineEdit_54 = new QLineEdit(tab_2);
-        lineEdit_54->setObjectName(QString::fromUtf8("lineEdit_54"));
+        lineEdit_Press_T26V0_raw = new QLineEdit(tab_2);
+        lineEdit_Press_T26V0_raw->setObjectName(QString::fromUtf8("lineEdit_Press_T26V0_raw"));
+        lineEdit_Press_T26V0_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_54, 10, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_T26V0_raw, 10, 2, 1, 1);
 
-        lineEdit_55 = new QLineEdit(tab_2);
-        lineEdit_55->setObjectName(QString::fromUtf8("lineEdit_55"));
+        lineEdit_Press_T26V5_raw = new QLineEdit(tab_2);
+        lineEdit_Press_T26V5_raw->setObjectName(QString::fromUtf8("lineEdit_Press_T26V5_raw"));
+        lineEdit_Press_T26V5_raw->setReadOnly(true);
 
-        gridLayout_8->addWidget(lineEdit_55, 15, 2, 1, 1);
+        gridLayout_8->addWidget(lineEdit_Press_T26V5_raw, 15, 2, 1, 1);
 
         label_48 = new QLabel(tab_2);
         label_48->setObjectName(QString::fromUtf8("label_48"));
@@ -1579,7 +1612,7 @@ public:
         lineEdit_CalPacketNumber = new QLineEdit(tab_3);
         lineEdit_CalPacketNumber->setObjectName(QString::fromUtf8("lineEdit_CalPacketNumber"));
 
-        gridLayout_17->addWidget(lineEdit_CalPacketNumber, 0, 5, 1, 1);
+        gridLayout_17->addWidget(lineEdit_CalPacketNumber, 0, 4, 1, 1);
 
         label_18 = new QLabel(tab_3);
         label_18->setObjectName(QString::fromUtf8("label_18"));
@@ -1594,11 +1627,7 @@ public:
         pushButton_Cal_inc = new QPushButton(tab_3);
         pushButton_Cal_inc->setObjectName(QString::fromUtf8("pushButton_Cal_inc"));
 
-        gridLayout_17->addWidget(pushButton_Cal_inc, 0, 3, 1, 1);
-
-        horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        gridLayout_17->addItem(horizontalSpacer_5, 0, 4, 1, 1);
+        gridLayout_17->addWidget(pushButton_Cal_inc, 0, 5, 1, 1);
 
 
         gridLayout_13->addLayout(gridLayout_17, 0, 1, 1, 1);
@@ -1629,90 +1658,107 @@ public:
 
         gridLayout_14 = new QGridLayout();
         gridLayout_14->setObjectName(QString::fromUtf8("gridLayout_14"));
-        lineEdit_79 = new QLineEdit(tab_3);
-        lineEdit_79->setObjectName(QString::fromUtf8("lineEdit_79"));
+        lineEdit_Cal_N1CA_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_N1CA_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_N1CA_raw"));
+        lineEdit_Cal_N1CA_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_79, 2, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_N1CA_raw, 2, 1, 1, 1);
 
-        lineEdit_75 = new QLineEdit(tab_3);
-        lineEdit_75->setObjectName(QString::fromUtf8("lineEdit_75"));
+        lineEdit_Cal_N1CB_raw_2 = new QLineEdit(tab_3);
+        lineEdit_Cal_N1CB_raw_2->setObjectName(QString::fromUtf8("lineEdit_Cal_N1CB_raw_2"));
+        lineEdit_Cal_N1CB_raw_2->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_75, 5, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_N1CB_raw_2, 5, 1, 1, 1);
 
-        lineEdit_76 = new QLineEdit(tab_3);
-        lineEdit_76->setObjectName(QString::fromUtf8("lineEdit_76"));
+        lineEdit_Cal_N1TA_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_N1TA_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_N1TA_raw"));
+        lineEdit_Cal_N1TA_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_76, 7, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_N1TA_raw, 7, 1, 1, 1);
 
-        lineEdit_77 = new QLineEdit(tab_3);
-        lineEdit_77->setObjectName(QString::fromUtf8("lineEdit_77"));
+        lineEdit_Cal_N1CB_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_N1CB_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_N1CB_raw"));
+        lineEdit_Cal_N1CB_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_77, 4, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_N1CB_raw, 4, 1, 1, 1);
 
-        lineEdit_78 = new QLineEdit(tab_3);
-        lineEdit_78->setObjectName(QString::fromUtf8("lineEdit_78"));
+        lineEdit_Cal_Status_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_Status_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_Status_raw"));
+        lineEdit_Cal_Status_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_78, 1, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_Status_raw, 1, 1, 1, 1);
 
-        lineEdit_80 = new QLineEdit(tab_3);
-        lineEdit_80->setObjectName(QString::fromUtf8("lineEdit_80"));
+        lineEdit_Cal_EngVib2_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_EngVib2_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_EngVib2_raw"));
+        lineEdit_Cal_EngVib2_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_80, 13, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_EngVib2_raw, 13, 1, 1, 1);
 
-        lineEdit_81 = new QLineEdit(tab_3);
-        lineEdit_81->setObjectName(QString::fromUtf8("lineEdit_81"));
+        lineEdit_Cal_Header_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_Header_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_Header_raw"));
+        lineEdit_Cal_Header_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_81, 0, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_Header_raw, 0, 1, 1, 1);
 
-        lineEdit_82 = new QLineEdit(tab_3);
-        lineEdit_82->setObjectName(QString::fromUtf8("lineEdit_82"));
+        lineEdit_Cal_Unused2_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_Unused2_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_Unused2_raw"));
+        lineEdit_Cal_Unused2_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_82, 16, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_Unused2_raw, 16, 1, 1, 1);
 
-        lineEdit_83 = new QLineEdit(tab_3);
-        lineEdit_83->setObjectName(QString::fromUtf8("lineEdit_83"));
+        lineEdit_Cal_GearVib_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_GearVib_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_GearVib_raw"));
+        lineEdit_Cal_GearVib_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_83, 11, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_GearVib_raw, 11, 1, 1, 1);
 
-        lineEdit_84 = new QLineEdit(tab_3);
-        lineEdit_84->setObjectName(QString::fromUtf8("lineEdit_84"));
+        lineEdit_Cal_OPRDet_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_OPRDet_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_OPRDet_raw"));
+        lineEdit_Cal_OPRDet_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_84, 14, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_OPRDet_raw, 14, 1, 1, 1);
 
-        lineEdit_85 = new QLineEdit(tab_3);
-        lineEdit_85->setObjectName(QString::fromUtf8("lineEdit_85"));
+        lineEdit_Cal_EngVib1_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_EngVib1_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_EngVib1_raw"));
+        lineEdit_Cal_EngVib1_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_85, 12, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_EngVib1_raw, 12, 1, 1, 1);
 
-        lineEdit_86 = new QLineEdit(tab_3);
-        lineEdit_86->setObjectName(QString::fromUtf8("lineEdit_86"));
+        lineEdit_Cal_N2CA_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_N2CA_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_N2CA_raw"));
+        lineEdit_Cal_N2CA_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_86, 3, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_N2CA_raw, 3, 1, 1, 1);
 
-        lineEdit_87 = new QLineEdit(tab_3);
-        lineEdit_87->setObjectName(QString::fromUtf8("lineEdit_87"));
+        lineEdit_Cal_N3A_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_N3A_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_N3A_raw"));
+        lineEdit_Cal_N3A_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_87, 6, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_N3A_raw, 6, 1, 1, 1);
 
-        lineEdit_88 = new QLineEdit(tab_3);
-        lineEdit_88->setObjectName(QString::fromUtf8("lineEdit_88"));
+        lineEdit_Cal_Wdt_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_Wdt_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_Wdt_raw"));
+        lineEdit_Cal_Wdt_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_88, 8, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_Wdt_raw, 8, 1, 1, 1);
 
-        lineEdit_89 = new QLineEdit(tab_3);
-        lineEdit_89->setObjectName(QString::fromUtf8("lineEdit_89"));
+        lineEdit_Cal_Unused1_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_Unused1_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_Unused1_raw"));
+        lineEdit_Cal_Unused1_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_89, 9, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_Unused1_raw, 9, 1, 1, 1);
 
-        lineEdit_90 = new QLineEdit(tab_3);
-        lineEdit_90->setObjectName(QString::fromUtf8("lineEdit_90"));
+        lineEdit_Cal_ADCSample_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_ADCSample_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_ADCSample_raw"));
+        lineEdit_Cal_ADCSample_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_90, 10, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_ADCSample_raw, 10, 1, 1, 1);
 
-        lineEdit_91 = new QLineEdit(tab_3);
-        lineEdit_91->setObjectName(QString::fromUtf8("lineEdit_91"));
+        lineEdit_Cal_CFPGANum_raw = new QLineEdit(tab_3);
+        lineEdit_Cal_CFPGANum_raw->setObjectName(QString::fromUtf8("lineEdit_Cal_CFPGANum_raw"));
+        lineEdit_Cal_CFPGANum_raw->setReadOnly(true);
 
-        gridLayout_14->addWidget(lineEdit_91, 15, 1, 1, 1);
+        gridLayout_14->addWidget(lineEdit_Cal_CFPGANum_raw, 15, 1, 1, 1);
 
         label_65 = new QLabel(tab_3);
         label_65->setObjectName(QString::fromUtf8("label_65"));
@@ -1804,90 +1850,107 @@ public:
 
         gridLayout_15 = new QGridLayout();
         gridLayout_15->setObjectName(QString::fromUtf8("gridLayout_15"));
-        lineEdit_92 = new QLineEdit(tab_3);
-        lineEdit_92->setObjectName(QString::fromUtf8("lineEdit_92"));
+        lineEdit_Cal_N1CB_conv_2 = new QLineEdit(tab_3);
+        lineEdit_Cal_N1CB_conv_2->setObjectName(QString::fromUtf8("lineEdit_Cal_N1CB_conv_2"));
+        lineEdit_Cal_N1CB_conv_2->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_92, 5, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_N1CB_conv_2, 5, 1, 1, 1);
 
-        lineEdit_93 = new QLineEdit(tab_3);
-        lineEdit_93->setObjectName(QString::fromUtf8("lineEdit_93"));
+        lineEdit_Cal_N1TA_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_N1TA_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_N1TA_conv"));
+        lineEdit_Cal_N1TA_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_93, 7, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_N1TA_conv, 7, 1, 1, 1);
 
-        lineEdit_94 = new QLineEdit(tab_3);
-        lineEdit_94->setObjectName(QString::fromUtf8("lineEdit_94"));
+        lineEdit_Cal_N1CB_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_N1CB_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_N1CB_conv"));
+        lineEdit_Cal_N1CB_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_94, 4, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_N1CB_conv, 4, 1, 1, 1);
 
-        lineEdit_95 = new QLineEdit(tab_3);
-        lineEdit_95->setObjectName(QString::fromUtf8("lineEdit_95"));
+        lineEdit_Cal_Status_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_Status_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_Status_conv"));
+        lineEdit_Cal_Status_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_95, 1, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_Status_conv, 1, 1, 1, 1);
 
-        lineEdit_96 = new QLineEdit(tab_3);
-        lineEdit_96->setObjectName(QString::fromUtf8("lineEdit_96"));
+        lineEdit_Cal_N1CA_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_N1CA_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_N1CA_conv"));
+        lineEdit_Cal_N1CA_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_96, 2, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_N1CA_conv, 2, 1, 1, 1);
 
-        lineEdit_97 = new QLineEdit(tab_3);
-        lineEdit_97->setObjectName(QString::fromUtf8("lineEdit_97"));
+        lineEdit_Cal_EngVib2_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_EngVib2_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_EngVib2_conv"));
+        lineEdit_Cal_EngVib2_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_97, 13, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_EngVib2_conv, 13, 1, 1, 1);
 
-        lineEdit_98 = new QLineEdit(tab_3);
-        lineEdit_98->setObjectName(QString::fromUtf8("lineEdit_98"));
+        lineEdit_Cal_Header_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_Header_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_Header_conv"));
+        lineEdit_Cal_Header_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_98, 0, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_Header_conv, 0, 1, 1, 1);
 
-        lineEdit_99 = new QLineEdit(tab_3);
-        lineEdit_99->setObjectName(QString::fromUtf8("lineEdit_99"));
+        lineEdit_Cal_Unused2_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_Unused2_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_Unused2_conv"));
+        lineEdit_Cal_Unused2_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_99, 16, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_Unused2_conv, 16, 1, 1, 1);
 
-        lineEdit_100 = new QLineEdit(tab_3);
-        lineEdit_100->setObjectName(QString::fromUtf8("lineEdit_100"));
+        lineEdit_Cal_GearVib_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_GearVib_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_GearVib_conv"));
+        lineEdit_Cal_GearVib_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_100, 11, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_GearVib_conv, 11, 1, 1, 1);
 
-        lineEdit_101 = new QLineEdit(tab_3);
-        lineEdit_101->setObjectName(QString::fromUtf8("lineEdit_101"));
+        lineEdit_Cal_OPRDet_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_OPRDet_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_OPRDet_conv"));
+        lineEdit_Cal_OPRDet_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_101, 14, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_OPRDet_conv, 14, 1, 1, 1);
 
-        lineEdit_102 = new QLineEdit(tab_3);
-        lineEdit_102->setObjectName(QString::fromUtf8("lineEdit_102"));
+        lineEdit_Cal_EngVib1_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_EngVib1_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_EngVib1_conv"));
+        lineEdit_Cal_EngVib1_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_102, 12, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_EngVib1_conv, 12, 1, 1, 1);
 
-        lineEdit_103 = new QLineEdit(tab_3);
-        lineEdit_103->setObjectName(QString::fromUtf8("lineEdit_103"));
+        lineEdit_Cal_N2CA_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_N2CA_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_N2CA_conv"));
+        lineEdit_Cal_N2CA_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_103, 3, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_N2CA_conv, 3, 1, 1, 1);
 
-        lineEdit_104 = new QLineEdit(tab_3);
-        lineEdit_104->setObjectName(QString::fromUtf8("lineEdit_104"));
+        lineEdit_Cal_N3A_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_N3A_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_N3A_conv"));
+        lineEdit_Cal_N3A_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_104, 6, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_N3A_conv, 6, 1, 1, 1);
 
-        lineEdit_105 = new QLineEdit(tab_3);
-        lineEdit_105->setObjectName(QString::fromUtf8("lineEdit_105"));
+        lineEdit_Cal_Wdt_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_Wdt_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_Wdt_conv"));
+        lineEdit_Cal_Wdt_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_105, 8, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_Wdt_conv, 8, 1, 1, 1);
 
-        lineEdit_106 = new QLineEdit(tab_3);
-        lineEdit_106->setObjectName(QString::fromUtf8("lineEdit_106"));
+        lineEdit_Cal_Unused1_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_Unused1_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_Unused1_conv"));
+        lineEdit_Cal_Unused1_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_106, 9, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_Unused1_conv, 9, 1, 1, 1);
 
-        lineEdit_107 = new QLineEdit(tab_3);
-        lineEdit_107->setObjectName(QString::fromUtf8("lineEdit_107"));
+        lineEdit_Cal_ADCSample_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_ADCSample_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_ADCSample_conv"));
+        lineEdit_Cal_ADCSample_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_107, 10, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_ADCSample_conv, 10, 1, 1, 1);
 
-        lineEdit_108 = new QLineEdit(tab_3);
-        lineEdit_108->setObjectName(QString::fromUtf8("lineEdit_108"));
+        lineEdit_Cal_CFPGANum_conv = new QLineEdit(tab_3);
+        lineEdit_Cal_CFPGANum_conv->setObjectName(QString::fromUtf8("lineEdit_Cal_CFPGANum_conv"));
+        lineEdit_Cal_CFPGANum_conv->setReadOnly(true);
 
-        gridLayout_15->addWidget(lineEdit_108, 15, 1, 1, 1);
+        gridLayout_15->addWidget(lineEdit_Cal_CFPGANum_conv, 15, 1, 1, 1);
 
         label_143 = new QLabel(tab_3);
         label_143->setObjectName(QString::fromUtf8("label_143"));
@@ -1997,6 +2060,20 @@ public:
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         gridLayout_19 = new QGridLayout();
         gridLayout_19->setObjectName(QString::fromUtf8("gridLayout_19"));
+        line_7 = new QFrame(tab_6);
+        line_7->setObjectName(QString::fromUtf8("line_7"));
+        line_7->setFrameShape(QFrame::HLine);
+        line_7->setFrameShadow(QFrame::Sunken);
+
+        gridLayout_19->addWidget(line_7, 10, 1, 1, 1);
+
+        line_8 = new QFrame(tab_6);
+        line_8->setObjectName(QString::fromUtf8("line_8"));
+        line_8->setFrameShape(QFrame::HLine);
+        line_8->setFrameShadow(QFrame::Sunken);
+
+        gridLayout_19->addWidget(line_8, 12, 1, 1, 1);
+
         gridLayout_23 = new QGridLayout();
         gridLayout_23->setObjectName(QString::fromUtf8("gridLayout_23"));
         lineEdit_205 = new QLineEdit(tab_6);
@@ -2212,12 +2289,12 @@ public:
         gridLayout_23->addWidget(label_95, 2, 0, 1, 1);
 
 
-        gridLayout_19->addLayout(gridLayout_23, 3, 1, 1, 1);
+        gridLayout_19->addLayout(gridLayout_23, 5, 1, 1, 1);
 
         label_81 = new QLabel(tab_6);
         label_81->setObjectName(QString::fromUtf8("label_81"));
 
-        gridLayout_19->addWidget(label_81, 8, 0, 1, 1);
+        gridLayout_19->addWidget(label_81, 15, 0, 1, 1);
 
         label_74 = new QLabel(tab_6);
         label_74->setObjectName(QString::fromUtf8("label_74"));
@@ -2232,32 +2309,32 @@ public:
         label_77 = new QLabel(tab_6);
         label_77->setObjectName(QString::fromUtf8("label_77"));
 
-        gridLayout_19->addWidget(label_77, 4, 0, 1, 1);
+        gridLayout_19->addWidget(label_77, 7, 0, 1, 1);
 
         label_76 = new QLabel(tab_6);
         label_76->setObjectName(QString::fromUtf8("label_76"));
 
-        gridLayout_19->addWidget(label_76, 3, 0, 1, 1);
+        gridLayout_19->addWidget(label_76, 5, 0, 1, 1);
 
         label_75 = new QLabel(tab_6);
         label_75->setObjectName(QString::fromUtf8("label_75"));
 
-        gridLayout_19->addWidget(label_75, 2, 0, 1, 1);
+        gridLayout_19->addWidget(label_75, 3, 0, 1, 1);
 
         label_78 = new QLabel(tab_6);
         label_78->setObjectName(QString::fromUtf8("label_78"));
 
-        gridLayout_19->addWidget(label_78, 5, 0, 1, 1);
+        gridLayout_19->addWidget(label_78, 9, 0, 1, 1);
 
         label_79 = new QLabel(tab_6);
         label_79->setObjectName(QString::fromUtf8("label_79"));
 
-        gridLayout_19->addWidget(label_79, 6, 0, 1, 1);
+        gridLayout_19->addWidget(label_79, 11, 0, 1, 1);
 
         label_80 = new QLabel(tab_6);
         label_80->setObjectName(QString::fromUtf8("label_80"));
 
-        gridLayout_19->addWidget(label_80, 7, 0, 1, 1);
+        gridLayout_19->addWidget(label_80, 13, 0, 1, 1);
 
         gridLayout_28 = new QGridLayout();
         gridLayout_28->setObjectName(QString::fromUtf8("gridLayout_28"));
@@ -2473,8 +2550,15 @@ public:
 
         gridLayout_28->addWidget(label_115, 3, 0, 1, 1);
 
+        line_10 = new QFrame(tab_6);
+        line_10->setObjectName(QString::fromUtf8("line_10"));
+        line_10->setFrameShape(QFrame::HLine);
+        line_10->setFrameShadow(QFrame::Sunken);
 
-        gridLayout_19->addLayout(gridLayout_28, 8, 1, 1, 1);
+        gridLayout_28->addWidget(line_10, 4, 0, 1, 18);
+
+
+        gridLayout_19->addLayout(gridLayout_28, 15, 1, 1, 1);
 
         gridLayout_21 = new QGridLayout();
         gridLayout_21->setObjectName(QString::fromUtf8("gridLayout_21"));
@@ -2690,6 +2774,13 @@ public:
 
         gridLayout_21->addWidget(label_87, 2, 0, 1, 1);
 
+        line_2 = new QFrame(tab_6);
+        line_2->setObjectName(QString::fromUtf8("line_2"));
+        line_2->setFrameShape(QFrame::HLine);
+        line_2->setFrameShadow(QFrame::Sunken);
+
+        gridLayout_21->addWidget(line_2, 0, 0, 1, 18);
+
 
         gridLayout_19->addLayout(gridLayout_21, 1, 1, 1, 1);
 
@@ -2699,214 +2790,221 @@ public:
         lineEdit_cbit26->setObjectName(QString::fromUtf8("lineEdit_cbit26"));
         lineEdit_cbit26->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit26, 1, 6, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit26, 2, 6, 1, 1);
 
         lineEdit_cbit23 = new QLineEdit(tab_6);
         lineEdit_cbit23->setObjectName(QString::fromUtf8("lineEdit_cbit23"));
         lineEdit_cbit23->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit23, 1, 9, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit23, 2, 9, 1, 1);
 
         lineEdit_cbit15 = new QLineEdit(tab_6);
         lineEdit_cbit15->setObjectName(QString::fromUtf8("lineEdit_cbit15"));
         lineEdit_cbit15->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit15, 2, 1, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit15, 3, 1, 1, 1);
 
         lineEdit_cbit30 = new QLineEdit(tab_6);
         lineEdit_cbit30->setObjectName(QString::fromUtf8("lineEdit_cbit30"));
         lineEdit_cbit30->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit30, 1, 2, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit30, 2, 2, 1, 1);
 
         lineEdit_cbit25 = new QLineEdit(tab_6);
         lineEdit_cbit25->setObjectName(QString::fromUtf8("lineEdit_cbit25"));
         lineEdit_cbit25->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit25, 1, 7, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit25, 2, 7, 1, 1);
 
         lineEdit_cbit31 = new QLineEdit(tab_6);
         lineEdit_cbit31->setObjectName(QString::fromUtf8("lineEdit_cbit31"));
         lineEdit_cbit31->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit31, 1, 1, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit31, 2, 1, 1, 1);
 
         lineEdit_cbit29 = new QLineEdit(tab_6);
         lineEdit_cbit29->setObjectName(QString::fromUtf8("lineEdit_cbit29"));
         lineEdit_cbit29->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit29, 1, 3, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit29, 2, 3, 1, 1);
 
         lineEdit_cbit27 = new QLineEdit(tab_6);
         lineEdit_cbit27->setObjectName(QString::fromUtf8("lineEdit_cbit27"));
         lineEdit_cbit27->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit27, 1, 5, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit27, 2, 5, 1, 1);
 
         lineEdit_cbit14 = new QLineEdit(tab_6);
         lineEdit_cbit14->setObjectName(QString::fromUtf8("lineEdit_cbit14"));
         lineEdit_cbit14->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit14, 2, 2, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit14, 3, 2, 1, 1);
 
         lineEdit_cbit28 = new QLineEdit(tab_6);
         lineEdit_cbit28->setObjectName(QString::fromUtf8("lineEdit_cbit28"));
         lineEdit_cbit28->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit28, 1, 4, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit28, 2, 4, 1, 1);
 
         lineEdit_cbit24 = new QLineEdit(tab_6);
         lineEdit_cbit24->setObjectName(QString::fromUtf8("lineEdit_cbit24"));
         lineEdit_cbit24->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit24, 1, 8, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit24, 2, 8, 1, 1);
 
         lineEdit_cbit22 = new QLineEdit(tab_6);
         lineEdit_cbit22->setObjectName(QString::fromUtf8("lineEdit_cbit22"));
         lineEdit_cbit22->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit22, 1, 10, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit22, 2, 10, 1, 1);
 
         lineEdit_cbit18 = new QLineEdit(tab_6);
         lineEdit_cbit18->setObjectName(QString::fromUtf8("lineEdit_cbit18"));
         lineEdit_cbit18->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit18, 1, 14, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit18, 2, 14, 1, 1);
 
         lineEdit_cbit21 = new QLineEdit(tab_6);
         lineEdit_cbit21->setObjectName(QString::fromUtf8("lineEdit_cbit21"));
         lineEdit_cbit21->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit21, 1, 11, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit21, 2, 11, 1, 1);
 
         lineEdit_cbit20 = new QLineEdit(tab_6);
         lineEdit_cbit20->setObjectName(QString::fromUtf8("lineEdit_cbit20"));
         lineEdit_cbit20->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit20, 1, 12, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit20, 2, 12, 1, 1);
 
         lineEdit_cbit19 = new QLineEdit(tab_6);
         lineEdit_cbit19->setObjectName(QString::fromUtf8("lineEdit_cbit19"));
         lineEdit_cbit19->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit19, 1, 13, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit19, 2, 13, 1, 1);
 
         lineEdit_cbit6 = new QLineEdit(tab_6);
         lineEdit_cbit6->setObjectName(QString::fromUtf8("lineEdit_cbit6"));
         lineEdit_cbit6->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit6, 2, 10, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit6, 3, 10, 1, 1);
 
         lineEdit_cbit16 = new QLineEdit(tab_6);
         lineEdit_cbit16->setObjectName(QString::fromUtf8("lineEdit_cbit16"));
         lineEdit_cbit16->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit16, 1, 16, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit16, 2, 16, 1, 1);
 
         lineEdit_cbit11 = new QLineEdit(tab_6);
         lineEdit_cbit11->setObjectName(QString::fromUtf8("lineEdit_cbit11"));
         lineEdit_cbit11->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit11, 2, 5, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit11, 3, 5, 1, 1);
 
         lineEdit_cbit17 = new QLineEdit(tab_6);
         lineEdit_cbit17->setObjectName(QString::fromUtf8("lineEdit_cbit17"));
         lineEdit_cbit17->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit17, 1, 15, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit17, 2, 15, 1, 1);
 
         lineEdit_cbit10 = new QLineEdit(tab_6);
         lineEdit_cbit10->setObjectName(QString::fromUtf8("lineEdit_cbit10"));
         lineEdit_cbit10->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit10, 2, 6, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit10, 3, 6, 1, 1);
 
         lineEdit_cbit12 = new QLineEdit(tab_6);
         lineEdit_cbit12->setObjectName(QString::fromUtf8("lineEdit_cbit12"));
         lineEdit_cbit12->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit12, 2, 4, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit12, 3, 4, 1, 1);
 
         lineEdit_cbit13 = new QLineEdit(tab_6);
         lineEdit_cbit13->setObjectName(QString::fromUtf8("lineEdit_cbit13"));
         lineEdit_cbit13->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit13, 2, 3, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit13, 3, 3, 1, 1);
 
         lineEdit_cbit9 = new QLineEdit(tab_6);
         lineEdit_cbit9->setObjectName(QString::fromUtf8("lineEdit_cbit9"));
         lineEdit_cbit9->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit9, 2, 7, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit9, 3, 7, 1, 1);
 
         lineEdit_cbit8 = new QLineEdit(tab_6);
         lineEdit_cbit8->setObjectName(QString::fromUtf8("lineEdit_cbit8"));
         lineEdit_cbit8->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit8, 2, 8, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit8, 3, 8, 1, 1);
 
         lineEdit_cbit7 = new QLineEdit(tab_6);
         lineEdit_cbit7->setObjectName(QString::fromUtf8("lineEdit_cbit7"));
         lineEdit_cbit7->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit7, 2, 9, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit7, 3, 9, 1, 1);
 
         lineEdit_cbit5 = new QLineEdit(tab_6);
         lineEdit_cbit5->setObjectName(QString::fromUtf8("lineEdit_cbit5"));
         lineEdit_cbit5->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit5, 2, 11, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit5, 3, 11, 1, 1);
 
         lineEdit_cbit4 = new QLineEdit(tab_6);
         lineEdit_cbit4->setObjectName(QString::fromUtf8("lineEdit_cbit4"));
         lineEdit_cbit4->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit4, 2, 12, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit4, 3, 12, 1, 1);
 
         lineEdit_cbit3 = new QLineEdit(tab_6);
         lineEdit_cbit3->setObjectName(QString::fromUtf8("lineEdit_cbit3"));
         lineEdit_cbit3->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit3, 2, 13, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit3, 3, 13, 1, 1);
 
         lineEdit_cbit2 = new QLineEdit(tab_6);
         lineEdit_cbit2->setObjectName(QString::fromUtf8("lineEdit_cbit2"));
         lineEdit_cbit2->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit2, 2, 14, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit2, 3, 14, 1, 1);
 
         lineEdit_cbit1 = new QLineEdit(tab_6);
         lineEdit_cbit1->setObjectName(QString::fromUtf8("lineEdit_cbit1"));
         lineEdit_cbit1->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit1, 2, 15, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit1, 3, 15, 1, 1);
 
         lineEdit_cbit0 = new QLineEdit(tab_6);
         lineEdit_cbit0->setObjectName(QString::fromUtf8("lineEdit_cbit0"));
         lineEdit_cbit0->setReadOnly(true);
 
-        gridLayout_20->addWidget(lineEdit_cbit0, 2, 16, 1, 1);
+        gridLayout_20->addWidget(lineEdit_cbit0, 3, 16, 1, 1);
 
         label_84 = new QLabel(tab_6);
         label_84->setObjectName(QString::fromUtf8("label_84"));
         label_84->setLayoutDirection(Qt::RightToLeft);
 
-        gridLayout_20->addWidget(label_84, 1, 17, 1, 1);
+        gridLayout_20->addWidget(label_84, 2, 17, 1, 1);
 
         label_82 = new QLabel(tab_6);
         label_82->setObjectName(QString::fromUtf8("label_82"));
 
-        gridLayout_20->addWidget(label_82, 2, 17, 1, 1);
+        gridLayout_20->addWidget(label_82, 3, 17, 1, 1);
 
         label_85 = new QLabel(tab_6);
         label_85->setObjectName(QString::fromUtf8("label_85"));
 
-        gridLayout_20->addWidget(label_85, 1, 0, 1, 1);
+        gridLayout_20->addWidget(label_85, 2, 0, 1, 1);
 
         label_83 = new QLabel(tab_6);
         label_83->setObjectName(QString::fromUtf8("label_83"));
 
-        gridLayout_20->addWidget(label_83, 2, 0, 1, 1);
+        gridLayout_20->addWidget(label_83, 3, 0, 1, 1);
+
+        line = new QFrame(tab_6);
+        line->setObjectName(QString::fromUtf8("line"));
+        line->setFrameShape(QFrame::HLine);
+        line->setFrameShadow(QFrame::Sunken);
+
+        gridLayout_20->addWidget(line, 1, 0, 1, 18);
 
 
         gridLayout_19->addLayout(gridLayout_20, 0, 1, 1, 1);
@@ -3126,7 +3224,7 @@ public:
         gridLayout_22->addWidget(label_92, 1, 0, 1, 1);
 
 
-        gridLayout_19->addLayout(gridLayout_22, 2, 1, 1, 1);
+        gridLayout_19->addLayout(gridLayout_22, 3, 1, 1, 1);
 
         gridLayout_25 = new QGridLayout();
         gridLayout_25->setObjectName(QString::fromUtf8("gridLayout_25"));
@@ -3343,7 +3441,7 @@ public:
         gridLayout_25->addWidget(label_103, 2, 0, 1, 1);
 
 
-        gridLayout_19->addLayout(gridLayout_25, 5, 1, 1, 1);
+        gridLayout_19->addLayout(gridLayout_25, 9, 1, 1, 1);
 
         gridLayout_26 = new QGridLayout();
         gridLayout_26->setObjectName(QString::fromUtf8("gridLayout_26"));
@@ -3560,7 +3658,7 @@ public:
         gridLayout_26->addWidget(label_107, 2, 0, 1, 1);
 
 
-        gridLayout_19->addLayout(gridLayout_26, 6, 1, 1, 1);
+        gridLayout_19->addLayout(gridLayout_26, 11, 1, 1, 1);
 
         gridLayout_27 = new QGridLayout();
         gridLayout_27->setObjectName(QString::fromUtf8("gridLayout_27"));
@@ -3777,7 +3875,7 @@ public:
         gridLayout_27->addWidget(label_112, 1, 17, 1, 1);
 
 
-        gridLayout_19->addLayout(gridLayout_27, 7, 1, 1, 1);
+        gridLayout_19->addLayout(gridLayout_27, 13, 1, 1, 1);
 
         gridLayout_24 = new QGridLayout();
         gridLayout_24->setObjectName(QString::fromUtf8("gridLayout_24"));
@@ -3994,7 +4092,42 @@ public:
         gridLayout_24->addWidget(label_98, 1, 0, 1, 1);
 
 
-        gridLayout_19->addLayout(gridLayout_24, 4, 1, 1, 1);
+        gridLayout_19->addLayout(gridLayout_24, 7, 1, 1, 1);
+
+        line_5 = new QFrame(tab_6);
+        line_5->setObjectName(QString::fromUtf8("line_5"));
+        line_5->setFrameShape(QFrame::HLine);
+        line_5->setFrameShadow(QFrame::Sunken);
+
+        gridLayout_19->addWidget(line_5, 6, 1, 1, 1);
+
+        line_3 = new QFrame(tab_6);
+        line_3->setObjectName(QString::fromUtf8("line_3"));
+        line_3->setFrameShape(QFrame::HLine);
+        line_3->setFrameShadow(QFrame::Sunken);
+
+        gridLayout_19->addWidget(line_3, 2, 1, 1, 1);
+
+        line_6 = new QFrame(tab_6);
+        line_6->setObjectName(QString::fromUtf8("line_6"));
+        line_6->setFrameShape(QFrame::HLine);
+        line_6->setFrameShadow(QFrame::Sunken);
+
+        gridLayout_19->addWidget(line_6, 8, 1, 1, 1);
+
+        line_4 = new QFrame(tab_6);
+        line_4->setObjectName(QString::fromUtf8("line_4"));
+        line_4->setFrameShape(QFrame::HLine);
+        line_4->setFrameShadow(QFrame::Sunken);
+
+        gridLayout_19->addWidget(line_4, 4, 1, 1, 1);
+
+        line_9 = new QFrame(tab_6);
+        line_9->setObjectName(QString::fromUtf8("line_9"));
+        line_9->setFrameShape(QFrame::HLine);
+        line_9->setFrameShadow(QFrame::Sunken);
+
+        gridLayout_19->addWidget(line_9, 14, 1, 1, 1);
 
 
         horizontalLayout_2->addLayout(gridLayout_19);
@@ -4019,7 +4152,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        tabWidget->setCurrentIndex(1);
+        tabWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -4032,6 +4165,23 @@ public:
         actionStart->setText(QApplication::translate("MainWindow", "Start", 0, QApplication::UnicodeUTF8));
         actionPause->setText(QApplication::translate("MainWindow", "Pause", 0, QApplication::UnicodeUTF8));
         actionStop->setText(QApplication::translate("MainWindow", "Stop", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_Unused1_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N2CB_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N1T_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N1CB_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_Status_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N1CA_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_EngVib2_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_Header_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_Unused2_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_GearVib_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_OPRDet_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_EngVib1_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N2CA_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N3A_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_Wdt_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_ADCSmpl_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_CFPGANum_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_22->setText(QApplication::translate("MainWindow", "Header", 0, QApplication::UnicodeUTF8));
         label_23->setText(QApplication::translate("MainWindow", "Status", 0, QApplication::UnicodeUTF8));
         label_24->setText(QApplication::translate("MainWindow", "N1C A", 0, QApplication::UnicodeUTF8));
@@ -4049,6 +4199,23 @@ public:
         label_36->setText(QApplication::translate("MainWindow", "OPR Det", 0, QApplication::UnicodeUTF8));
         label_37->setText(QApplication::translate("MainWindow", "CFPGA Num", 0, QApplication::UnicodeUTF8));
         label_38->setText(QApplication::translate("MainWindow", "Unused", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N1CB_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_CFPGANum_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_EngVib1_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_Unused2_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_Wdt_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_GearVib_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N2CB_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N1T_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_ADCSmpl_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_Header_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_Status_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N3A_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_Unused1_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N1CA_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_OPRDet_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_N2CA_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_spdVib_EngVib2_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_3->setText(QApplication::translate("MainWindow", "Header", 0, QApplication::UnicodeUTF8));
         label_4->setText(QApplication::translate("MainWindow", "Status", 0, QApplication::UnicodeUTF8));
         label_5->setText(QApplication::translate("MainWindow", "N1C A", 0, QApplication::UnicodeUTF8));
@@ -4066,24 +4233,44 @@ public:
         label_129->setText(QApplication::translate("MainWindow", "OPR Det", 0, QApplication::UnicodeUTF8));
         label_130->setText(QApplication::translate("MainWindow", "CFPGA Num", 0, QApplication::UnicodeUTF8));
         label_131->setText(QApplication::translate("MainWindow", "Unused", 0, QApplication::UnicodeUTF8));
-        label_7->setText(QApplication::translate("MainWindow", "(1 - 39)Hz", 0, QApplication::UnicodeUTF8));
+        label_7->setText(QApplication::translate("MainWindow", "(25 - 1000)ms", 0, QApplication::UnicodeUTF8));
+        lineEdit_SpdVibRefreshRate->setText(QApplication::translate("MainWindow", "25", 0, QApplication::UnicodeUTF8));
         lineEdit_SpdVibRefreshRate->setPlaceholderText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("MainWindow", "Refresh Rate", 0, QApplication::UnicodeUTF8));
-        label_6->setText(QApplication::translate("MainWindow", "(0 - 1023)", 0, QApplication::UnicodeUTF8));
-        lineEdit_SpdVibPacketNumber->setText(QString());
+        lineEdit_SpdVibPacketNumber->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_SpdVibPacketNumber->setPlaceholderText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("MainWindow", "Packet", 0, QApplication::UnicodeUTF8));
+        label_6->setText(QApplication::translate("MainWindow", "(0 - 1023)", 0, QApplication::UnicodeUTF8));
         pushButton_spdVib_dec->setText(QApplication::translate("MainWindow", "<<", 0, QApplication::UnicodeUTF8));
         pushButton_spdVib_inc->setText(QApplication::translate("MainWindow", ">>", 0, QApplication::UnicodeUTF8));
         tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("MainWindow", "SpeedVib", 0, QApplication::UnicodeUTF8));
-        label_13->setText(QApplication::translate("MainWindow", "(0 - 255)", 0, QApplication::UnicodeUTF8));
+        lineEdit_PressPacketNumber->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_PressPacketNumber->setPlaceholderText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        pushButton_Press_inc->setText(QApplication::translate("MainWindow", ">>", 0, QApplication::UnicodeUTF8));
-        label_11->setText(QApplication::translate("MainWindow", "Packet", 0, QApplication::UnicodeUTF8));
         pushButton_Press_dec->setText(QApplication::translate("MainWindow", "<<", 0, QApplication::UnicodeUTF8));
-        lineEdit_PressRefreshRate->setPlaceholderText(QApplication::translate("MainWindow", "39", 0, QApplication::UnicodeUTF8));
-        label_14->setText(QApplication::translate("MainWindow", "(1 - 39)Hz", 0, QApplication::UnicodeUTF8));
+        label_13->setText(QApplication::translate("MainWindow", "(0 - 255)", 0, QApplication::UnicodeUTF8));
+        label_11->setText(QApplication::translate("MainWindow", "Packet", 0, QApplication::UnicodeUTF8));
+        pushButton_Press_inc->setText(QApplication::translate("MainWindow", ">>", 0, QApplication::UnicodeUTF8));
+        lineEdit_PressRefreshRate->setText(QApplication::translate("MainWindow", "25", 0, QApplication::UnicodeUTF8));
+        lineEdit_PressRefreshRate->setPlaceholderText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        label_14->setText(QApplication::translate("MainWindow", "(25 - 1000)ms", 0, QApplication::UnicodeUTF8));
         label_9->setText(QApplication::translate("MainWindow", "Refresh Rate", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T26_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P160V0_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T160_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_Status_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P160_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P26V5_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_Header_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_Excit5_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_Excit0_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T160V5_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P160V5_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P26_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_ExcitR_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P26V0_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T160V0_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T26V0_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T26V5_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_8->setText(QApplication::translate("MainWindow", "Header", 0, QApplication::UnicodeUTF8));
         label_10->setText(QApplication::translate("MainWindow", "Status", 0, QApplication::UnicodeUTF8));
         label_12->setText(QApplication::translate("MainWindow", "P26", 0, QApplication::UnicodeUTF8));
@@ -4101,6 +4288,23 @@ public:
         label_140->setText(QApplication::translate("MainWindow", "T160V5", 0, QApplication::UnicodeUTF8));
         label_141->setText(QApplication::translate("MainWindow", "T26V5", 0, QApplication::UnicodeUTF8));
         label_142->setText(QApplication::translate("MainWindow", "Excit 5", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_Status_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T160_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T26_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P160V0_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P160_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P26V5_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_Header_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_Excit5_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_Excit0_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T160V5_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P160V5_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P26_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_ExcitR_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_P26V0_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T160V0_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T26V0_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Press_T26V5_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_48->setText(QApplication::translate("MainWindow", "Header", 0, QApplication::UnicodeUTF8));
         label_39->setText(QApplication::translate("MainWindow", "Status", 0, QApplication::UnicodeUTF8));
         label_40->setText(QApplication::translate("MainWindow", "P160", 0, QApplication::UnicodeUTF8));
@@ -4120,13 +4324,32 @@ public:
         label_47->setText(QApplication::translate("MainWindow", "Excit R", 0, QApplication::UnicodeUTF8));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("MainWindow", "Pressure", 0, QApplication::UnicodeUTF8));
         label_20->setText(QApplication::translate("MainWindow", "(0 - 255)", 0, QApplication::UnicodeUTF8));
+        lineEdit_CalPacketNumber->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_CalPacketNumber->setPlaceholderText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_18->setText(QApplication::translate("MainWindow", "Packet", 0, QApplication::UnicodeUTF8));
         pushButton_Cal_dec->setText(QApplication::translate("MainWindow", "<<", 0, QApplication::UnicodeUTF8));
         pushButton_Cal_inc->setText(QApplication::translate("MainWindow", ">>", 0, QApplication::UnicodeUTF8));
-        lineEdit_CalRefreshRate->setPlaceholderText(QApplication::translate("MainWindow", "39", 0, QApplication::UnicodeUTF8));
-        label_21->setText(QApplication::translate("MainWindow", "(1 - 39)Hz", 0, QApplication::UnicodeUTF8));
+        lineEdit_CalRefreshRate->setText(QApplication::translate("MainWindow", "25", 0, QApplication::UnicodeUTF8));
+        lineEdit_CalRefreshRate->setPlaceholderText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        label_21->setText(QApplication::translate("MainWindow", "(25 - 1000)ms", 0, QApplication::UnicodeUTF8));
         label_16->setText(QApplication::translate("MainWindow", "Refresh Rate", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N1CA_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N1CB_raw_2->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N1TA_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N1CB_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_Status_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_EngVib2_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_Header_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_Unused2_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_GearVib_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_OPRDet_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_EngVib1_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N2CA_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N3A_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_Wdt_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_Unused1_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_ADCSample_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_CFPGANum_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_65->setText(QApplication::translate("MainWindow", "Header", 0, QApplication::UnicodeUTF8));
         label_56->setText(QApplication::translate("MainWindow", "Status", 0, QApplication::UnicodeUTF8));
         label_57->setText(QApplication::translate("MainWindow", "N1C A", 0, QApplication::UnicodeUTF8));
@@ -4144,6 +4367,23 @@ public:
         label_63->setText(QApplication::translate("MainWindow", "OPR Det", 0, QApplication::UnicodeUTF8));
         label_64->setText(QApplication::translate("MainWindow", "CFPGA Num", 0, QApplication::UnicodeUTF8));
         label_60->setText(QApplication::translate("MainWindow", "Unused", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N1CB_conv_2->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N1TA_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N1CB_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_Status_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N1CA_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_EngVib2_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_Header_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_Unused2_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_GearVib_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_OPRDet_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_EngVib1_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N2CA_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_N3A_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_Wdt_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_Unused1_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_ADCSample_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_Cal_CFPGANum_conv->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_143->setText(QApplication::translate("MainWindow", "Header", 0, QApplication::UnicodeUTF8));
         label_144->setText(QApplication::translate("MainWindow", "Status", 0, QApplication::UnicodeUTF8));
         label_145->setText(QApplication::translate("MainWindow", "N1C A", 0, QApplication::UnicodeUTF8));

@@ -23,11 +23,13 @@ public:
 	EthernetReader(ringBuffer_t* rxBuffer, int numPorts);
 	void pause(void);
 	void resume(void);
+	void setRefreshRate(int rate_ms);
 
 private:
 	ringBuffer_t* rxBuffer;
 	int numPorts;
 	bool pauseFlag;
+	int refreshRate_ms;
 	void run();
 };
 

@@ -126,3 +126,15 @@ int removeDataFromBuffer(ringBuffer_t* buff, u_int32_t** data, u_int32_t* size){
 	return 0;
 }
 
+/******************************************************************************
+* Function name: deleteBuffer
+* Parameters: Pointer to buffer
+* Return: None.
+*
+* Description: This function deletes buffer.
+*******************************************************************************/
+void deleteBuffer(ringBuffer_t* buff){
+	free(buff->data);
+	free(buff->size);
+}
+

@@ -1,6 +1,7 @@
 #include <qapplication.h>
 #include <QString>
 #include <QTextDocument>
+#include <QIntValidator>
 #include <stdlib.h>
 #include <stdio.h>
 #include "guicontroller.h"
@@ -25,10 +26,17 @@ GuiController::GuiController(UIThreadArgs_t* threadParams)
 	 redPalette = new QPalette();
 	 redPalette->setColor(QPalette::WindowText, Qt::red);
 	 greenPalette = new QPalette();
-	 greenPalette->setColor(QPalette::WindowText, Qt::darkBlue);
+	 greenPalette->setColor(QPalette::WindowText, Qt::darkGreen);
+
+	 packet1 = (unsigned int *)malloc(sizeof(unsigned int) * 1024);
+	 packet2 = (unsigned int *)malloc(sizeof(unsigned int) * 1024);
+	 packet3 = (unsigned int *)malloc(sizeof(unsigned int) * 1024);
+
 	 packet1_idx = 0;
 	 packet2_idx = 0;
 	 packet3_idx = 0;
+
+	 streamingPaused = true;
 }
 
 void GuiController::showGui()
@@ -44,11 +52,31 @@ void GuiController::showGui()
 
     app.setActiveWindow( main );
     mainWind->setupUi(main);
+
+	mainWind->lineEdit_SpdVibPacketNumber->setValidator( new QIntValidator(0, 1023, this));
+	mainWind->lineEdit_PressPacketNumber->setValidator( new QIntValidator(0, 255, this));
+	mainWind->lineEdit_CalPacketNumber->setValidator( new QIntValidator(0, 255, this));
+
+	mainWind->lineEdit_SpdVibRefreshRate->setValidator( new QIntValidator(25, 1000, this));
+	mainWind->lineEdit_PressRefreshRate->setValidator( new QIntValidator(25, 1000, this));
+	mainWind->lineEdit_CalRefreshRate->setValidator( new QIntValidator(25, 1000, this));
+
     connect(mainWind->lineEdit_SpdVibPacketNumber, SIGNAL(textChanged(QString)), this , SLOT(readPacket1Index(QString)));
     connect(mainWind->lineEdit_PressPacketNumber, SIGNAL(textChanged(QString)), this , SLOT(readPacket2Index(QString)));
     connect(mainWind->lineEdit_CalPacketNumber, SIGNAL(textChanged(QString)), this , SLOT(readPacket3Index(QString)));
 
-    connect(mainWind->pushButton_spdVib_dec, SIGNAL(clicked()), this , SLOT(readPacket1Index(QString)));
+    connect(mainWind->lineEdit_SpdVibRefreshRate, SIGNAL(textChanged(QString)), this , SLOT(readPacket1RefreshRate(QString)));
+    connect(mainWind->lineEdit_PressRefreshRate, SIGNAL(textChanged(QString)), this , SLOT(readPacket2RefreshRate(QString)));
+    connect(mainWind->lineEdit_CalRefreshRate, SIGNAL(textChanged(QString)), this , SLOT(readPacket3RefreshRate(QString)));
+
+    connect(mainWind->pushButton_spdVib_dec, SIGNAL(clicked()), this , SLOT(decrementPacket1Idx()));
+    connect(mainWind->pushButton_spdVib_inc, SIGNAL(clicked()), this , SLOT(incrementPacket1Idx()));
+
+    connect(mainWind->pushButton_Press_dec, SIGNAL(clicked()), this , SLOT(decrementPacket2Idx()));
+    connect(mainWind->pushButton_Press_inc, SIGNAL(clicked()), this , SLOT(incrementPacket2Idx()));
+
+    connect(mainWind->pushButton_Cal_dec, SIGNAL(clicked()), this , SLOT(decrementPacket3Idx()));
+    connect(mainWind->pushButton_Cal_inc, SIGNAL(clicked()), this , SLOT(incrementPacket3Idx()));
 
     connect(mainWind->actionStart, SIGNAL(triggered()), this , SLOT(startStream()));
     connect(mainWind->actionPause, SIGNAL(triggered()), this , SLOT(pauseStream()));
@@ -56,7 +84,7 @@ void GuiController::showGui()
 
 	connectionLabel = new QLabel(mainWind->statusbar);
 	mainWind->statusbar->addPermanentWidget(connectionLabel);
-    connectionLabel->setText("NO CONNECTION!");
+    connectionLabel->setText("OFFLINE!");
     connectionLabel->setPalette(*redPalette);
 
     main->show();
@@ -71,10 +99,10 @@ void GuiController::streamPacket(unsigned int* packets, unsigned int size, int p
 
 	//TODO Use switch statement to set appropriate tab info
 	//printf("new packet signal received, processing..\n");
-	mainWind->lineEdit_SpdVibPacketNumber->setText(QString::number(size));
+	//mainWind->lineEdit_spdVib_Header_raw->setText(QString::number(size));
 
 	if(!connectionStatus){
-		connectionLabel->setText("NO CONNECTION!");
+		connectionLabel->setText("OFFLINE!");
 		connectionLabel->setPalette(*redPalette);
 	}
 	else{
@@ -121,49 +149,98 @@ void GuiController::streamPacket(unsigned int* packets, unsigned int size, int p
 
 void GuiController::readPacket1Index(QString packetNumberString)
 {
-	packet1_idx = packetNumberString.toInt();
-	mainWind->lineEdit_SpdVibRefreshRate->setText(packetNumberString);
-	//mainWind->plainTextEdit_3->setDocument(text);
+	int idx = packetNumberString.toInt();
+
+	packet1_idx = (idx >= 0 && idx <= 1023)? idx : ((idx < 0)? 0: 1023);
 }
 
 void GuiController::readPacket2Index(QString packetNumberString)
 {
-	packet2_idx = packetNumberString.toInt();
+	int idx = packetNumberString.toInt();
+	packet2_idx = (idx >= 0 && idx <= 255)? idx : ((idx < 0)? 0: 255);
 }
 
 void GuiController::readPacket3Index(QString packetNumberString)
 {
-	packet3_idx = packetNumberString.toInt();
+	int idx = packetNumberString.toInt();
+	packet3_idx = (idx >= 0 && idx <= 255)? idx : ((idx < 0)? 0: 255);
 }
+
+
+void GuiController::readPacket1RefreshRate(QString packetNumberString)
+{
+	int rate = packetNumberString.toInt();
+
+	packet1_refreshRate = (rate >= 25 && rate <= 1000)? rate : ((rate < 25)? 25: 1000);
+	ereader->setRefreshRate(packet1_refreshRate);
+}
+
+void GuiController::readPacket2RefreshRate(QString packetNumberString)
+{
+	int rate = packetNumberString.toInt();
+
+	packet2_refreshRate = (rate >= 25 && rate <= 1000)? rate : ((rate < 25)? 25: 1000);
+	ereader->setRefreshRate(packet2_refreshRate);
+}
+
+void GuiController::readPacket3RefreshRate(QString packetNumberString)
+{
+	int rate = packetNumberString.toInt();
+
+	packet3_refreshRate = (rate >= 25 && rate <= 1000)? rate : ((rate < 25)? 25: 1000);
+	ereader->setRefreshRate(packet3_refreshRate);
+}
+
 
 void GuiController::decrementPacket1Idx()
 {
-	packet1_idx = (packet1_idx-- <= 0) ? 0 : packet1_idx ;
+	int idx = packet1_idx;
+	idx = (idx-- <= 0) ? 0 : idx ;
+	mainWind->lineEdit_SpdVibPacketNumber->setText(QString::number(idx));
+	processPacket1(packet1);
 }
 
 void GuiController::decrementPacket2Idx()
 {
-	packet2_idx = (packet2_idx-- <= 0) ? 0 : packet2_idx ;
+	int idx = packet2_idx;
+	idx = (idx-- <= 0) ? 0 : idx ;
+	mainWind->lineEdit_PressPacketNumber->setText(QString::number(idx));
+	processPacket2(packet2);
+
 }
 
 void GuiController::decrementPacket3Idx()
 {
-	packet3_idx = (packet3_idx-- <= 0) ? 0 : packet3_idx ;
+	int idx = packet3_idx;
+	idx = (idx-- <= 0) ? 0 : idx ;
+	mainWind->lineEdit_CalPacketNumber->setText(QString::number(idx));
+	processPacket3(packet3);
 }
 
 void GuiController::incrementPacket1Idx()
 {
-	packet1_idx = (packet1_idx++ >= 1023) ? 1023 : packet1_idx ;
+	int idx = packet1_idx;
+	idx = (idx++ >= 1023) ? 1023 : idx ;
+	mainWind->lineEdit_SpdVibPacketNumber->setText(QString::number(idx));
+	processPacket1(packet1);
 }
 
 void GuiController::incrementPacket2Idx()
 {
-	packet2_idx = (packet2_idx++ >= 1023) ? 1023 : packet2_idx ;
+	int idx = packet2_idx;
+	idx = (idx++ >= 255) ? 255 : idx ;
+	mainWind->lineEdit_PressPacketNumber->setText(QString::number(idx));
+	processPacket2(packet2);
+
 }
 
 void GuiController::incrementPacket3Idx()
 {
-	packet3_idx = (packet3_idx++ >= 1023) ? 1023 : packet3_idx ;
+	int idx = packet3_idx;
+	idx = (idx++ >= 255) ? 255 : idx ;
+	mainWind->lineEdit_CalPacketNumber->setText(QString::number(idx));
+	processPacket3(packet3);
+
 }
 
 void GuiController::startStream()
@@ -171,6 +248,14 @@ void GuiController::startStream()
 	ereader->resume();
     ereader->start();
     mainWind->statusbar->showMessage("Streaming...");
+    streamingPaused = false;
+
+    mainWind->pushButton_spdVib_dec->setEnabled(false);
+    mainWind->pushButton_spdVib_inc->setEnabled(false);
+    mainWind->pushButton_Press_dec->setEnabled(false);
+    mainWind->pushButton_Press_inc->setEnabled(false);
+    mainWind->pushButton_Cal_dec->setEnabled(false);
+    mainWind->pushButton_Cal_inc->setEnabled(false);
     //connectionLabel->setText("CONNECTED TO EMU!");
 }
 
@@ -178,26 +263,112 @@ void GuiController::pauseStream()
 {
     ereader->pause();
     mainWind->statusbar->showMessage("Paused");
+    streamingPaused = true;
+
+    mainWind->pushButton_spdVib_dec->setEnabled(true);
+    mainWind->pushButton_spdVib_inc->setEnabled(true);
+    mainWind->pushButton_Press_dec->setEnabled(true);
+    mainWind->pushButton_Press_inc->setEnabled(true);
+    mainWind->pushButton_Cal_dec->setEnabled(true);
+    mainWind->pushButton_Cal_inc->setEnabled(true);
 }
 
 void GuiController::stopStream()
 {
     ereader->pause();
     mainWind->statusbar->showMessage("Stopped");
+    streamingPaused = true;
+
+    mainWind->pushButton_spdVib_dec->setEnabled(true);
+    mainWind->pushButton_spdVib_inc->setEnabled(true);
+    mainWind->pushButton_Press_dec->setEnabled(true);
+    mainWind->pushButton_Press_inc->setEnabled(true);
+    mainWind->pushButton_Cal_dec->setEnabled(true);
+    mainWind->pushButton_Cal_inc->setEnabled(true);
 }
 
 void GuiController::processPacket1(unsigned int* packets)
 {
+	if(!streamingPaused){
+		memset(packet1, 0, sizeof(unsigned int)*1024);
+		memcpy(packet1, (packets + 17*packet1_idx), sizeof(unsigned int)*1024);
+	}
 
+	//mainWind->lineEdit_spdVib_Header_raw->setText(QString::number(packet1_idx, 16));
+
+	mainWind->lineEdit_spdVib_Header_raw->setText(QString::number((*(packets+(17*packet1_idx))),16));
+	mainWind->lineEdit_spdVib_Status_raw->setText(QString::number((*(packets+(17*packet1_idx) + 1)),16));
+	mainWind->lineEdit_spdVib_N1CA_raw->setText(QString::number((*(packets+(17*packet1_idx) + 2)),16));
+	mainWind->lineEdit_spdVib_N2CA_raw->setText(QString::number((*(packets+(17*packet1_idx) + 3)),16));
+	mainWind->lineEdit_spdVib_N1CB_raw->setText(QString::number((*(packets+(17*packet1_idx) + 4)),16));
+	mainWind->lineEdit_spdVib_N2CB_raw->setText(QString::number((*(packets+(17*packet1_idx) + 5)),16));
+	mainWind->lineEdit_spdVib_N3A_raw->setText(QString::number((*(packets+(17*packet1_idx) + 6)),16));
+	mainWind->lineEdit_spdVib_N1T_raw->setText(QString::number((*(packets+(17*packet1_idx) + 7)),16));
+	mainWind->lineEdit_spdVib_Wdt_raw->setText(QString::number((*(packets+(17*packet1_idx) + 8)),16));
+	mainWind->lineEdit_spdVib_Unused1_raw->setText(QString::number((*(packets+(17*packet1_idx) + 9)),16));
+	mainWind->lineEdit_spdVib_ADCSmpl_raw->setText(QString::number((*(packets+(17*packet1_idx) + 10)),16));
+	mainWind->lineEdit_spdVib_GearVib_raw->setText(QString::number((*(packets+(17*packet1_idx) + 11)),16));
+	mainWind->lineEdit_spdVib_EngVib1_raw->setText(QString::number((*(packets+(17*packet1_idx) + 12)),16));
+	mainWind->lineEdit_spdVib_EngVib2_raw->setText(QString::number((*(packets+(17*packet1_idx) + 13)),16));
+	mainWind->lineEdit_spdVib_OPRDet_raw->setText(QString::number((*(packets+(17*packet1_idx) + 14)),16));
+	mainWind->lineEdit_spdVib_CFPGANum_raw->setText(QString::number((*(packets+(17*packet1_idx) + 15)),16));
+	mainWind->lineEdit_spdVib_Unused2_raw->setText(QString::number((*(packets+(17*packet1_idx) + 16)),16));
+
+	//Perform binary to mv conversion
 }
 
 void GuiController::processPacket2(unsigned int* packets)
 {
+	if(!streamingPaused){
+		memset(packet2, 0, sizeof(unsigned int)*256);
+		memcpy(packet2, (packets + 17*packet2_idx), sizeof(unsigned int)*256);
+	}
+
+	mainWind->lineEdit_Press_Header_raw->setText(QString::number((*(packets+(17*packet2_idx))),16));
+	mainWind->lineEdit_Press_Status_raw->setText(QString::number((*(packets+(17*packet2_idx) + 1)),16));
+	mainWind->lineEdit_Press_P160_raw->setText(QString::number((*(packets+(17*packet2_idx) + 2)),16));
+	mainWind->lineEdit_Press_P26_raw->setText(QString::number((*(packets+(17*packet2_idx) + 3)),16));
+	mainWind->lineEdit_Press_T160_raw->setText(QString::number((*(packets+(17*packet2_idx) + 4)),16));
+	mainWind->lineEdit_Press_T26_raw->setText(QString::number((*(packets+(17*packet2_idx) + 5)),16));
+	mainWind->lineEdit_Press_ExcitR_raw->setText(QString::number((*(packets+(17*packet2_idx) + 6)),16));
+	mainWind->lineEdit_Press_P160V0_raw->setText(QString::number((*(packets+(17*packet2_idx) + 7)),16));
+	mainWind->lineEdit_Press_P26V0_raw->setText(QString::number((*(packets+(17*packet2_idx) + 8)),16));
+	mainWind->lineEdit_Press_T160V0_raw->setText(QString::number((*(packets+(17*packet2_idx) + 9)),16));
+	mainWind->lineEdit_Press_T26V0_raw->setText(QString::number((*(packets+(17*packet2_idx) + 10)),16));
+	mainWind->lineEdit_Press_Excit0_raw->setText(QString::number((*(packets+(17*packet2_idx) + 11)),16));
+	mainWind->lineEdit_Press_P160V5_raw->setText(QString::number((*(packets+(17*packet2_idx) + 12)),16));
+	mainWind->lineEdit_Press_P26V5_raw->setText(QString::number((*(packets+(17*packet2_idx) + 13)),16));
+	mainWind->lineEdit_Press_T160V5_raw->setText(QString::number((*(packets+(17*packet2_idx) + 14)),16));
+	mainWind->lineEdit_Press_T26V5_raw->setText(QString::number((*(packets+(17*packet2_idx) + 15)),16));
+	mainWind->lineEdit_Press_Excit5_raw->setText(QString::number((*(packets+(17*packet2_idx) + 16)),16));
 
 }
 
 void GuiController::processPacket3(unsigned int* packets)
 {
+
+	if(!streamingPaused){
+		memset(packet3, 0, sizeof(unsigned int)*256);
+		memcpy(packet3, (packets + 17*packet3_idx), sizeof(unsigned int)*256);
+	}
+
+	mainWind->lineEdit_Cal_Header_raw->setText(QString::number((*(packets+(17*packet3_idx))),16));
+	mainWind->lineEdit_Cal_Status_raw->setText(QString::number((*(packets+(17*packet3_idx) + 1)),16));
+	mainWind->lineEdit_Cal_N1CA_raw->setText(QString::number((*(packets+(17*packet3_idx) + 2)),16));
+	mainWind->lineEdit_Cal_N2CA_raw->setText(QString::number((*(packets+(17*packet3_idx) + 3)),16));
+	mainWind->lineEdit_Cal_N1CB_raw->setText(QString::number((*(packets+(17*packet3_idx) + 4)),16));
+	mainWind->lineEdit_Cal_N1CB_raw_2->setText(QString::number((*(packets+(17*packet3_idx) + 5)),16));
+	mainWind->lineEdit_Cal_N3A_raw->setText(QString::number((*(packets+(17*packet3_idx) + 6)),16));
+	mainWind->lineEdit_Cal_N1TA_raw->setText(QString::number((*(packets+(17*packet3_idx) + 7)),16));
+	mainWind->lineEdit_Cal_Wdt_raw->setText(QString::number((*(packets+(17*packet3_idx) + 8)),16));
+	mainWind->lineEdit_Cal_Unused1_raw->setText(QString::number((*(packets+(17*packet3_idx) + 9)),16));
+	mainWind->lineEdit_Cal_ADCSample_raw->setText(QString::number((*(packets+(17*packet3_idx) + 10)),16));
+	mainWind->lineEdit_Cal_GearVib_raw->setText(QString::number((*(packets+(17*packet3_idx) + 11)),16));
+	mainWind->lineEdit_Cal_EngVib1_raw->setText(QString::number((*(packets+(17*packet3_idx) + 12)),16));
+	mainWind->lineEdit_Cal_EngVib2_raw->setText(QString::number((*(packets+(17*packet3_idx) + 13)),16));
+	mainWind->lineEdit_Cal_OPRDet_raw->setText(QString::number((*(packets+(17*packet3_idx) + 14)),16));
+	mainWind->lineEdit_Cal_CFPGANum_raw->setText(QString::number((*(packets+(17*packet3_idx) + 15)),16));
+	mainWind->lineEdit_Cal_Unused2_raw->setText(QString::number((*(packets+(17*packet3_idx) + 16)),16));
 
 }
 
@@ -413,3 +584,9 @@ void GuiController::processFaults(unsigned int* faults)
 
 }
 
+GuiController::~GuiController()
+{
+	free(packet1);
+	free(packet2);
+	free(packet3);
+}

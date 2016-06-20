@@ -50,5 +50,14 @@ int addDataToBuffer(ringBuffer_t* buff, void* data, u_int32_t data_size);
 *******************************************************************************/
 int removeDataFromBuffer(ringBuffer_t* buff, u_int32_t** data, u_int32_t* size);
 
+/******************************************************************************
+* Function name: deleteBuffer
+* Parameters: Pointer to buffer
+* Return: None.
+*
+* Description: This function deletes buffer.
+*******************************************************************************/
+void deleteBuffer(ringBuffer_t* buff);
+
 
 #endif /* BUFFER_H_ */

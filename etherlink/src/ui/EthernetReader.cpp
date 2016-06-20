@@ -13,6 +13,7 @@ EthernetReader::EthernetReader(ringBuffer_t* rxBuffer, int numPorts) {
 	this->rxBuffer = rxBuffer;
 	this->numPorts = numPorts;
 	pauseFlag = false;
+	refreshRate_ms = 25;
 
 }
 
@@ -24,13 +25,22 @@ void EthernetReader::resume() {
 	pauseFlag = false;
 }
 
+void EthernetReader::setRefreshRate(int rate_ms) {
+	refreshRate_ms = rate_ms;
+}
+
 void EthernetReader::run() {
 
 	unsigned int* packet;
 	unsigned int size;
 	int i;
+    struct timespec ts;
+
 
 	while(!pauseFlag){
+
+		ts = { refreshRate_ms / 1000, (refreshRate_ms % 1000) * 1000 * 1000 };
+		nanosleep(&ts, NULL);
 
 		for(i=0; i< numPorts; i++){
 			if (removeDataFromBuffer(&(rxBuffer[i]), &packet, &size) == -1){

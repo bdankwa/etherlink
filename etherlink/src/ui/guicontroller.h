@@ -14,6 +14,7 @@ class GuiController : public QObject
 	Q_OBJECT
 public:
     GuiController(UIThreadArgs_t* threadParams);
+    ~GuiController();
     void showGui();
 
 signals:
@@ -23,6 +24,9 @@ private slots:
 	void readPacket1Index(QString);
 	void readPacket2Index(QString);
 	void readPacket3Index(QString);
+	void readPacket1RefreshRate(QString);
+	void readPacket2RefreshRate(QString);
+	void readPacket3RefreshRate(QString);
 	void decrementPacket1Idx();
 	void decrementPacket2Idx();
 	void decrementPacket3Idx();
@@ -41,9 +45,16 @@ private:
     QPalette* redPalette;
     QPalette* greenPalette;
     int connectionStatus;
+    bool streamingPaused;
+    unsigned int* packet1;
+    unsigned int* packet2;
+    unsigned int* packet3;
     u_int32_t packet1_idx;
     u_int32_t packet2_idx;
     u_int32_t packet3_idx;
+    u_int32_t packet1_refreshRate;
+    u_int32_t packet2_refreshRate;
+    u_int32_t packet3_refreshRate;
 
     void processPacket1(unsigned int* packets);
     void processPacket2(unsigned int* packets);

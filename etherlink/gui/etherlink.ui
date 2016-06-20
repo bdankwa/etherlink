@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>872</width>
-    <height>573</height>
+    <height>762</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -30,119 +30,170 @@
           <item row="1" column="0">
            <layout class="QGridLayout" name="gridLayout_2">
             <item row="9" column="2">
-             <widget class="QLineEdit" name="lineEdit_14">
+             <widget class="QLineEdit" name="lineEdit_spdVib_Unused1_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="5" column="2">
-             <widget class="QLineEdit" name="lineEdit_8">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N2CB_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="7" column="2">
-             <widget class="QLineEdit" name="lineEdit_10">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N1T_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="4" column="2">
-             <widget class="QLineEdit" name="lineEdit_7">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N1CB_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="1" column="2">
-             <widget class="QLineEdit" name="lineEdit_4">
+             <widget class="QLineEdit" name="lineEdit_spdVib_Status_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="2" column="2">
-             <widget class="QLineEdit" name="lineEdit_5">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N1CA_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="13" column="2">
-             <widget class="QLineEdit" name="lineEdit_15">
+             <widget class="QLineEdit" name="lineEdit_spdVib_EngVib2_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="0" column="2">
-             <widget class="QLineEdit" name="lineEdit_3">
+             <widget class="QLineEdit" name="lineEdit_spdVib_Header_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="16" column="2">
-             <widget class="QLineEdit" name="lineEdit_16">
+             <widget class="QLineEdit" name="lineEdit_spdVib_Unused2_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="11" column="2">
-             <widget class="QLineEdit" name="lineEdit_18">
+             <widget class="QLineEdit" name="lineEdit_spdVib_GearVib_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="14" column="2">
-             <widget class="QLineEdit" name="lineEdit_17">
+             <widget class="QLineEdit" name="lineEdit_spdVib_OPRDet_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="12" column="2">
-             <widget class="QLineEdit" name="lineEdit_19">
+             <widget class="QLineEdit" name="lineEdit_spdVib_EngVib1_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="3" column="2">
-             <widget class="QLineEdit" name="lineEdit_6">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N2CA_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="6" column="2">
-             <widget class="QLineEdit" name="lineEdit_9">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N3A_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="8" column="2">
-             <widget class="QLineEdit" name="lineEdit_11">
+             <widget class="QLineEdit" name="lineEdit_spdVib_Wdt_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="10" column="2">
-             <widget class="QLineEdit" name="lineEdit_13">
+             <widget class="QLineEdit" name="lineEdit_spdVib_ADCSmpl_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="15" column="2">
-             <widget class="QLineEdit" name="lineEdit_12">
+             <widget class="QLineEdit" name="lineEdit_spdVib_CFPGANum_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
@@ -275,119 +326,170 @@
           <item row="1" column="2">
            <layout class="QGridLayout" name="gridLayout_4">
             <item row="4" column="1">
-             <widget class="QLineEdit" name="lineEdit_22">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N1CB_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="15" column="1">
-             <widget class="QLineEdit" name="lineEdit_36">
+             <widget class="QLineEdit" name="lineEdit_spdVib_CFPGANum_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="12" column="1">
-             <widget class="QLineEdit" name="lineEdit_30">
+             <widget class="QLineEdit" name="lineEdit_spdVib_EngVib1_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="16" column="1">
-             <widget class="QLineEdit" name="lineEdit_27">
+             <widget class="QLineEdit" name="lineEdit_spdVib_Unused2_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="8" column="1">
-             <widget class="QLineEdit" name="lineEdit_33">
+             <widget class="QLineEdit" name="lineEdit_spdVib_Wdt_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="11" column="1">
-             <widget class="QLineEdit" name="lineEdit_28">
+             <widget class="QLineEdit" name="lineEdit_spdVib_GearVib_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="5" column="1">
-             <widget class="QLineEdit" name="lineEdit_20">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N2CB_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="7" column="1">
-             <widget class="QLineEdit" name="lineEdit_21">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N1T_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="10" column="1">
-             <widget class="QLineEdit" name="lineEdit_35">
+             <widget class="QLineEdit" name="lineEdit_spdVib_ADCSmpl_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="0" column="1">
-             <widget class="QLineEdit" name="lineEdit_26">
+             <widget class="QLineEdit" name="lineEdit_spdVib_Header_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QLineEdit" name="lineEdit_23">
+             <widget class="QLineEdit" name="lineEdit_spdVib_Status_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="6" column="1">
-             <widget class="QLineEdit" name="lineEdit_32">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N3A_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="9" column="1">
-             <widget class="QLineEdit" name="lineEdit_34">
+             <widget class="QLineEdit" name="lineEdit_spdVib_Unused1_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="2" column="1">
-             <widget class="QLineEdit" name="lineEdit_24">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N1CA_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="14" column="1">
-             <widget class="QLineEdit" name="lineEdit_29">
+             <widget class="QLineEdit" name="lineEdit_spdVib_OPRDet_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="3" column="1">
-             <widget class="QLineEdit" name="lineEdit_31">
+             <widget class="QLineEdit" name="lineEdit_spdVib_N2CA_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
              </widget>
             </item>
             <item row="13" column="1">
-             <widget class="QLineEdit" name="lineEdit_25">
+             <widget class="QLineEdit" name="lineEdit_spdVib_EngVib2_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="readOnly">
                <bool>true</bool>
               </property>
@@ -519,12 +621,15 @@
             <item row="0" column="1">
              <widget class="QLabel" name="label_7">
               <property name="text">
-               <string>(1 - 39)Hz</string>
+               <string>(25 - 1000)ms</string>
               </property>
              </widget>
             </item>
             <item row="0" column="3">
              <widget class="QLineEdit" name="lineEdit_SpdVibRefreshRate">
+              <property name="text">
+               <string>25</string>
+              </property>
               <property name="placeholderText">
                <string>0</string>
               </property>
@@ -554,17 +659,10 @@
           </item>
           <item row="0" column="0">
            <layout class="QGridLayout" name="gridLayout_5">
-            <item row="0" column="1">
-             <widget class="QLabel" name="label_6">
-              <property name="text">
-               <string>(0 - 1023)</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="5">
+            <item row="0" column="4">
              <widget class="QLineEdit" name="lineEdit_SpdVibPacketNumber">
               <property name="text">
-               <string/>
+               <string>0</string>
               </property>
               <property name="placeholderText">
                <string>0</string>
@@ -578,6 +676,13 @@
               </property>
              </widget>
             </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="label_6">
+              <property name="text">
+               <string>(0 - 1023)</string>
+              </property>
+             </widget>
+            </item>
             <item row="0" column="2">
              <widget class="QPushButton" name="pushButton_spdVib_dec">
               <property name="text">
@@ -585,25 +690,12 @@
               </property>
              </widget>
             </item>
-            <item row="0" column="3">
+            <item row="0" column="5">
              <widget class="QPushButton" name="pushButton_spdVib_inc">
               <property name="text">
                <string>&gt;&gt;</string>
               </property>
              </widget>
-            </item>
-            <item row="0" column="4">
-             <spacer name="horizontalSpacer">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
             </item>
            </layout>
           </item>
@@ -636,31 +728,13 @@
           </item>
           <item row="0" column="1">
            <layout class="QGridLayout" name="gridLayout_11">
-            <item row="0" column="1">
-             <widget class="QLabel" name="label_13">
-              <property name="text">
-               <string>(0 - 255)</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="5">
+            <item row="0" column="4">
              <widget class="QLineEdit" name="lineEdit_PressPacketNumber">
-              <property name="placeholderText">
+              <property name="text">
                <string>0</string>
               </property>
-             </widget>
-            </item>
-            <item row="0" column="3">
-             <widget class="QPushButton" name="pushButton_Press_inc">
-              <property name="text">
-               <string>&gt;&gt;</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="0">
-             <widget class="QLabel" name="label_11">
-              <property name="text">
-               <string>Packet</string>
+              <property name="placeholderText">
+               <string>0</string>
               </property>
              </widget>
             </item>
@@ -671,18 +745,26 @@
               </property>
              </widget>
             </item>
-            <item row="0" column="4">
-             <spacer name="horizontalSpacer_3">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
+            <item row="0" column="1">
+             <widget class="QLabel" name="label_13">
+              <property name="text">
+               <string>(0 - 255)</string>
               </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_11">
+              <property name="text">
+               <string>Packet</string>
               </property>
-             </spacer>
+             </widget>
+            </item>
+            <item row="0" column="5">
+             <widget class="QPushButton" name="pushButton_Press_inc">
+              <property name="text">
+               <string>&gt;&gt;</string>
+              </property>
+             </widget>
             </item>
            </layout>
           </item>
@@ -690,15 +772,18 @@
            <layout class="QGridLayout" name="gridLayout_12">
             <item row="0" column="3">
              <widget class="QLineEdit" name="lineEdit_PressRefreshRate">
+              <property name="text">
+               <string>25</string>
+              </property>
               <property name="placeholderText">
-               <string>39</string>
+               <string>0</string>
               </property>
              </widget>
             </item>
             <item row="0" column="1">
              <widget class="QLabel" name="label_14">
               <property name="text">
-               <string>(1 - 39)Hz</string>
+               <string>(25 - 1000)ms</string>
               </property>
              </widget>
             </item>
@@ -727,55 +812,174 @@
           <item row="1" column="3">
            <layout class="QGridLayout" name="gridLayout_9">
             <item row="6" column="1">
-             <widget class="QLineEdit" name="lineEdit_56"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T26_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="8" column="1">
-             <widget class="QLineEdit" name="lineEdit_57"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P160V0_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="5" column="1">
-             <widget class="QLineEdit" name="lineEdit_58"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T160_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="2" column="1">
-             <widget class="QLineEdit" name="lineEdit_59"/>
+             <widget class="QLineEdit" name="lineEdit_Press_Status_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="3" column="1">
-             <widget class="QLineEdit" name="lineEdit_60"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P160_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="14" column="1">
-             <widget class="QLineEdit" name="lineEdit_61"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P26V5_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QLineEdit" name="lineEdit_62"/>
+             <widget class="QLineEdit" name="lineEdit_Press_Header_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="17" column="1">
-             <widget class="QLineEdit" name="lineEdit_63"/>
+             <widget class="QLineEdit" name="lineEdit_Press_Excit5_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="12" column="1">
-             <widget class="QLineEdit" name="lineEdit_64"/>
+             <widget class="QLineEdit" name="lineEdit_Press_Excit0_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="15" column="1">
-             <widget class="QLineEdit" name="lineEdit_65"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T160V5_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="13" column="1">
-             <widget class="QLineEdit" name="lineEdit_66"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P160V5_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="4" column="1">
-             <widget class="QLineEdit" name="lineEdit_67"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P26_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="7" column="1">
-             <widget class="QLineEdit" name="lineEdit_68"/>
+             <widget class="QLineEdit" name="lineEdit_Press_ExcitR_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="9" column="1">
-             <widget class="QLineEdit" name="lineEdit_69"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P26V0_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="10" column="1">
-             <widget class="QLineEdit" name="lineEdit_70"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T160V0_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="11" column="1">
-             <widget class="QLineEdit" name="lineEdit_71"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T26V0_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="16" column="1">
-             <widget class="QLineEdit" name="lineEdit_72"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T26V5_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="label_8">
@@ -901,55 +1105,174 @@
           <item row="1" column="1">
            <layout class="QGridLayout" name="gridLayout_8">
             <item row="1" column="2">
-             <widget class="QLineEdit" name="lineEdit_42"/>
+             <widget class="QLineEdit" name="lineEdit_Press_Status_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="4" column="2">
-             <widget class="QLineEdit" name="lineEdit_41"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T160_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="5" column="2">
-             <widget class="QLineEdit" name="lineEdit_39"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T26_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="7" column="2">
-             <widget class="QLineEdit" name="lineEdit_40"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P160V0_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="2" column="2">
-             <widget class="QLineEdit" name="lineEdit_43"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P160_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="13" column="2">
-             <widget class="QLineEdit" name="lineEdit_44"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P26V5_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="0" column="2">
-             <widget class="QLineEdit" name="lineEdit_45"/>
+             <widget class="QLineEdit" name="lineEdit_Press_Header_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="16" column="2">
-             <widget class="QLineEdit" name="lineEdit_46"/>
+             <widget class="QLineEdit" name="lineEdit_Press_Excit5_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="11" column="2">
-             <widget class="QLineEdit" name="lineEdit_47"/>
+             <widget class="QLineEdit" name="lineEdit_Press_Excit0_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="14" column="2">
-             <widget class="QLineEdit" name="lineEdit_48"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T160V5_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="12" column="2">
-             <widget class="QLineEdit" name="lineEdit_49"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P160V5_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="3" column="2">
-             <widget class="QLineEdit" name="lineEdit_50"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P26_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="6" column="2">
-             <widget class="QLineEdit" name="lineEdit_51"/>
+             <widget class="QLineEdit" name="lineEdit_Press_ExcitR_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="8" column="2">
-             <widget class="QLineEdit" name="lineEdit_52"/>
+             <widget class="QLineEdit" name="lineEdit_Press_P26V0_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="9" column="2">
-             <widget class="QLineEdit" name="lineEdit_53"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T160V0_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="10" column="2">
-             <widget class="QLineEdit" name="lineEdit_54"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T26V0_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="15" column="2">
-             <widget class="QLineEdit" name="lineEdit_55"/>
+             <widget class="QLineEdit" name="lineEdit_Press_T26V5_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="0" column="0">
              <widget class="QLabel" name="label_48">
@@ -1108,8 +1431,11 @@
               </property>
              </widget>
             </item>
-            <item row="0" column="5">
+            <item row="0" column="4">
              <widget class="QLineEdit" name="lineEdit_CalPacketNumber">
+              <property name="text">
+               <string>0</string>
+              </property>
               <property name="placeholderText">
                <string>0</string>
               </property>
@@ -1129,25 +1455,12 @@
               </property>
              </widget>
             </item>
-            <item row="0" column="3">
+            <item row="0" column="5">
              <widget class="QPushButton" name="pushButton_Cal_inc">
               <property name="text">
                <string>&gt;&gt;</string>
               </property>
              </widget>
-            </item>
-            <item row="0" column="4">
-             <spacer name="horizontalSpacer_5">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
             </item>
            </layout>
           </item>
@@ -1155,15 +1468,18 @@
            <layout class="QGridLayout" name="gridLayout_18">
             <item row="0" column="3">
              <widget class="QLineEdit" name="lineEdit_CalRefreshRate">
+              <property name="text">
+               <string>25</string>
+              </property>
               <property name="placeholderText">
-               <string>39</string>
+               <string>0</string>
               </property>
              </widget>
             </item>
             <item row="0" column="1">
              <widget class="QLabel" name="label_21">
               <property name="text">
-               <string>(1 - 39)Hz</string>
+               <string>(25 - 1000)ms</string>
               </property>
              </widget>
             </item>
@@ -1192,55 +1508,174 @@
           <item row="1" column="1">
            <layout class="QGridLayout" name="gridLayout_14">
             <item row="2" column="1">
-             <widget class="QLineEdit" name="lineEdit_79"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N1CA_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="5" column="1">
-             <widget class="QLineEdit" name="lineEdit_75"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N1CB_raw_2">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="7" column="1">
-             <widget class="QLineEdit" name="lineEdit_76"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N1TA_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="4" column="1">
-             <widget class="QLineEdit" name="lineEdit_77"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N1CB_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QLineEdit" name="lineEdit_78"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_Status_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="13" column="1">
-             <widget class="QLineEdit" name="lineEdit_80"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_EngVib2_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="0" column="1">
-             <widget class="QLineEdit" name="lineEdit_81"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_Header_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="16" column="1">
-             <widget class="QLineEdit" name="lineEdit_82"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_Unused2_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="11" column="1">
-             <widget class="QLineEdit" name="lineEdit_83"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_GearVib_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="14" column="1">
-             <widget class="QLineEdit" name="lineEdit_84"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_OPRDet_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="12" column="1">
-             <widget class="QLineEdit" name="lineEdit_85"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_EngVib1_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="3" column="1">
-             <widget class="QLineEdit" name="lineEdit_86"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N2CA_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="6" column="1">
-             <widget class="QLineEdit" name="lineEdit_87"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N3A_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="8" column="1">
-             <widget class="QLineEdit" name="lineEdit_88"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_Wdt_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="9" column="1">
-             <widget class="QLineEdit" name="lineEdit_89"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_Unused1_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="10" column="1">
-             <widget class="QLineEdit" name="lineEdit_90"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_ADCSample_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="15" column="1">
-             <widget class="QLineEdit" name="lineEdit_91"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_CFPGANum_raw">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="0" column="0">
              <widget class="QLabel" name="label_65">
@@ -1366,55 +1801,174 @@
           <item row="1" column="3">
            <layout class="QGridLayout" name="gridLayout_15">
             <item row="5" column="1">
-             <widget class="QLineEdit" name="lineEdit_92"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N1CB_conv_2">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="7" column="1">
-             <widget class="QLineEdit" name="lineEdit_93"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N1TA_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="4" column="1">
-             <widget class="QLineEdit" name="lineEdit_94"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N1CB_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QLineEdit" name="lineEdit_95"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_Status_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="2" column="1">
-             <widget class="QLineEdit" name="lineEdit_96"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N1CA_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="13" column="1">
-             <widget class="QLineEdit" name="lineEdit_97"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_EngVib2_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="0" column="1">
-             <widget class="QLineEdit" name="lineEdit_98"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_Header_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="16" column="1">
-             <widget class="QLineEdit" name="lineEdit_99"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_Unused2_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="11" column="1">
-             <widget class="QLineEdit" name="lineEdit_100"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_GearVib_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="14" column="1">
-             <widget class="QLineEdit" name="lineEdit_101"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_OPRDet_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="12" column="1">
-             <widget class="QLineEdit" name="lineEdit_102"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_EngVib1_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="3" column="1">
-             <widget class="QLineEdit" name="lineEdit_103"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N2CA_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="6" column="1">
-             <widget class="QLineEdit" name="lineEdit_104"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_N3A_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="8" column="1">
-             <widget class="QLineEdit" name="lineEdit_105"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_Wdt_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="9" column="1">
-             <widget class="QLineEdit" name="lineEdit_106"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_Unused1_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="10" column="1">
-             <widget class="QLineEdit" name="lineEdit_107"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_ADCSample_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="15" column="1">
-             <widget class="QLineEdit" name="lineEdit_108"/>
+             <widget class="QLineEdit" name="lineEdit_Cal_CFPGANum_conv">
+              <property name="text">
+               <string>0</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
             <item row="0" column="0">
              <widget class="QLabel" name="label_143">
@@ -1571,7 +2125,21 @@
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
          <layout class="QGridLayout" name="gridLayout_19">
-          <item row="3" column="1">
+          <item row="10" column="1">
+           <widget class="Line" name="line_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="1">
+           <widget class="Line" name="line_8">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
            <layout class="QGridLayout" name="gridLayout_23">
             <item row="1" column="2">
              <widget class="QLineEdit" name="lineEdit_205">
@@ -1923,7 +2491,7 @@
             </item>
            </layout>
           </item>
-          <item row="8" column="0">
+          <item row="15" column="0">
            <widget class="QLabel" name="label_81">
             <property name="text">
              <string>PTM Fault Word</string>
@@ -1944,49 +2512,49 @@
             </property>
            </widget>
           </item>
-          <item row="4" column="0">
+          <item row="7" column="0">
            <widget class="QLabel" name="label_77">
             <property name="text">
              <string>McBSP Fault Word</string>
             </property>
            </widget>
           </item>
-          <item row="3" column="0">
+          <item row="5" column="0">
            <widget class="QLabel" name="label_76">
             <property name="text">
              <string>BOOT Fault Word</string>
             </property>
            </widget>
           </item>
-          <item row="2" column="0">
+          <item row="3" column="0">
            <widget class="QLabel" name="label_75">
             <property name="text">
              <string>NVM Fault Word</string>
             </property>
            </widget>
           </item>
-          <item row="5" column="0">
+          <item row="9" column="0">
            <widget class="QLabel" name="label_78">
             <property name="text">
              <string>RS 422 Fault Word</string>
             </property>
            </widget>
           </item>
-          <item row="6" column="0">
+          <item row="11" column="0">
            <widget class="QLabel" name="label_79">
             <property name="text">
              <string>Ethernet Status Word</string>
             </property>
            </widget>
           </item>
-          <item row="7" column="0">
+          <item row="13" column="0">
            <widget class="QLabel" name="label_80">
             <property name="text">
              <string>Ethernet Fault Word</string>
             </property>
            </widget>
           </item>
-          <item row="8" column="1">
+          <item row="15" column="1">
            <layout class="QGridLayout" name="gridLayout_28">
             <item row="1" column="6">
              <widget class="QLineEdit" name="lineEdit_ptm26">
@@ -2333,6 +2901,13 @@
              <widget class="QLabel" name="label_115">
               <property name="text">
                <string>15</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0" colspan="18">
+             <widget class="Line" name="line_10">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
               </property>
              </widget>
             </item>
@@ -2688,11 +3263,18 @@
               </property>
              </widget>
             </item>
+            <item row="0" column="0" colspan="18">
+             <widget class="Line" name="line_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
            </layout>
           </item>
           <item row="0" column="1">
            <layout class="QGridLayout" name="gridLayout_20">
-            <item row="1" column="6">
+            <item row="2" column="6">
              <widget class="QLineEdit" name="lineEdit_cbit26">
               <property name="text">
                <string>0</string>
@@ -2702,7 +3284,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="9">
+            <item row="2" column="9">
              <widget class="QLineEdit" name="lineEdit_cbit23">
               <property name="text">
                <string>0</string>
@@ -2712,7 +3294,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="1">
+            <item row="3" column="1">
              <widget class="QLineEdit" name="lineEdit_cbit15">
               <property name="text">
                <string>0</string>
@@ -2722,7 +3304,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="2">
+            <item row="2" column="2">
              <widget class="QLineEdit" name="lineEdit_cbit30">
               <property name="text">
                <string>0</string>
@@ -2732,7 +3314,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="7">
+            <item row="2" column="7">
              <widget class="QLineEdit" name="lineEdit_cbit25">
               <property name="text">
                <string>0</string>
@@ -2742,7 +3324,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="1">
+            <item row="2" column="1">
              <widget class="QLineEdit" name="lineEdit_cbit31">
               <property name="text">
                <string>0</string>
@@ -2752,7 +3334,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="3">
+            <item row="2" column="3">
              <widget class="QLineEdit" name="lineEdit_cbit29">
               <property name="text">
                <string>0</string>
@@ -2762,7 +3344,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="5">
+            <item row="2" column="5">
              <widget class="QLineEdit" name="lineEdit_cbit27">
               <property name="text">
                <string>0</string>
@@ -2772,7 +3354,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="2">
+            <item row="3" column="2">
              <widget class="QLineEdit" name="lineEdit_cbit14">
               <property name="text">
                <string>0</string>
@@ -2782,7 +3364,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="4">
+            <item row="2" column="4">
              <widget class="QLineEdit" name="lineEdit_cbit28">
               <property name="text">
                <string>0</string>
@@ -2792,7 +3374,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="8">
+            <item row="2" column="8">
              <widget class="QLineEdit" name="lineEdit_cbit24">
               <property name="text">
                <string>0</string>
@@ -2802,7 +3384,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="10">
+            <item row="2" column="10">
              <widget class="QLineEdit" name="lineEdit_cbit22">
               <property name="text">
                <string>0</string>
@@ -2812,7 +3394,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="14">
+            <item row="2" column="14">
              <widget class="QLineEdit" name="lineEdit_cbit18">
               <property name="text">
                <string>0</string>
@@ -2822,7 +3404,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="11">
+            <item row="2" column="11">
              <widget class="QLineEdit" name="lineEdit_cbit21">
               <property name="text">
                <string>0</string>
@@ -2832,7 +3414,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="12">
+            <item row="2" column="12">
              <widget class="QLineEdit" name="lineEdit_cbit20">
               <property name="text">
                <string>0</string>
@@ -2842,7 +3424,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="13">
+            <item row="2" column="13">
              <widget class="QLineEdit" name="lineEdit_cbit19">
               <property name="text">
                <string>0</string>
@@ -2852,7 +3434,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="10">
+            <item row="3" column="10">
              <widget class="QLineEdit" name="lineEdit_cbit6">
               <property name="text">
                <string>0</string>
@@ -2862,7 +3444,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="16">
+            <item row="2" column="16">
              <widget class="QLineEdit" name="lineEdit_cbit16">
               <property name="text">
                <string>0</string>
@@ -2872,7 +3454,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="5">
+            <item row="3" column="5">
              <widget class="QLineEdit" name="lineEdit_cbit11">
               <property name="text">
                <string>0</string>
@@ -2882,7 +3464,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="15">
+            <item row="2" column="15">
              <widget class="QLineEdit" name="lineEdit_cbit17">
               <property name="text">
                <string>0</string>
@@ -2892,7 +3474,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="6">
+            <item row="3" column="6">
              <widget class="QLineEdit" name="lineEdit_cbit10">
               <property name="text">
                <string>0</string>
@@ -2902,7 +3484,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="4">
+            <item row="3" column="4">
              <widget class="QLineEdit" name="lineEdit_cbit12">
               <property name="text">
                <string>0</string>
@@ -2912,7 +3494,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="3">
+            <item row="3" column="3">
              <widget class="QLineEdit" name="lineEdit_cbit13">
               <property name="text">
                <string>0</string>
@@ -2922,7 +3504,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="7">
+            <item row="3" column="7">
              <widget class="QLineEdit" name="lineEdit_cbit9">
               <property name="text">
                <string>0</string>
@@ -2932,7 +3514,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="8">
+            <item row="3" column="8">
              <widget class="QLineEdit" name="lineEdit_cbit8">
               <property name="text">
                <string>0</string>
@@ -2942,7 +3524,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="9">
+            <item row="3" column="9">
              <widget class="QLineEdit" name="lineEdit_cbit7">
               <property name="text">
                <string>0</string>
@@ -2952,7 +3534,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="11">
+            <item row="3" column="11">
              <widget class="QLineEdit" name="lineEdit_cbit5">
               <property name="text">
                <string>0</string>
@@ -2962,7 +3544,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="12">
+            <item row="3" column="12">
              <widget class="QLineEdit" name="lineEdit_cbit4">
               <property name="text">
                <string>0</string>
@@ -2972,7 +3554,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="13">
+            <item row="3" column="13">
              <widget class="QLineEdit" name="lineEdit_cbit3">
               <property name="text">
                <string>0</string>
@@ -2982,7 +3564,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="14">
+            <item row="3" column="14">
              <widget class="QLineEdit" name="lineEdit_cbit2">
               <property name="text">
                <string>0</string>
@@ -2992,7 +3574,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="15">
+            <item row="3" column="15">
              <widget class="QLineEdit" name="lineEdit_cbit1">
               <property name="text">
                <string>0</string>
@@ -3002,7 +3584,7 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="16">
+            <item row="3" column="16">
              <widget class="QLineEdit" name="lineEdit_cbit0">
               <property name="text">
                <string>0</string>
@@ -3012,7 +3594,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="17">
+            <item row="2" column="17">
              <widget class="QLabel" name="label_84">
               <property name="layoutDirection">
                <enum>Qt::RightToLeft</enum>
@@ -3022,30 +3604,37 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="17">
+            <item row="3" column="17">
              <widget class="QLabel" name="label_82">
               <property name="text">
                <string>0</string>
               </property>
              </widget>
             </item>
-            <item row="1" column="0">
+            <item row="2" column="0">
              <widget class="QLabel" name="label_85">
               <property name="text">
                <string>31</string>
               </property>
              </widget>
             </item>
-            <item row="2" column="0">
+            <item row="3" column="0">
              <widget class="QLabel" name="label_83">
               <property name="text">
                <string>15</string>
               </property>
              </widget>
             </item>
+            <item row="1" column="0" colspan="18">
+             <widget class="Line" name="line">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
            </layout>
           </item>
-          <item row="2" column="1">
+          <item row="3" column="1">
            <layout class="QGridLayout" name="gridLayout_22">
             <item row="1" column="10">
              <widget class="QLineEdit" name="lineEdit_183">
@@ -3397,7 +3986,7 @@
             </item>
            </layout>
           </item>
-          <item row="5" column="1">
+          <item row="9" column="1">
            <layout class="QGridLayout" name="gridLayout_25">
             <item row="1" column="3">
              <widget class="QLineEdit" name="lineEdit_267">
@@ -3749,7 +4338,7 @@
             </item>
            </layout>
           </item>
-          <item row="6" column="1">
+          <item row="11" column="1">
            <layout class="QGridLayout" name="gridLayout_26">
             <item row="2" column="12">
              <widget class="QLineEdit" name="lineEdit_ethStatus_4">
@@ -4101,7 +4690,7 @@
             </item>
            </layout>
           </item>
-          <item row="7" column="1">
+          <item row="13" column="1">
            <layout class="QGridLayout" name="gridLayout_27">
             <item row="2" column="12">
              <widget class="QLineEdit" name="lineEdit_ethFault_4">
@@ -4453,7 +5042,7 @@
             </item>
            </layout>
           </item>
-          <item row="4" column="1">
+          <item row="7" column="1">
            <layout class="QGridLayout" name="gridLayout_24">
             <item row="1" column="1">
              <widget class="QLineEdit" name="lineEdit_113">
@@ -4804,6 +5393,41 @@
              </widget>
             </item>
            </layout>
+          </item>
+          <item row="6" column="1">
+           <widget class="Line" name="line_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="Line" name="line_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="Line" name="line_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="Line" name="line_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="1">
+           <widget class="Line" name="line_9">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
           </item>
          </layout>
         </item>
