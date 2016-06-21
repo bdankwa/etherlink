@@ -21,6 +21,9 @@ using namespace Ui;
 GuiController::GuiController(UIThreadArgs_t* threadParams)
 {
 	 mainWind = new Ui_MainWindow();
+	 testWind = new Ui_Test();
+	 //testWind->setParent(mainWind);
+
 	 args = threadParams;
 	 connectionStatus = args->global_data->connectionStatus;
 	 redPalette = new QPalette();
@@ -37,13 +40,15 @@ GuiController::GuiController(UIThreadArgs_t* threadParams)
 	 packet3_idx = 0;
 
 	 streamingPaused = true;
+	 testing = false;
 }
 
 void GuiController::showGui()
 {
     QApplication app( args->argc, args->argv );
 
-    QMainWindow* main = new QMainWindow();
+    main = new QMainWindow();
+    test = new QWidget();
 
     ereader = new EthernetReader((args->global_data->rxBuff), NUM_PORTS);
     connect(ereader, SIGNAL(newPacket(unsigned int*, unsigned int, int)), this, SLOT(streamPacket(unsigned int*, unsigned int, int)) );
@@ -52,6 +57,7 @@ void GuiController::showGui()
 
     app.setActiveWindow( main );
     mainWind->setupUi(main);
+    testWind->setupUi(test);
 
 	mainWind->lineEdit_SpdVibPacketNumber->setValidator( new QIntValidator(0, 1023, this));
 	mainWind->lineEdit_PressPacketNumber->setValidator( new QIntValidator(0, 255, this));
@@ -81,11 +87,26 @@ void GuiController::showGui()
     connect(mainWind->actionStart, SIGNAL(triggered()), this , SLOT(startStream()));
     connect(mainWind->actionPause, SIGNAL(triggered()), this , SLOT(pauseStream()));
     connect(mainWind->actionStop, SIGNAL(triggered()), this , SLOT(stopStream()));
+    connect(mainWind->actionTest, SIGNAL(triggered()), this , SLOT(showTestWindow()));
+    connect(mainWind->actionStream, SIGNAL(triggered()), this , SLOT(showStreamWindow()));
+
+
+
+
+
+    connect(testWind->startTestButton, SIGNAL(clicked()), this , SLOT(startTesting()));
+
+
 
 	connectionLabel = new QLabel(mainWind->statusbar);
 	mainWind->statusbar->addPermanentWidget(connectionLabel);
     connectionLabel->setText("OFFLINE!");
     connectionLabel->setPalette(*redPalette);
+
+	/*mainWind->actionStart->setVisible(false);
+	mainWind->actionPause->setVisible(false);
+	mainWind->actionStop->setVisible(false);*/
+    //mainWind->actionStream->setVisible(false);
 
     main->show();
     app.exec();
@@ -142,7 +163,9 @@ void GuiController::streamPacket(unsigned int* packets, unsigned int size, int p
 		printf("GOT PACKET 6\n");
 		break;
 	default:
-		;
+		processLoopback(packets);
+		printf("GOT LOOPBACK PACKET\n");
+		break;
 	}
 
 }
@@ -245,47 +268,89 @@ void GuiController::incrementPacket3Idx()
 
 void GuiController::startStream()
 {
-	ereader->resume();
-    ereader->start();
-    mainWind->statusbar->showMessage("Streaming...");
-    streamingPaused = false;
+	if(!testing){
+		ereader->resume();
+	    ereader->start();
+	    mainWind->statusbar->showMessage("Streaming...");
+	    streamingPaused = false;
 
-    mainWind->pushButton_spdVib_dec->setEnabled(false);
-    mainWind->pushButton_spdVib_inc->setEnabled(false);
-    mainWind->pushButton_Press_dec->setEnabled(false);
-    mainWind->pushButton_Press_inc->setEnabled(false);
-    mainWind->pushButton_Cal_dec->setEnabled(false);
-    mainWind->pushButton_Cal_inc->setEnabled(false);
-    //connectionLabel->setText("CONNECTED TO EMU!");
+	    mainWind->pushButton_spdVib_dec->setEnabled(false);
+	    mainWind->pushButton_spdVib_inc->setEnabled(false);
+	    mainWind->pushButton_Press_dec->setEnabled(false);
+	    mainWind->pushButton_Press_inc->setEnabled(false);
+	    mainWind->pushButton_Cal_dec->setEnabled(false);
+	    mainWind->pushButton_Cal_inc->setEnabled(false);
+	    //connectionLabel->setText("CONNECTED TO EMU!");
+	}
+
 }
 
 void GuiController::pauseStream()
 {
-    ereader->pause();
-    mainWind->statusbar->showMessage("Paused");
-    streamingPaused = true;
+	if(!testing){
+	    ereader->pause();
+	    mainWind->statusbar->showMessage("Paused");
+	    streamingPaused = true;
 
-    mainWind->pushButton_spdVib_dec->setEnabled(true);
-    mainWind->pushButton_spdVib_inc->setEnabled(true);
-    mainWind->pushButton_Press_dec->setEnabled(true);
-    mainWind->pushButton_Press_inc->setEnabled(true);
-    mainWind->pushButton_Cal_dec->setEnabled(true);
-    mainWind->pushButton_Cal_inc->setEnabled(true);
+	    mainWind->pushButton_spdVib_dec->setEnabled(true);
+	    mainWind->pushButton_spdVib_inc->setEnabled(true);
+	    mainWind->pushButton_Press_dec->setEnabled(true);
+	    mainWind->pushButton_Press_inc->setEnabled(true);
+	    mainWind->pushButton_Cal_dec->setEnabled(true);
+	    mainWind->pushButton_Cal_inc->setEnabled(true);
+
+	}
+
 }
 
 void GuiController::stopStream()
 {
-    ereader->pause();
-    mainWind->statusbar->showMessage("Stopped");
-    streamingPaused = true;
+	if(!testing){
+	    ereader->pause();
+	    mainWind->statusbar->showMessage("Stopped");
+	    streamingPaused = true;
 
-    mainWind->pushButton_spdVib_dec->setEnabled(true);
-    mainWind->pushButton_spdVib_inc->setEnabled(true);
-    mainWind->pushButton_Press_dec->setEnabled(true);
-    mainWind->pushButton_Press_inc->setEnabled(true);
-    mainWind->pushButton_Cal_dec->setEnabled(true);
-    mainWind->pushButton_Cal_inc->setEnabled(true);
+	    mainWind->pushButton_spdVib_dec->setEnabled(true);
+	    mainWind->pushButton_spdVib_inc->setEnabled(true);
+	    mainWind->pushButton_Press_dec->setEnabled(true);
+	    mainWind->pushButton_Press_inc->setEnabled(true);
+	    mainWind->pushButton_Cal_dec->setEnabled(true);
+	    mainWind->pushButton_Cal_inc->setEnabled(true);
+	}
+
 }
+
+void GuiController::showTestWindow()
+{
+	mainWind->actionStart->setVisible(false);
+	mainWind->actionPause->setVisible(false);
+	mainWind->actionStop->setVisible(false);
+	testing = true;
+	main->setCentralWidget(test);
+	//test->setParent(main);
+	test->show();
+
+}
+
+void GuiController::showStreamWindow()
+{
+	testing = false;
+	/*mainWind->actionTest->setVisible(false);
+	mainWind->actionStart->setVisible(true);
+	mainWind->actionPause->setVisible(true);
+	mainWind->actionStop->setVisible(true);*/
+	//main->setCentralWidget(mainWind);
+	//test->setParent(main);
+
+}
+
+void GuiController::startTesting()
+{
+	testWind->lable_CapacityTest_Status->setText("running...");
+
+}
+
+
 
 void GuiController::processPacket1(unsigned int* packets)
 {
@@ -581,6 +646,11 @@ void GuiController::processFaults(unsigned int* faults)
 	mainWind->lineEdit_ptm30->setText(QString::number(EXTRACT_BIT(ptmFaultWord, 30)));
 	mainWind->lineEdit_ptm31->setText(QString::number(EXTRACT_BIT(ptmFaultWord, 31)));
 
+
+}
+
+void GuiController::processLoopback(unsigned int* buffer)
+{
 
 }
 

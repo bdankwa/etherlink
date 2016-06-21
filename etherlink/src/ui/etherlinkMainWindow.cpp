@@ -33,10 +33,11 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
-    QAction *actionSettings;
+    QAction *actionTest;
     QAction *actionStart;
     QAction *actionPause;
     QAction *actionStop;
+    QAction *actionStream;
     QWidget *centralwidget;
     QHBoxLayout *horizontalLayout;
     QTabWidget *tabWidget;
@@ -663,14 +664,16 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(872, 762);
-        actionSettings = new QAction(MainWindow);
-        actionSettings->setObjectName(QString::fromUtf8("actionSettings"));
+        actionTest = new QAction(MainWindow);
+        actionTest->setObjectName(QString::fromUtf8("actionTest"));
         actionStart = new QAction(MainWindow);
         actionStart->setObjectName(QString::fromUtf8("actionStart"));
         actionPause = new QAction(MainWindow);
         actionPause->setObjectName(QString::fromUtf8("actionPause"));
         actionStop = new QAction(MainWindow);
         actionStop->setObjectName(QString::fromUtf8("actionStop"));
+        actionStream = new QAction(MainWindow);
+        actionStream->setObjectName(QString::fromUtf8("actionStream"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         horizontalLayout = new QHBoxLayout(centralwidget);
@@ -4144,7 +4147,9 @@ public:
         toolBar->setObjectName(QString::fromUtf8("toolBar"));
         MainWindow->addToolBar(Qt::TopToolBarArea, toolBar);
 
-        toolBar->addAction(actionSettings);
+        toolBar->addAction(actionTest);
+        toolBar->addSeparator();
+        toolBar->addAction(actionStream);
         toolBar->addSeparator();
         toolBar->addAction(actionStart);
         toolBar->addAction(actionPause);
@@ -4161,10 +4166,14 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "EtherLink", 0, QApplication::UnicodeUTF8));
-        actionSettings->setText(QApplication::translate("MainWindow", "Settings", 0, QApplication::UnicodeUTF8));
-        actionStart->setText(QApplication::translate("MainWindow", "Start", 0, QApplication::UnicodeUTF8));
-        actionPause->setText(QApplication::translate("MainWindow", "Pause", 0, QApplication::UnicodeUTF8));
-        actionStop->setText(QApplication::translate("MainWindow", "Stop", 0, QApplication::UnicodeUTF8));
+        actionTest->setText(QApplication::translate("MainWindow", "Test", 0, QApplication::UnicodeUTF8));
+        actionStart->setText(QApplication::translate("MainWindow", "Start Streaming", 0, QApplication::UnicodeUTF8));
+        actionPause->setText(QApplication::translate("MainWindow", "Pause Streaming", 0, QApplication::UnicodeUTF8));
+        actionStop->setText(QApplication::translate("MainWindow", "Stop Streaming", 0, QApplication::UnicodeUTF8));
+        actionStream->setText(QApplication::translate("MainWindow", "Stream", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        actionStream->setToolTip(QApplication::translate("MainWindow", "Start Streaming", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_spdVib_Unused1_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_spdVib_N2CB_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_spdVib_N1T_raw->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));

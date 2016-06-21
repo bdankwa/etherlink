@@ -3,6 +3,7 @@
 #include <QObject>
 #include <stdlib.h>
 #include "etherlinkMainWindow.h"
+#include "testWindow.h"
 #include "EthernetReader.h"
 #include "global.h"
 
@@ -36,9 +37,15 @@ private slots:
     void startStream();
     void pauseStream();
     void stopStream();
+    void showTestWindow();
+    void showStreamWindow();
+    void startTesting();
 
 private:
     Ui_MainWindow *mainWind;
+    QMainWindow* main;
+    Ui_Test *testWind;
+    QWidget* test;
     UIThreadArgs_t* args;
     EthernetReader* ereader;
     QLabel* connectionLabel;
@@ -46,6 +53,7 @@ private:
     QPalette* greenPalette;
     int connectionStatus;
     bool streamingPaused;
+    bool testing;
     unsigned int* packet1;
     unsigned int* packet2;
     unsigned int* packet3;
@@ -62,6 +70,7 @@ private:
     void processPacket4(unsigned int* packets);
     void processPacket5(unsigned int* packets);
     void processFaults(unsigned int* faults);
+    void processLoopback(unsigned int* buffer);
 };
 
 #endif // GUICONTROLLER_H
