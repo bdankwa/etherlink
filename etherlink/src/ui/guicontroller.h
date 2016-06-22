@@ -1,13 +1,16 @@
 #ifndef GUICONTROLLER_H
 #define GUICONTROLLER_H
 #include <QObject>
+#include <QMessageBox>
 #include <stdlib.h>
 #include "etherlinkMainWindow.h"
 #include "testWindow.h"
 #include "EthernetReader.h"
+#include "EthernetTransmit.h"
+#include "A664Filter.h"
 #include "global.h"
 
-#define NUM_BUFFS	(18)
+#define NUM_BUFFS	(7)
 #define NUM_PORTS	(NUM_BUFFS)
 
 class GuiController : public QObject
@@ -45,9 +48,11 @@ private:
     Ui_MainWindow *mainWind;
     QMainWindow* main;
     Ui_Test *testWind;
-    QWidget* test;
+    QMainWindow* test;
     UIThreadArgs_t* args;
     EthernetReader* ereader;
+    EthernetTransmit* ewriter;
+    A664Filter* a664Filter;
     QLabel* connectionLabel;
     QPalette* redPalette;
     QPalette* greenPalette;
@@ -63,6 +68,8 @@ private:
     u_int32_t packet1_refreshRate;
     u_int32_t packet2_refreshRate;
     u_int32_t packet3_refreshRate;
+
+    QMessageBox* messageBox;
 
     void processPacket1(unsigned int* packets);
     void processPacket2(unsigned int* packets);

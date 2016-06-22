@@ -103,3 +103,4 @@ int initialize_ethernet(u_int32_t* rx_ports, u_int32_t numPorts){
 	}
 	return 0;
 }
+

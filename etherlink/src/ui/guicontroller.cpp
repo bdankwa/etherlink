@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "guicontroller.h"
+#include "A664Filter.h"
+#include "process_ethernet.h"
 
 #define PACKET1	0
 #define PACKET2	1
@@ -41,6 +43,7 @@ GuiController::GuiController(UIThreadArgs_t* threadParams)
 
 	 streamingPaused = true;
 	 testing = false;
+
 }
 
 void GuiController::showGui()
@@ -48,9 +51,12 @@ void GuiController::showGui()
     QApplication app( args->argc, args->argv );
 
     main = new QMainWindow();
-    test = new QWidget();
+    test = new QMainWindow();
 
     ereader = new EthernetReader((args->global_data->rxBuff), NUM_PORTS);
+    a664Filter = new A664Filter();
+    ewriter = new EthernetTransmit();
+
     connect(ereader, SIGNAL(newPacket(unsigned int*, unsigned int, int)), this, SLOT(streamPacket(unsigned int*, unsigned int, int)) );
 
     //ereader->moveToThread(QApplication::instance()->thread());
@@ -87,8 +93,8 @@ void GuiController::showGui()
     connect(mainWind->actionStart, SIGNAL(triggered()), this , SLOT(startStream()));
     connect(mainWind->actionPause, SIGNAL(triggered()), this , SLOT(pauseStream()));
     connect(mainWind->actionStop, SIGNAL(triggered()), this , SLOT(stopStream()));
-    connect(mainWind->actionTest, SIGNAL(triggered()), this , SLOT(showTestWindow()));
-    connect(mainWind->actionStream, SIGNAL(triggered()), this , SLOT(showStreamWindow()));
+    connect(mainWind->actionDiagnostics, SIGNAL(triggered()), this , SLOT(showTestWindow()));
+    //connect(mainWind->actionStream, SIGNAL(triggered()), this , SLOT(showStreamWindow()));
 
 
 
@@ -102,6 +108,8 @@ void GuiController::showGui()
 	mainWind->statusbar->addPermanentWidget(connectionLabel);
     connectionLabel->setText("OFFLINE!");
     connectionLabel->setPalette(*redPalette);
+
+    messageBox = new QMessageBox();
 
 	/*mainWind->actionStart->setVisible(false);
 	mainWind->actionPause->setVisible(false);
@@ -268,7 +276,7 @@ void GuiController::incrementPacket3Idx()
 
 void GuiController::startStream()
 {
-	if(!testing){
+	if(!(test->isVisible())){
 		ereader->resume();
 	    ereader->start();
 	    mainWind->statusbar->showMessage("Streaming...");
@@ -287,7 +295,7 @@ void GuiController::startStream()
 
 void GuiController::pauseStream()
 {
-	if(!testing){
+	if(!(test->isVisible())){
 	    ereader->pause();
 	    mainWind->statusbar->showMessage("Paused");
 	    streamingPaused = true;
@@ -305,7 +313,7 @@ void GuiController::pauseStream()
 
 void GuiController::stopStream()
 {
-	if(!testing){
+	if(!(test->isVisible())){
 	    ereader->pause();
 	    mainWind->statusbar->showMessage("Stopped");
 	    streamingPaused = true;
@@ -322,31 +330,46 @@ void GuiController::stopStream()
 
 void GuiController::showTestWindow()
 {
-	mainWind->actionStart->setVisible(false);
+	/*mainWind->actionStart->setVisible(false);
 	mainWind->actionPause->setVisible(false);
-	mainWind->actionStop->setVisible(false);
+	mainWind->actionStop->setVisible(false);*/
+	a664Filter->start();
+
 	testing = true;
-	main->setCentralWidget(test);
+
+	testWind->lable_CapacityTest_Status->setText("Ready");
+
+	ereader->pause();
+	//main->setCentralWidget(test);
 	//test->setParent(main);
 	test->show();
+	//main->setEnabled(false);
+
+	/*if(ethernet_startA664_Filter() == -1){
+		messageBox->critical(0,"Error", "Unable to start udp2A664 filter, please restart and try again");
+		messageBox->setFixedSize(500,200);
+	} */
+
 
 }
 
 void GuiController::showStreamWindow()
 {
 	testing = false;
-	/*mainWind->actionTest->setVisible(false);
+	/*mainWind->actionDiagnostics->setVisible(false);
 	mainWind->actionStart->setVisible(true);
 	mainWind->actionPause->setVisible(true);
 	mainWind->actionStop->setVisible(true);*/
 	//main->setCentralWidget(mainWind);
 	//test->setParent(main);
+	//mainWind->setupUi(main);
 
 }
 
 void GuiController::startTesting()
 {
 	testWind->lable_CapacityTest_Status->setText("running...");
+	ewriter->start();
 
 }
 
@@ -648,8 +671,10 @@ void GuiController::processFaults(unsigned int* faults)
 
 
 }
+//TODO receive signal from EthernetTransmit and increment tx counter
+//TODO increment rx counter when packet is received
 
-void GuiController::processLoopback(unsigned int* buffer)
+void GuiController::processLoopback(unsigned int* rxBuffer)
 {
 
 }

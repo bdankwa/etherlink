@@ -66,22 +66,9 @@ u_int32_t ethernet_rx(int socket_id, void* msgBuff, int msgLenBytes, struct sock
 	return recvfrom(socket_id, msgBuff, msgLenBytes, 0, remoteAddr, remoteAddrLen);
 
 }
-u_int32_t ethernet_tx(int socket_id, void* msgBuff, int msgLenBytes, struct sockaddr* destAddr, socklen_t* destAddrLen){
+u_int32_t ethernet_tx(int socket_id, void* msgBuff, int msgLenBytes, struct sockaddr* destAddr, socklen_t destAddrLen){
 
 
-
-
-	return 0;
-}
-
-u_int32_t ethernet_loopback(u_int8_t* destMAC, u_int8_t* spoofedMAC, u_int8_t* spoofedIP, int portOffset, int basePort, int numPorts, char* interfaceName){
-
-	//start the udp2a664 process
-
-	//Receive Ethernet packets and send them to 127.0.0.1
-
-
-
-	return 0;
+	//return sendto(socket_id, msgBuff, msgLenBytes, destAddr, destAddrLen );
 }
 

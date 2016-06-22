@@ -33,7 +33,7 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
-    QAction *actionTest;
+    QAction *actionDiagnostics;
     QAction *actionStart;
     QAction *actionPause;
     QAction *actionStop;
@@ -664,8 +664,8 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(872, 762);
-        actionTest = new QAction(MainWindow);
-        actionTest->setObjectName(QString::fromUtf8("actionTest"));
+        actionDiagnostics = new QAction(MainWindow);
+        actionDiagnostics->setObjectName(QString::fromUtf8("actionDiagnostics"));
         actionStart = new QAction(MainWindow);
         actionStart->setObjectName(QString::fromUtf8("actionStart"));
         actionPause = new QAction(MainWindow);
@@ -4147,9 +4147,7 @@ public:
         toolBar->setObjectName(QString::fromUtf8("toolBar"));
         MainWindow->addToolBar(Qt::TopToolBarArea, toolBar);
 
-        toolBar->addAction(actionTest);
-        toolBar->addSeparator();
-        toolBar->addAction(actionStream);
+        toolBar->addAction(actionDiagnostics);
         toolBar->addSeparator();
         toolBar->addAction(actionStart);
         toolBar->addAction(actionPause);
@@ -4166,7 +4164,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "EtherLink", 0, QApplication::UnicodeUTF8));
-        actionTest->setText(QApplication::translate("MainWindow", "Test", 0, QApplication::UnicodeUTF8));
+        actionDiagnostics->setText(QApplication::translate("MainWindow", "Diagnostics", 0, QApplication::UnicodeUTF8));
         actionStart->setText(QApplication::translate("MainWindow", "Start Streaming", 0, QApplication::UnicodeUTF8));
         actionPause->setText(QApplication::translate("MainWindow", "Pause Streaming", 0, QApplication::UnicodeUTF8));
         actionStop->setText(QApplication::translate("MainWindow", "Stop Streaming", 0, QApplication::UnicodeUTF8));

@@ -56,6 +56,7 @@ public:
     QPushButton *startTestButton;
     QPushButton *cancelTestButton;
     QFrame *line;
+    QLabel *label_19;
 
     void setupUi(QWidget *Test)
     {
@@ -200,6 +201,9 @@ public:
         line->setGeometry(QRect(20, 40, 411, 20));
         line->setFrameShape(QFrame::HLine);
         line->setFrameShadow(QFrame::Sunken);
+        label_19 = new QLabel(Test);
+        label_19->setObjectName(QString::fromUtf8("label_19"));
+        label_19->setGeometry(QRect(30, 260, 391, 41));
 
         retranslateUi(Test);
 
@@ -208,7 +212,7 @@ public:
 
     void retranslateUi(QWidget *Test)
     {
-        Test->setWindowTitle(QApplication::translate("Test", "Ethernet Test", 0, QApplication::UnicodeUTF8));
+        Test->setWindowTitle(QApplication::translate("Test", "Ethernet Diagnostics", 0, QApplication::UnicodeUTF8));
         label_4->setText(QApplication::translate("Test", "Bandwidth Test", 0, QApplication::UnicodeUTF8));
         label_11->setText(QApplication::translate("Test", "Received", 0, QApplication::UnicodeUTF8));
         label_5->setText(QApplication::translate("Test", "Robustness Test", 0, QApplication::UnicodeUTF8));
@@ -228,8 +232,9 @@ public:
         label_18->setText(QApplication::translate("Test", "0", 0, QApplication::UnicodeUTF8));
         label_3->setText(QApplication::translate("Test", "Capacity Test", 0, QApplication::UnicodeUTF8));
         label_10->setText(QApplication::translate("Test", "(Packets)", 0, QApplication::UnicodeUTF8));
-        startTestButton->setText(QApplication::translate("Test", "Start Test", 0, QApplication::UnicodeUTF8));
-        cancelTestButton->setText(QApplication::translate("Test", "Cancel Test", 0, QApplication::UnicodeUTF8));
+        startTestButton->setText(QApplication::translate("Test", "Start", 0, QApplication::UnicodeUTF8));
+        cancelTestButton->setText(QApplication::translate("Test", "Cancel", 0, QApplication::UnicodeUTF8));
+        label_19->setText(QApplication::translate("Test", "IMPORTANT!: Ensure ONLY diagnostic Ethernet traffic from EMU.", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };
