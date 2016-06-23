@@ -69,6 +69,6 @@ u_int32_t ethernet_rx(int socket_id, void* msgBuff, int msgLenBytes, struct sock
 u_int32_t ethernet_tx(int socket_id, void* msgBuff, int msgLenBytes, struct sockaddr* destAddr, socklen_t destAddrLen){
 
 
-	//return sendto(socket_id, msgBuff, msgLenBytes, destAddr, destAddrLen );
+	return sendto(socket_id, msgBuff, msgLenBytes,0, destAddr, destAddrLen );
 }
 

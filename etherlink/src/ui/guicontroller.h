@@ -43,6 +43,7 @@ private slots:
     void showTestWindow();
     void showStreamWindow();
     void startTesting();
+    void cancelDiagnostics();
 
 private:
     Ui_MainWindow *mainWind;

@@ -24,7 +24,6 @@ GuiController::GuiController(UIThreadArgs_t* threadParams)
 {
 	 mainWind = new Ui_MainWindow();
 	 testWind = new Ui_Test();
-	 //testWind->setParent(mainWind);
 
 	 args = threadParams;
 	 connectionStatus = args->global_data->connectionStatus;
@@ -53,17 +52,15 @@ void GuiController::showGui()
     main = new QMainWindow();
     test = new QMainWindow();
 
+    app.setActiveWindow( main );
+    mainWind->setupUi(main);
+    testWind->setupUi(test);
+
     ereader = new EthernetReader((args->global_data->rxBuff), NUM_PORTS);
     a664Filter = new A664Filter();
     ewriter = new EthernetTransmit();
 
     connect(ereader, SIGNAL(newPacket(unsigned int*, unsigned int, int)), this, SLOT(streamPacket(unsigned int*, unsigned int, int)) );
-
-    //ereader->moveToThread(QApplication::instance()->thread());
-
-    app.setActiveWindow( main );
-    mainWind->setupUi(main);
-    testWind->setupUi(test);
 
 	mainWind->lineEdit_SpdVibPacketNumber->setValidator( new QIntValidator(0, 1023, this));
 	mainWind->lineEdit_PressPacketNumber->setValidator( new QIntValidator(0, 255, this));
@@ -101,6 +98,7 @@ void GuiController::showGui()
 
 
     connect(testWind->startTestButton, SIGNAL(clicked()), this , SLOT(startTesting()));
+    connect(testWind->cancelTestButton, SIGNAL(clicked()), this , SLOT(cancelDiagnostics()));
 
 
 
@@ -111,10 +109,6 @@ void GuiController::showGui()
 
     messageBox = new QMessageBox();
 
-	/*mainWind->actionStart->setVisible(false);
-	mainWind->actionPause->setVisible(false);
-	mainWind->actionStop->setVisible(false);*/
-    //mainWind->actionStream->setVisible(false);
 
     main->show();
     app.exec();
@@ -124,11 +118,6 @@ void GuiController::streamPacket(unsigned int* packets, unsigned int size, int p
 {
 	static int num = 0;
 
-	//TODO Determine packet type
-
-	//TODO Use switch statement to set appropriate tab info
-	//printf("new packet signal received, processing..\n");
-	//mainWind->lineEdit_spdVib_Header_raw->setText(QString::number(size));
 
 	if(!connectionStatus){
 		connectionLabel->setText("OFFLINE!");
@@ -330,9 +319,7 @@ void GuiController::stopStream()
 
 void GuiController::showTestWindow()
 {
-	/*mainWind->actionStart->setVisible(false);
-	mainWind->actionPause->setVisible(false);
-	mainWind->actionStop->setVisible(false);*/
+
 	a664Filter->start();
 
 	testing = true;
@@ -340,15 +327,9 @@ void GuiController::showTestWindow()
 	testWind->lable_CapacityTest_Status->setText("Ready");
 
 	ereader->pause();
-	//main->setCentralWidget(test);
-	//test->setParent(main);
-	test->show();
-	//main->setEnabled(false);
 
-	/*if(ethernet_startA664_Filter() == -1){
-		messageBox->critical(0,"Error", "Unable to start udp2A664 filter, please restart and try again");
-		messageBox->setFixedSize(500,200);
-	} */
+	test->show();
+
 
 
 }
@@ -356,13 +337,6 @@ void GuiController::showTestWindow()
 void GuiController::showStreamWindow()
 {
 	testing = false;
-	/*mainWind->actionDiagnostics->setVisible(false);
-	mainWind->actionStart->setVisible(true);
-	mainWind->actionPause->setVisible(true);
-	mainWind->actionStop->setVisible(true);*/
-	//main->setCentralWidget(mainWind);
-	//test->setParent(main);
-	//mainWind->setupUi(main);
 
 }
 
@@ -373,6 +347,12 @@ void GuiController::startTesting()
 
 }
 
+void GuiController::cancelDiagnostics()
+{
+	testWind->lable_CapacityTest_Status->setText("cancelled");
+	ewriter->cancel();
+
+}
 
 
 void GuiController::processPacket1(unsigned int* packets)

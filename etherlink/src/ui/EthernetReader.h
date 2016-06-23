@@ -24,6 +24,7 @@ public:
 	void pause(void);
 	void resume(void);
 	void setRefreshRate(int rate_ms);
+	~EthernetReader();
 
 private:
 	ringBuffer_t* rxBuffer;

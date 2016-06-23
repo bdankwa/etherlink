@@ -22,7 +22,7 @@ static const uint qt_meta_data_GuiController[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-      19,   14, // methods
+      20,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -49,6 +49,7 @@ static const uint qt_meta_data_GuiController[] = {
      410,   14,   14,   14, 0x08,
      427,   14,   14,   14, 0x08,
      446,   14,   14,   14, 0x08,
+     461,   14,   14,   14, 0x08,
 
        0        // eod
 };
@@ -67,7 +68,7 @@ static const char qt_meta_stringdata_GuiController[] = {
     "incrementPacket2Idx()\0incrementPacket3Idx()\0"
     "startStream()\0pauseStream()\0stopStream()\0"
     "showTestWindow()\0showStreamWindow()\0"
-    "startTesting()\0"
+    "startTesting()\0cancelDiagnostics()\0"
 };
 
 void GuiController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -95,6 +96,7 @@ void GuiController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 16: _t->showTestWindow(); break;
         case 17: _t->showStreamWindow(); break;
         case 18: _t->startTesting(); break;
+        case 19: _t->cancelDiagnostics(); break;
         default: ;
         }
     }
@@ -132,9 +134,9 @@ int GuiController::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 19)
+        if (_id < 20)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 19;
+        _id -= 20;
     }
     return _id;
 }

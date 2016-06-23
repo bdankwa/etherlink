@@ -18,12 +18,13 @@ A664Filter::A664Filter() {
 	arguments[4] = "02:00:00:00:00:21";
 	arguments[5] = "-s";
 	arguments[6] = "10.168.20.1";
-	arguments[7] = "-i";
-	arguments[8] = "eth0";
-	arguments[9] = "32100";
-	arguments[10] = "1";
-	arguments[11] = "10.168.10.1";
-	arguments[12] = NULL;
+	arguments[7] = "-v";
+	arguments[8] = "-i";
+	arguments[9] = "eth0";
+	arguments[10] = "32100";
+	arguments[11] = "1";
+	arguments[12] = "10.168.10.1";
+	arguments[13] = NULL;
 
 }
 

@@ -18,7 +18,7 @@ public:
 	virtual ~A664Filter();
 
 private:
-	char* arguments[12];
+	char* arguments[13];
 	void startA664_Filter();
 	void run();
 };

@@ -54,4 +54,11 @@ void EthernetReader::run() {
 	}
 }
 
+EthernetReader::~EthernetReader() {
+	int i;
+	for(i=0; i< numPorts; i++){
+		deleteBuffer(&(rxBuffer[i]));
+	}
+}
+
 
