@@ -51,6 +51,9 @@ private:
 	int txCount;
 	A664Filter* a664Filter;
 	unsigned int txBuffer[MAX_TX_BUFF_SIZE];
+	unsigned int getTime();
+	unsigned int generateRandomUint();
+	void generatePattern(unsigned int * txBuff);
 	void transmit();
 	void run();
 };

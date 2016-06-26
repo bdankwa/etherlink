@@ -5,6 +5,7 @@
  *      Author: cleadmin
  */
 
+#include <sys/time.h>
 #include "EthernetTransmit.h"
 #include "ethernet.h"
 
@@ -28,7 +29,7 @@ EthernetTransmit::EthernetTransmit() {
     }
 
     memset(txBuffer, 0, sizeof(unsigned int)*MAX_TX_BUFF_SIZE);
-    sizeToSend = 80;
+    sizeToSend = 512;
     test = IDLE;
     txCount = 0;
 
@@ -51,7 +52,7 @@ void EthernetTransmit::run() {
 
     while((count-->= 0) && (cancelled == false)){
 		// TODO generate tx buffer
-    	txBuffer[0] = 0xDEADBEEF;
+    	/*txBuffer[0] = 0xDEADBEEF;
     	txBuffer[1] = 0xBAADF00D;
     	txBuffer[2] = 0xEAEF2000;
     	txBuffer[3] = 0xF0247E30;
@@ -70,7 +71,9 @@ void EthernetTransmit::run() {
     	txBuffer[16] = 0x87952EA0;
     	txBuffer[17] = 0x87952EA0;
     	txBuffer[18] = 0x87952EA0;
-    	txBuffer[19] = 0x87952EA0;
+    	txBuffer[19] = 0x87952EA0; */
+
+    	generatePattern(txBuffer);
 
     	switch(test){
     	case CAPACITY:
@@ -179,6 +182,55 @@ void EthernetTransmit::reset(int channel){
 void EthernetTransmit::cancel(){
 	cancelled = true;
 }
+
+/****************************
+ * getTime()
+ *  Get current timer count.
+ ****************************/
+unsigned int EthernetTransmit::getTime(){
+
+	struct timeval time;
+	gettimeofday(&time, NULL);
+
+	return(time.tv_usec);
+}
+/******************************************
+ * generateRandomUint()
+ *  Generate a random 32-bit unsigned int.
+ ******************************************/
+unsigned int EthernetTransmit::generateRandomUint(){
+
+	//static uint2_t idx = 0;
+
+	unsigned int lower = 0;
+	unsigned int upper = 0xff;
+	unsigned int x;
+
+	x = (rand() % (upper - lower + 1) + lower) & 0xff;
+	srand(getTime());
+	x |= (rand() % (upper - lower + 1) + lower) << 8;
+	srand(getTime());
+	x |= (rand() % (upper - lower + 1) + lower) << 16;
+	srand(getTime());
+	x |= (rand() % (upper - lower + 1) + lower) << 24;
+
+	return x;
+}
+/******************************************
+ * generatePattern()
+ *  Generate data pattern to transmit.
+ ******************************************/
+void EthernetTransmit::generatePattern(unsigned int * txBuff){
+	int i;
+	for(i=0; i<MAX_TX_BUFF_SIZE; i++){
+		txBuff[i] = generateRandomUint();
+	}
+}
+
+
+
+
+
 
 EthernetTransmit::~EthernetTransmit() {
 	// TODO Auto-generated destructor stub
