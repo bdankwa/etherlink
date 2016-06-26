@@ -5450,9 +5450,12 @@
    </attribute>
    <addaction name="actionDiagnostics"/>
    <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
    <addaction name="actionStart"/>
    <addaction name="actionPause"/>
    <addaction name="actionStop"/>
+   <addaction name="separator"/>
   </widget>
   <action name="actionDiagnostics">
    <property name="text">
