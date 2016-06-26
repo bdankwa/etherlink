@@ -18,13 +18,12 @@ A664Filter::A664Filter() {
 	arguments[4] = "02:00:00:00:00:21"; // spoof source MAC address
 	arguments[5] = "-s";
 	arguments[6] = "10.168.20.1"; // spoof source IP address
-	arguments[7] = "-v";
-	arguments[8] = "-i";
-	arguments[9] = "eth0";
-	arguments[10] = "32100"; //first local UDP port to listen to
-	arguments[11] = "1"; // number of ports to listen to
-	arguments[12] = "10.168.10.1"; // IP address to forward the A664 packets to
-	arguments[13] = NULL;
+	arguments[7] = "-i";
+	arguments[8] = "eth0";
+	arguments[9] = "32100"; //first local UDP port to listen to
+	arguments[10] = "1"; // number of ports to listen to
+	arguments[11] = "10.168.10.1"; // IP address to forward the A664 packets to
+	arguments[12] = NULL;
 
 
 	/*arguments[0] = "udp2a664";
@@ -67,8 +66,7 @@ void A664Filter::setArguments(char** args){
 	arguments[9] = args[9];
 	arguments[10] = args[10];
 	arguments[11] = args[11];
-	arguments[12] = args[12];
-	arguments[13] = NULL;
+	arguments[12] = NULL;
 }
 
 void A664Filter::startA664_Filter(){

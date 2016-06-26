@@ -4149,9 +4149,12 @@ public:
 
         toolBar->addAction(actionDiagnostics);
         toolBar->addSeparator();
+        toolBar->addSeparator();
+        toolBar->addSeparator();
         toolBar->addAction(actionStart);
         toolBar->addAction(actionPause);
         toolBar->addAction(actionStop);
+        toolBar->addSeparator();
 
         retranslateUi(MainWindow);
 

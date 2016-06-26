@@ -375,8 +375,7 @@ int main(int argc, char *argv [])
     
     
     // Loop forever
-    while (1) {
-    
+    while (1) {    
     
        // Receive data from all sockets for which data is available
        if ((retval = select(maxfd + 1, &sockets, (fd_set *)0, (fd_set *)0, 0)) != 0) {

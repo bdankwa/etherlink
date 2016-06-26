@@ -152,12 +152,11 @@ void EthernetTransmit::reset(int channel){
 		arguments[4] = "34:E6:D7:36:C2:54"; // spoof source MAC address
 		arguments[5] = "-s";
 		arguments[6] = "10.168.10.10"; // spoof source IP address
-		arguments[7] = "-v";
-		arguments[8] = "-i";
-		arguments[9] = "eth0";
-		arguments[10] = "32100"; //first local UDP port to listen to
-		arguments[11] = "1"; // number of ports to listen to
-		arguments[12] = "10.168.10.1"; // IP address to forward the A664 packets to
+		arguments[7] = "-i";
+		arguments[8] = "eth0";
+		arguments[9] = "32100"; //first local UDP port to listen to
+		arguments[10] = "1"; // number of ports to listen to
+		arguments[11] = "10.168.10.1"; // IP address to forward the A664 packets to
 	}
 	else{
 		arguments[0] = "udp2a664";
@@ -167,12 +166,11 @@ void EthernetTransmit::reset(int channel){
 		arguments[4] = "34:E6:D7:36:C2:54"; // spoof source MAC address
 		arguments[5] = "-s";
 		arguments[6] = "10.168.10.10"; // spoof source IP address
-		arguments[7] = "-v";
-		arguments[8] = "-i";
-		arguments[9] = "eth0";
-		arguments[10] = "32100"; //first local UDP port to listen to
-		arguments[11] = "1"; // number of ports to listen to
-		arguments[12] = "10.168.10.1"; // IP address to forward the A664 packets to
+		arguments[7] = "-i";
+		arguments[8] = "eth0";
+		arguments[9] = "32100"; //first local UDP port to listen to
+		arguments[10] = "1"; // number of ports to listen to
+		arguments[11] = "10.168.10.1"; // IP address to forward the A664 packets to
 	}
 
 	a664Filter->killudp2a664();
