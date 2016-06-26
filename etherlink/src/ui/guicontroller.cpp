@@ -26,7 +26,7 @@ GuiController::GuiController(UIThreadArgs_t* threadParams)
 	 testWind = new Ui_Test();
 
 	 args = threadParams;
-	 connectionStatus = args->global_data->connectionStatus;
+	 connectionStatus = args->global_data->connection;
 	 redPalette = new QPalette();
 	 redPalette->setColor(QPalette::WindowText, Qt::red);
 	 greenPalette = new QPalette();
@@ -39,6 +39,7 @@ GuiController::GuiController(UIThreadArgs_t* threadParams)
 	 packet1_idx = 0;
 	 packet2_idx = 0;
 	 packet3_idx = 0;
+	 loopback_rx_count = 0;
 
 	 streamingPaused = true;
 	 testing = false;
@@ -57,10 +58,12 @@ void GuiController::showGui()
     testWind->setupUi(test);
 
     ereader = new EthernetReader((args->global_data->rxBuff), NUM_PORTS);
-    a664Filter = new A664Filter();
+   // a664Filter = new A664Filter();
     ewriter = new EthernetTransmit();
 
     connect(ereader, SIGNAL(newPacket(unsigned int*, unsigned int, int)), this, SLOT(streamPacket(unsigned int*, unsigned int, int)) );
+    connect(ewriter, SIGNAL(newTxPacket(unsigned int*, unsigned int)), this, SLOT(processTxEvent(unsigned int*, unsigned int)) );
+    connect(ewriter, SIGNAL(daignosticsComplete()), this, SLOT(showDiagnosticsResults()) );
 
 	mainWind->lineEdit_SpdVibPacketNumber->setValidator( new QIntValidator(0, 1023, this));
 	mainWind->lineEdit_PressPacketNumber->setValidator( new QIntValidator(0, 255, this));
@@ -95,16 +98,13 @@ void GuiController::showGui()
 
 
 
-
-
     connect(testWind->startTestButton, SIGNAL(clicked()), this , SLOT(startTesting()));
     connect(testWind->cancelTestButton, SIGNAL(clicked()), this , SLOT(cancelDiagnostics()));
 
 
-
 	connectionLabel = new QLabel(mainWind->statusbar);
 	mainWind->statusbar->addPermanentWidget(connectionLabel);
-    connectionLabel->setText("OFFLINE!");
+    connectionLabel->setText("NO RX TRAFFIC!");
     connectionLabel->setPalette(*redPalette);
 
     messageBox = new QMessageBox();
@@ -117,10 +117,11 @@ void GuiController::showGui()
 void GuiController::streamPacket(unsigned int* packets, unsigned int size, int portIdx)
 {
 	static int num = 0;
+	static int k = 0;
 
 
 	if(!connectionStatus){
-		connectionLabel->setText("OFFLINE!");
+		connectionLabel->setText("NO RX TRAFFIC!");
 		connectionLabel->setPalette(*redPalette);
 	}
 	else{
@@ -160,6 +161,11 @@ void GuiController::streamPacket(unsigned int* packets, unsigned int size, int p
 		printf("GOT PACKET 6\n");
 		break;
 	default:
+		//loopback_rx_count++;
+		if(((k = k + 1) % 2) == 0){
+			loopback_rx_count++;
+			k = 0;
+		}
 		processLoopback(packets);
 		printf("GOT LOOPBACK PACKET\n");
 		break;
@@ -319,18 +325,21 @@ void GuiController::stopStream()
 
 void GuiController::showTestWindow()
 {
+	if(!(test->isVisible())){
 
-	a664Filter->start();
+	    mainWind->statusbar->showMessage("Loopback Mode");
 
-	testing = true;
+		//a664Filter->start();
 
-	testWind->lable_CapacityTest_Status->setText("Ready");
+		testing = true;
 
-	ereader->pause();
+		testWind->lable_CapacityTest_Status->setText("Ready");
+		testWind->cancelTestButton->setEnabled(false);
 
-	test->show();
+		ereader->pause();
 
-
+		test->show();
+	}
 
 }
 
@@ -342,8 +351,30 @@ void GuiController::showStreamWindow()
 
 void GuiController::startTesting()
 {
-	testWind->lable_CapacityTest_Status->setText("running...");
+	char* args[12];
+
+	testWind->lable_CapacityTest_Status->setText("Running");
+	testWind->startTestButton->setEnabled(false);
+	testWind->cancelTestButton->setEnabled(true);
+	testWind->comboBox_channel_select->setEnabled(false);
+	loopback_rx_count = 0;
+	loopback_tx_count = 0;
+	ereader->resume();
+    ereader->start();
+
+	ewriter->reset(testWind->comboBox_channel_select->currentIndex());
 	ewriter->start();
+
+}
+
+void GuiController::processTxEvent(unsigned int* txBuf, unsigned int sent_bytes)
+{
+	loopback_tx_count = ewriter->getTxCount();
+
+	testWind->label_loopback_tx_packets->setText(QString::number(loopback_tx_count));
+	testWind->label_loopback_rx_packets->setText(QString::number(loopback_rx_count));
+
+	testWind->progressBar_loopback->setValue((double)loopback_tx_count/MAX_TEST_LOOPS * 100);
 
 }
 
@@ -351,6 +382,25 @@ void GuiController::cancelDiagnostics()
 {
 	testWind->lable_CapacityTest_Status->setText("cancelled");
 	ewriter->cancel();
+	testWind->startTestButton->setEnabled(true);
+	loopback_tx_count = 0;
+	loopback_rx_count = 0;
+
+}
+
+void GuiController::showDiagnosticsResults()
+{
+	testWind->startTestButton->setEnabled(true);
+	testWind->comboBox_channel_select->setEnabled(true);
+
+	if(loopback_tx_count == loopback_rx_count ){
+		testWind->lable_CapacityTest_Status->setText("PASS");
+	}
+	else{
+		testWind->lable_CapacityTest_Status->setText("FAIL");
+	}
+
+	testWind->cancelTestButton->setEnabled(false);
 
 }
 
@@ -656,7 +706,8 @@ void GuiController::processFaults(unsigned int* faults)
 
 void GuiController::processLoopback(unsigned int* rxBuffer)
 {
-
+	testWind->label_loopback_tx_packets->setText(QString::number(ewriter->getTxCount()));
+	testWind->label_loopback_rx_packets->setText(QString::number(loopback_rx_count));
 }
 
 GuiController::~GuiController()

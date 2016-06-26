@@ -13,6 +13,7 @@
 #include <QtGui/QAction>
 #include <QtGui/QApplication>
 #include <QtGui/QButtonGroup>
+#include <QtGui/QComboBox>
 #include <QtGui/QFrame>
 #include <QtGui/QGridLayout>
 #include <QtGui/QHeaderView>
@@ -32,22 +33,22 @@ public:
     QLabel *label_4;
     QLabel *label_11;
     QLabel *label_5;
-    QProgressBar *progressBar_2;
+    QProgressBar *progressBar_bandwidth;
     QLabel *label_9;
     QLabel *label_7;
     QLabel *lable_CapacityTest_Status;
     QLabel *label_15;
     QLabel *label_6;
     QLabel *label_17;
-    QLabel *label_14;
+    QLabel *label_loopback_rx_packets;
     QLabel *label_8;
-    QProgressBar *progressBar_3;
+    QProgressBar *progressBar_robustness;
     QLabel *label_12;
     QLabel *label_2;
     QLabel *label;
-    QProgressBar *progressBar;
+    QProgressBar *progressBar_loopback;
     QLabel *label_16;
-    QLabel *label_13;
+    QLabel *label_loopback_tx_packets;
     QLabel *label_18;
     QLabel *label_3;
     QSpacerItem *horizontalSpacer;
@@ -57,6 +58,7 @@ public:
     QPushButton *cancelTestButton;
     QFrame *line;
     QLabel *label_19;
+    QComboBox *comboBox_channel_select;
 
     void setupUi(QWidget *Test)
     {
@@ -84,11 +86,11 @@ public:
 
         gridLayout->addWidget(label_5, 6, 0, 1, 1);
 
-        progressBar_2 = new QProgressBar(gridLayoutWidget);
-        progressBar_2->setObjectName(QString::fromUtf8("progressBar_2"));
-        progressBar_2->setValue(24);
+        progressBar_bandwidth = new QProgressBar(gridLayoutWidget);
+        progressBar_bandwidth->setObjectName(QString::fromUtf8("progressBar_bandwidth"));
+        progressBar_bandwidth->setValue(0);
 
-        gridLayout->addWidget(progressBar_2, 5, 0, 1, 1);
+        gridLayout->addWidget(progressBar_bandwidth, 5, 0, 1, 1);
 
         label_9 = new QLabel(gridLayoutWidget);
         label_9->setObjectName(QString::fromUtf8("label_9"));
@@ -120,21 +122,21 @@ public:
 
         gridLayout->addWidget(label_17, 7, 4, 1, 1);
 
-        label_14 = new QLabel(gridLayoutWidget);
-        label_14->setObjectName(QString::fromUtf8("label_14"));
+        label_loopback_rx_packets = new QLabel(gridLayoutWidget);
+        label_loopback_rx_packets->setObjectName(QString::fromUtf8("label_loopback_rx_packets"));
 
-        gridLayout->addWidget(label_14, 3, 5, 1, 1);
+        gridLayout->addWidget(label_loopback_rx_packets, 3, 5, 1, 1);
 
         label_8 = new QLabel(gridLayoutWidget);
         label_8->setObjectName(QString::fromUtf8("label_8"));
 
         gridLayout->addWidget(label_8, 7, 2, 1, 1);
 
-        progressBar_3 = new QProgressBar(gridLayoutWidget);
-        progressBar_3->setObjectName(QString::fromUtf8("progressBar_3"));
-        progressBar_3->setValue(24);
+        progressBar_robustness = new QProgressBar(gridLayoutWidget);
+        progressBar_robustness->setObjectName(QString::fromUtf8("progressBar_robustness"));
+        progressBar_robustness->setValue(0);
 
-        gridLayout->addWidget(progressBar_3, 7, 0, 1, 1);
+        gridLayout->addWidget(progressBar_robustness, 7, 0, 1, 1);
 
         label_12 = new QLabel(gridLayoutWidget);
         label_12->setObjectName(QString::fromUtf8("label_12"));
@@ -151,21 +153,21 @@ public:
 
         gridLayout->addWidget(label, 0, 0, 1, 1);
 
-        progressBar = new QProgressBar(gridLayoutWidget);
-        progressBar->setObjectName(QString::fromUtf8("progressBar"));
-        progressBar->setValue(24);
+        progressBar_loopback = new QProgressBar(gridLayoutWidget);
+        progressBar_loopback->setObjectName(QString::fromUtf8("progressBar_loopback"));
+        progressBar_loopback->setValue(0);
 
-        gridLayout->addWidget(progressBar, 3, 0, 1, 1);
+        gridLayout->addWidget(progressBar_loopback, 3, 0, 1, 1);
 
         label_16 = new QLabel(gridLayoutWidget);
         label_16->setObjectName(QString::fromUtf8("label_16"));
 
         gridLayout->addWidget(label_16, 5, 5, 1, 1);
 
-        label_13 = new QLabel(gridLayoutWidget);
-        label_13->setObjectName(QString::fromUtf8("label_13"));
+        label_loopback_tx_packets = new QLabel(gridLayoutWidget);
+        label_loopback_tx_packets->setObjectName(QString::fromUtf8("label_loopback_tx_packets"));
 
-        gridLayout->addWidget(label_13, 3, 4, 1, 1);
+        gridLayout->addWidget(label_loopback_tx_packets, 3, 4, 1, 1);
 
         label_18 = new QLabel(gridLayoutWidget);
         label_18->setObjectName(QString::fromUtf8("label_18"));
@@ -192,10 +194,10 @@ public:
 
         startTestButton = new QPushButton(Test);
         startTestButton->setObjectName(QString::fromUtf8("startTestButton"));
-        startTestButton->setGeometry(QRect(100, 10, 87, 27));
+        startTestButton->setGeometry(QRect(200, 10, 87, 27));
         cancelTestButton = new QPushButton(Test);
         cancelTestButton->setObjectName(QString::fromUtf8("cancelTestButton"));
-        cancelTestButton->setGeometry(QRect(210, 10, 87, 27));
+        cancelTestButton->setGeometry(QRect(310, 10, 87, 27));
         line = new QFrame(Test);
         line->setObjectName(QString::fromUtf8("line"));
         line->setGeometry(QRect(20, 40, 411, 20));
@@ -204,6 +206,9 @@ public:
         label_19 = new QLabel(Test);
         label_19->setObjectName(QString::fromUtf8("label_19"));
         label_19->setGeometry(QRect(30, 260, 391, 41));
+        comboBox_channel_select = new QComboBox(Test);
+        comboBox_channel_select->setObjectName(QString::fromUtf8("comboBox_channel_select"));
+        comboBox_channel_select->setGeometry(QRect(30, 10, 91, 24));
 
         retranslateUi(Test);
 
@@ -222,19 +227,24 @@ public:
         label_15->setText(QApplication::translate("Test", "0", 0, QApplication::UnicodeUTF8));
         label_6->setText(QApplication::translate("Test", "Sent", 0, QApplication::UnicodeUTF8));
         label_17->setText(QApplication::translate("Test", "0", 0, QApplication::UnicodeUTF8));
-        label_14->setText(QApplication::translate("Test", "0", 0, QApplication::UnicodeUTF8));
+        label_loopback_rx_packets->setText(QApplication::translate("Test", "0", 0, QApplication::UnicodeUTF8));
         label_8->setText(QApplication::translate("Test", "Ready", 0, QApplication::UnicodeUTF8));
         label_12->setText(QApplication::translate("Test", "Results", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("Test", "Status", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("Test", "Test", 0, QApplication::UnicodeUTF8));
         label_16->setText(QApplication::translate("Test", "0", 0, QApplication::UnicodeUTF8));
-        label_13->setText(QApplication::translate("Test", "0", 0, QApplication::UnicodeUTF8));
+        label_loopback_tx_packets->setText(QApplication::translate("Test", "0", 0, QApplication::UnicodeUTF8));
         label_18->setText(QApplication::translate("Test", "0", 0, QApplication::UnicodeUTF8));
-        label_3->setText(QApplication::translate("Test", "Capacity Test", 0, QApplication::UnicodeUTF8));
+        label_3->setText(QApplication::translate("Test", "LoopBack Test", 0, QApplication::UnicodeUTF8));
         label_10->setText(QApplication::translate("Test", "(Packets)", 0, QApplication::UnicodeUTF8));
         startTestButton->setText(QApplication::translate("Test", "Start", 0, QApplication::UnicodeUTF8));
         cancelTestButton->setText(QApplication::translate("Test", "Cancel", 0, QApplication::UnicodeUTF8));
         label_19->setText(QApplication::translate("Test", "IMPORTANT!: Ensure ONLY diagnostic Ethernet traffic from EMU.", 0, QApplication::UnicodeUTF8));
+        comboBox_channel_select->clear();
+        comboBox_channel_select->insertItems(0, QStringList()
+         << QApplication::translate("Test", "Channel A", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("Test", "Channel B", 0, QApplication::UnicodeUTF8)
+        );
     } // retranslateUi
 
 };

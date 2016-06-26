@@ -44,6 +44,8 @@ private slots:
     void showStreamWindow();
     void startTesting();
     void cancelDiagnostics();
+    void showDiagnosticsResults();
+    void processTxEvent(unsigned int*, unsigned int);
 
 private:
     Ui_MainWindow *mainWind;
@@ -53,7 +55,7 @@ private:
     UIThreadArgs_t* args;
     EthernetReader* ereader;
     EthernetTransmit* ewriter;
-    A664Filter* a664Filter;
+   // A664Filter* a664Filter;
     QLabel* connectionLabel;
     QPalette* redPalette;
     QPalette* greenPalette;
@@ -69,7 +71,8 @@ private:
     u_int32_t packet1_refreshRate;
     u_int32_t packet2_refreshRate;
     u_int32_t packet3_refreshRate;
-
+    int loopback_rx_count;
+    int loopback_tx_count;
     QMessageBox* messageBox;
 
     void processPacket1(unsigned int* packets);

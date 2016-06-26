@@ -22,22 +22,23 @@ static const uint qt_meta_data_EthernetTransmit[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       2,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       1,       // signalCount
+       2,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
       32,   18,   17,   17, 0x05,
+      56,   17,   17,   17, 0x05,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_EthernetTransmit[] = {
     "EthernetTransmit\0\0txPacket,size\0"
-    "newTxPacket(uint*,uint)\0"
+    "newTxPacket(uint*,uint)\0daignosticsComplete()\0"
 };
 
 void EthernetTransmit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -47,6 +48,7 @@ void EthernetTransmit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         EthernetTransmit *_t = static_cast<EthernetTransmit *>(_o);
         switch (_id) {
         case 0: _t->newTxPacket((*reinterpret_cast< uint*(*)>(_a[1])),(*reinterpret_cast< uint(*)>(_a[2]))); break;
+        case 1: _t->daignosticsComplete(); break;
         default: ;
         }
     }
@@ -84,9 +86,9 @@ int EthernetTransmit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 2;
     }
     return _id;
 }
@@ -96,5 +98,11 @@ void EthernetTransmit::newTxPacket(unsigned int * _t1, unsigned int _t2)
 {
     void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void EthernetTransmit::daignosticsComplete()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
 }
 QT_END_MOC_NAMESPACE

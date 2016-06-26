@@ -45,9 +45,9 @@
      </widget>
     </item>
     <item row="5" column="0">
-     <widget class="QProgressBar" name="progressBar_2">
+     <widget class="QProgressBar" name="progressBar_bandwidth">
       <property name="value">
-       <number>24</number>
+       <number>0</number>
       </property>
      </widget>
     </item>
@@ -94,7 +94,7 @@
      </widget>
     </item>
     <item row="3" column="5">
-     <widget class="QLabel" name="label_14">
+     <widget class="QLabel" name="label_loopback_rx_packets">
       <property name="text">
        <string>0</string>
       </property>
@@ -108,9 +108,9 @@
      </widget>
     </item>
     <item row="7" column="0">
-     <widget class="QProgressBar" name="progressBar_3">
+     <widget class="QProgressBar" name="progressBar_robustness">
       <property name="value">
-       <number>24</number>
+       <number>0</number>
       </property>
      </widget>
     </item>
@@ -136,9 +136,9 @@
      </widget>
     </item>
     <item row="3" column="0">
-     <widget class="QProgressBar" name="progressBar">
+     <widget class="QProgressBar" name="progressBar_loopback">
       <property name="value">
-       <number>24</number>
+       <number>0</number>
       </property>
      </widget>
     </item>
@@ -150,7 +150,7 @@
      </widget>
     </item>
     <item row="3" column="4">
-     <widget class="QLabel" name="label_13">
+     <widget class="QLabel" name="label_loopback_tx_packets">
       <property name="text">
        <string>0</string>
       </property>
@@ -166,7 +166,7 @@
     <item row="2" column="0">
      <widget class="QLabel" name="label_3">
       <property name="text">
-       <string>Capacity Test</string>
+       <string>LoopBack Test</string>
       </property>
      </widget>
     </item>
@@ -208,7 +208,7 @@
   <widget class="QPushButton" name="startTestButton">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>200</x>
      <y>10</y>
      <width>87</width>
      <height>27</height>
@@ -221,7 +221,7 @@
   <widget class="QPushButton" name="cancelTestButton">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>310</x>
      <y>10</y>
      <width>87</width>
      <height>27</height>
@@ -256,6 +256,26 @@
    <property name="text">
     <string>IMPORTANT!: Ensure ONLY diagnostic Ethernet traffic from EMU.</string>
    </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_channel_select">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Channel A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Channel B</string>
+    </property>
+   </item>
   </widget>
  </widget>
  <resources/>

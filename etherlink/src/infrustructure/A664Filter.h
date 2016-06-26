@@ -15,6 +15,8 @@ class A664Filter : public QThread {
 	Q_OBJECT
 public:
 	A664Filter();
+	void setArguments(char** args);
+	void killudp2a664();
 	virtual ~A664Filter();
 
 private:

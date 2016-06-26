@@ -52,14 +52,14 @@ void* ethernet_thread(void* params){
 
 	while(1){
 		//printf("Ethernet thread running...\n");
-		args->global_data->connectionStatus = -1;
+		args->global_data->connection = -1;
 	       if((select(maxfd + 1, &sockets, (fd_set *)0, (fd_set *)0, 0)) == 0) {
 	    	   print_error("Ethernet thread error: ethernet_thread.select");
 	    	   //TODO return this in args/
 	    	   pthread_exit(retval);
 	       }
 
-	       args->global_data->connectionStatus = 0;
+	       args->global_data->connection = 0;
 
 	        for (i=0;i<nPorts;i++) {
 	             if (FD_ISSET(socket_ids[i], &sockets)) {

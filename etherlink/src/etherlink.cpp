@@ -31,6 +31,9 @@ void delay(int count);
 
 int main( int argc, char* argv[] )
 {
+	//Find a zombie and kill it
+	system("sudo killall -9 udp2a664");
+
 	int i;
 	int* threadRetVal = NULL;
 	u_int32_t ports[NUM_BUFFS] = {
@@ -54,7 +57,7 @@ int main( int argc, char* argv[] )
 
 	ethernetGlobalData.rxBuff = Ethernet_Buffs;
 	ethernetGlobalData.txBuff = NULL;
-	ethernetGlobalData.connectionStatus = -1;
+	ethernetGlobalData.connection = -1;
 	ethernetGlobalData.exitStatus = (void*)threadRetVal;
 
 	/***********************************

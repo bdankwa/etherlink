@@ -16,8 +16,10 @@
 #include <arpa/inet.h>
 #include <stdio.h>
 
+#include "A664Filter.h"
+
 #define MAX_TX_BUFF_SIZE (2048)
-#define MAX_TEST_LOOPS (10)
+#define MAX_TEST_LOOPS (1000)
 
 typedef enum{
 	IDLE		= 0,
@@ -31,10 +33,13 @@ class EthernetTransmit : public QThread{
 
 signals:
 	void newTxPacket(unsigned int* txPacket, unsigned int size);
+	void daignosticsComplete();
 
 public:
 	EthernetTransmit();
 	void cancel();
+	int getTxCount();
+	void reset(int channel);
 	int sizeToSend;
 	virtual ~EthernetTransmit();
 
@@ -43,6 +48,8 @@ private:
 	int socket_id;
 	TestType_e test;
 	bool cancelled;
+	int txCount;
+	A664Filter* a664Filter;
 	unsigned int txBuffer[MAX_TX_BUFF_SIZE];
 	void transmit();
 	void run();

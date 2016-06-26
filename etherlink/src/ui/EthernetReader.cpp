@@ -13,7 +13,7 @@ EthernetReader::EthernetReader(ringBuffer_t* rxBuffer, int numPorts) {
 	this->rxBuffer = rxBuffer;
 	this->numPorts = numPorts;
 	pauseFlag = false;
-	refreshRate_ms = 25;
+	refreshRate_ms = 1;
 
 }
 

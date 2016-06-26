@@ -62,7 +62,7 @@ $(OBJDIR)$(TESTWINDOW).o : $(UISRCDIR)$(TESTWINDOW).cpp $(UISRCDIR)$(TESTWINDOW)
 
 
 $(OBJDIR)moc_EthernetTransmit.o : $(CNTRLDIR)moc_EthernetTransmit.cpp $(CNTRLDIR)EthernetTransmit.h
-	$(GPP) $(CFLAGS) $(QTINC) $< -o $@
+	$(GPP) $(CFLAGS) $(QTINC) $(APPINC) $< -o $@
 
 $(OBJDIR)EthernetTransmit.o : $(CNTRLDIR)EthernetTransmit.cpp $(CNTRLDIR)EthernetTransmit.h
 	$(GPP) $(CFLAGS) $(QTINC) $(APPINC) $< -o $@
