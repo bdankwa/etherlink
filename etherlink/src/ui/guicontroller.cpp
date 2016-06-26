@@ -167,7 +167,7 @@ void GuiController::streamPacket(unsigned int* packets, unsigned int size, int p
 			k = 0;
 		}
 		processLoopback(packets);
-		printf("GOT LOOPBACK PACKET\n");
+		//printf("GOT LOOPBACK PACKET\n");
 		break;
 	}
 
@@ -383,8 +383,8 @@ void GuiController::cancelDiagnostics()
 	testWind->lable_CapacityTest_Status->setText("cancelled");
 	ewriter->cancel();
 	testWind->startTestButton->setEnabled(true);
-	loopback_tx_count = 0;
-	loopback_rx_count = 0;
+	//loopback_tx_count = 0;
+	//loopback_rx_count = 0;
 
 }
 
