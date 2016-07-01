@@ -37,12 +37,12 @@ int main( int argc, char* argv[] )
 	int i;
 	int* threadRetVal = NULL;
 	u_int32_t ports[NUM_BUFFS] = {
-			11021,
-			11022,
-			11023,
-			11024,
-			11025,
-			11026,
+			32021,
+			32022,
+			32023,
+			32024,
+			32025,
+			32026,
 			32101
 	};
 

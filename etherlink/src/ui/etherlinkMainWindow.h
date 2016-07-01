@@ -123,7 +123,6 @@ public:
     QGridLayout *gridLayout_5;
     QLineEdit *lineEdit_SpdVibPacketNumber;
     QLabel *label;
-    QLabel *label_6;
     QPushButton *pushButton_spdVib_dec;
     QPushButton *pushButton_spdVib_inc;
     QSpacerItem *verticalSpacer;
@@ -132,9 +131,8 @@ public:
     QGridLayout *gridLayout_7;
     QGridLayout *gridLayout_10;
     QGridLayout *gridLayout_11;
-    QLineEdit *lineEdit_PressPacketNumber;
     QPushButton *pushButton_Press_dec;
-    QLabel *label_13;
+    QLineEdit *lineEdit_PressPacketNumber;
     QLabel *label_11;
     QPushButton *pushButton_Press_inc;
     QGridLayout *gridLayout_12;
@@ -218,7 +216,6 @@ public:
     QGridLayout *gridLayout_13;
     QGridLayout *gridLayout_16;
     QGridLayout *gridLayout_17;
-    QLabel *label_20;
     QLineEdit *lineEdit_CalPacketNumber;
     QLabel *label_18;
     QPushButton *pushButton_Cal_dec;
@@ -1104,27 +1101,22 @@ public:
         lineEdit_SpdVibPacketNumber = new QLineEdit(tab);
         lineEdit_SpdVibPacketNumber->setObjectName(QString::fromUtf8("lineEdit_SpdVibPacketNumber"));
 
-        gridLayout_5->addWidget(lineEdit_SpdVibPacketNumber, 0, 4, 1, 1);
+        gridLayout_5->addWidget(lineEdit_SpdVibPacketNumber, 0, 3, 1, 1);
 
         label = new QLabel(tab);
         label->setObjectName(QString::fromUtf8("label"));
 
         gridLayout_5->addWidget(label, 0, 0, 1, 1);
 
-        label_6 = new QLabel(tab);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
-
-        gridLayout_5->addWidget(label_6, 0, 1, 1, 1);
-
         pushButton_spdVib_dec = new QPushButton(tab);
         pushButton_spdVib_dec->setObjectName(QString::fromUtf8("pushButton_spdVib_dec"));
 
-        gridLayout_5->addWidget(pushButton_spdVib_dec, 0, 2, 1, 1);
+        gridLayout_5->addWidget(pushButton_spdVib_dec, 0, 1, 1, 1);
 
         pushButton_spdVib_inc = new QPushButton(tab);
         pushButton_spdVib_inc->setObjectName(QString::fromUtf8("pushButton_spdVib_inc"));
 
-        gridLayout_5->addWidget(pushButton_spdVib_inc, 0, 5, 1, 1);
+        gridLayout_5->addWidget(pushButton_spdVib_inc, 0, 4, 1, 1);
 
 
         gridLayout->addLayout(gridLayout_5, 0, 0, 1, 1);
@@ -1150,20 +1142,15 @@ public:
 
         gridLayout_11 = new QGridLayout();
         gridLayout_11->setObjectName(QString::fromUtf8("gridLayout_11"));
-        lineEdit_PressPacketNumber = new QLineEdit(tab_2);
-        lineEdit_PressPacketNumber->setObjectName(QString::fromUtf8("lineEdit_PressPacketNumber"));
-
-        gridLayout_11->addWidget(lineEdit_PressPacketNumber, 0, 4, 1, 1);
-
         pushButton_Press_dec = new QPushButton(tab_2);
         pushButton_Press_dec->setObjectName(QString::fromUtf8("pushButton_Press_dec"));
 
-        gridLayout_11->addWidget(pushButton_Press_dec, 0, 2, 1, 1);
+        gridLayout_11->addWidget(pushButton_Press_dec, 0, 1, 1, 1);
 
-        label_13 = new QLabel(tab_2);
-        label_13->setObjectName(QString::fromUtf8("label_13"));
+        lineEdit_PressPacketNumber = new QLineEdit(tab_2);
+        lineEdit_PressPacketNumber->setObjectName(QString::fromUtf8("lineEdit_PressPacketNumber"));
 
-        gridLayout_11->addWidget(label_13, 0, 1, 1, 1);
+        gridLayout_11->addWidget(lineEdit_PressPacketNumber, 0, 3, 1, 1);
 
         label_11 = new QLabel(tab_2);
         label_11->setObjectName(QString::fromUtf8("label_11"));
@@ -1173,7 +1160,7 @@ public:
         pushButton_Press_inc = new QPushButton(tab_2);
         pushButton_Press_inc->setObjectName(QString::fromUtf8("pushButton_Press_inc"));
 
-        gridLayout_11->addWidget(pushButton_Press_inc, 0, 5, 1, 1);
+        gridLayout_11->addWidget(pushButton_Press_inc, 0, 4, 1, 1);
 
 
         gridLayout_7->addLayout(gridLayout_11, 0, 1, 1, 1);
@@ -1607,15 +1594,10 @@ public:
 
         gridLayout_17 = new QGridLayout();
         gridLayout_17->setObjectName(QString::fromUtf8("gridLayout_17"));
-        label_20 = new QLabel(tab_3);
-        label_20->setObjectName(QString::fromUtf8("label_20"));
-
-        gridLayout_17->addWidget(label_20, 0, 1, 1, 1);
-
         lineEdit_CalPacketNumber = new QLineEdit(tab_3);
         lineEdit_CalPacketNumber->setObjectName(QString::fromUtf8("lineEdit_CalPacketNumber"));
 
-        gridLayout_17->addWidget(lineEdit_CalPacketNumber, 0, 4, 1, 1);
+        gridLayout_17->addWidget(lineEdit_CalPacketNumber, 0, 3, 1, 1);
 
         label_18 = new QLabel(tab_3);
         label_18->setObjectName(QString::fromUtf8("label_18"));
@@ -1625,12 +1607,12 @@ public:
         pushButton_Cal_dec = new QPushButton(tab_3);
         pushButton_Cal_dec->setObjectName(QString::fromUtf8("pushButton_Cal_dec"));
 
-        gridLayout_17->addWidget(pushButton_Cal_dec, 0, 2, 1, 1);
+        gridLayout_17->addWidget(pushButton_Cal_dec, 0, 1, 1, 1);
 
         pushButton_Cal_inc = new QPushButton(tab_3);
         pushButton_Cal_inc->setObjectName(QString::fromUtf8("pushButton_Cal_inc"));
 
-        gridLayout_17->addWidget(pushButton_Cal_inc, 0, 5, 1, 1);
+        gridLayout_17->addWidget(pushButton_Cal_inc, 0, 4, 1, 1);
 
 
         gridLayout_13->addLayout(gridLayout_17, 0, 1, 1, 1);
@@ -4251,14 +4233,12 @@ public:
         lineEdit_SpdVibPacketNumber->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_SpdVibPacketNumber->setPlaceholderText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("MainWindow", "Packet", 0, QApplication::UnicodeUTF8));
-        label_6->setText(QApplication::translate("MainWindow", "(0 - 1023)", 0, QApplication::UnicodeUTF8));
         pushButton_spdVib_dec->setText(QApplication::translate("MainWindow", "<<", 0, QApplication::UnicodeUTF8));
         pushButton_spdVib_inc->setText(QApplication::translate("MainWindow", ">>", 0, QApplication::UnicodeUTF8));
         tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("MainWindow", "SpeedVib", 0, QApplication::UnicodeUTF8));
+        pushButton_Press_dec->setText(QApplication::translate("MainWindow", "<<", 0, QApplication::UnicodeUTF8));
         lineEdit_PressPacketNumber->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_PressPacketNumber->setPlaceholderText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        pushButton_Press_dec->setText(QApplication::translate("MainWindow", "<<", 0, QApplication::UnicodeUTF8));
-        label_13->setText(QApplication::translate("MainWindow", "(0 - 255)", 0, QApplication::UnicodeUTF8));
         label_11->setText(QApplication::translate("MainWindow", "Packet", 0, QApplication::UnicodeUTF8));
         pushButton_Press_inc->setText(QApplication::translate("MainWindow", ">>", 0, QApplication::UnicodeUTF8));
         lineEdit_PressRefreshRate->setText(QApplication::translate("MainWindow", "25", 0, QApplication::UnicodeUTF8));
@@ -4334,7 +4314,6 @@ public:
         label_50->setText(QApplication::translate("MainWindow", "P160V0", 0, QApplication::UnicodeUTF8));
         label_47->setText(QApplication::translate("MainWindow", "Excit R", 0, QApplication::UnicodeUTF8));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("MainWindow", "Pressure", 0, QApplication::UnicodeUTF8));
-        label_20->setText(QApplication::translate("MainWindow", "(0 - 255)", 0, QApplication::UnicodeUTF8));
         lineEdit_CalPacketNumber->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_CalPacketNumber->setPlaceholderText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_18->setText(QApplication::translate("MainWindow", "Packet", 0, QApplication::UnicodeUTF8));

@@ -93,12 +93,12 @@ void GuiController::showGui()
     connect(mainWind->actionStart, SIGNAL(triggered()), this , SLOT(startStream()));
     connect(mainWind->actionPause, SIGNAL(triggered()), this , SLOT(pauseStream()));
     connect(mainWind->actionStop, SIGNAL(triggered()), this , SLOT(stopStream()));
-    connect(mainWind->actionDiagnostics, SIGNAL(triggered()), this , SLOT(showTestWindow()));
+    connect(mainWind->actionDiagnostics, SIGNAL(triggered()), this , SLOT(showDiagnosticsWindow()));
     //connect(mainWind->actionStream, SIGNAL(triggered()), this , SLOT(showStreamWindow()));
 
 
 
-    connect(testWind->startTestButton, SIGNAL(clicked()), this , SLOT(startTesting()));
+    connect(testWind->startTestButton, SIGNAL(clicked()), this , SLOT(startDiagnostics()));
     connect(testWind->cancelTestButton, SIGNAL(clicked()), this , SLOT(cancelDiagnostics()));
 
 
@@ -325,19 +325,24 @@ void GuiController::stopStream()
 
 }
 
-void GuiController::showTestWindow()
+void GuiController::showDiagnosticsWindow()
 {
 	if(!(test->isVisible())){
 
 	    mainWind->statusbar->showMessage("Loopback Mode");
-	    ewriter->cancel();
+	    //ewriter->cancel();
+		//testWind->label_loopback_tx_packets->setText(QString::number(0));
+		//testWind->label_loopback_rx_packets->setText(QString::number(0));
 
 		//a664Filter->start();
 
+	    resetDiagnostics();
+
+
 		testing = true;
 
-		testWind->lable_CapacityTest_Status->setText("Ready");
-		testWind->cancelTestButton->setEnabled(false);
+		//testWind->lable_CapacityTest_Status->setText("Ready");
+		//testWind->cancelTestButton->setEnabled(false);
 
 		ereader->pause();
 
@@ -352,7 +357,7 @@ void GuiController::showStreamWindow()
 
 }
 
-void GuiController::startTesting()
+void GuiController::startDiagnostics()
 {
 	char* args[12];
 
@@ -366,7 +371,26 @@ void GuiController::startTesting()
     ereader->start();
 
 	ewriter->reset(testWind->comboBox_channel_select->currentIndex());
+    //resetDiagnostics();
 	ewriter->start();
+
+}
+
+void GuiController::resetDiagnostics()
+{
+	loopback_rx_count = 0;
+	loopback_tx_count = 0;
+	ewriter->cancel();
+	ewriter->reset(testWind->comboBox_channel_select->currentIndex());
+
+	testWind->label_loopback_tx_packets->setText(QString::number(loopback_tx_count));
+	testWind->label_loopback_rx_packets->setText(QString::number(loopback_rx_count));
+	testWind->lable_CapacityTest_Status->setText("Ready");
+	testWind->cancelTestButton->setEnabled(false);
+	testWind->startTestButton->setEnabled(true);
+
+	testWind->progressBar_loopback->setValue(0);
+
 
 }
 

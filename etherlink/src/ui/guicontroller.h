@@ -40,9 +40,10 @@ private slots:
     void startStream();
     void pauseStream();
     void stopStream();
-    void showTestWindow();
+    void showDiagnosticsWindow();
+    void resetDiagnostics();
     void showStreamWindow();
-    void startTesting();
+    void startDiagnostics();
     void cancelDiagnostics();
     void showDiagnosticsResults();
     void processTxEvent(unsigned int*, unsigned int);

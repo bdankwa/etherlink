@@ -22,7 +22,7 @@ static const uint qt_meta_data_GuiController[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-      22,   14, // methods
+      23,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -47,11 +47,12 @@ static const uint qt_meta_data_GuiController[] = {
      383,   14,   14,   14, 0x08,
      397,   14,   14,   14, 0x08,
      410,   14,   14,   14, 0x08,
-     427,   14,   14,   14, 0x08,
-     446,   14,   14,   14, 0x08,
-     461,   14,   14,   14, 0x08,
-     481,   14,   14,   14, 0x08,
-     508,  506,   14,   14, 0x08,
+     434,   14,   14,   14, 0x08,
+     453,   14,   14,   14, 0x08,
+     472,   14,   14,   14, 0x08,
+     491,   14,   14,   14, 0x08,
+     511,   14,   14,   14, 0x08,
+     538,  536,   14,   14, 0x08,
 
        0        // eod
 };
@@ -69,10 +70,10 @@ static const char qt_meta_stringdata_GuiController[] = {
     "decrementPacket3Idx()\0incrementPacket1Idx()\0"
     "incrementPacket2Idx()\0incrementPacket3Idx()\0"
     "startStream()\0pauseStream()\0stopStream()\0"
-    "showTestWindow()\0showStreamWindow()\0"
-    "startTesting()\0cancelDiagnostics()\0"
-    "showDiagnosticsResults()\0,\0"
-    "processTxEvent(uint*,uint)\0"
+    "showDiagnosticsWindow()\0resetDiagnostics()\0"
+    "showStreamWindow()\0startDiagnostics()\0"
+    "cancelDiagnostics()\0showDiagnosticsResults()\0"
+    ",\0processTxEvent(uint*,uint)\0"
 };
 
 void GuiController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -97,12 +98,13 @@ void GuiController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 13: _t->startStream(); break;
         case 14: _t->pauseStream(); break;
         case 15: _t->stopStream(); break;
-        case 16: _t->showTestWindow(); break;
-        case 17: _t->showStreamWindow(); break;
-        case 18: _t->startTesting(); break;
-        case 19: _t->cancelDiagnostics(); break;
-        case 20: _t->showDiagnosticsResults(); break;
-        case 21: _t->processTxEvent((*reinterpret_cast< uint*(*)>(_a[1])),(*reinterpret_cast< uint(*)>(_a[2]))); break;
+        case 16: _t->showDiagnosticsWindow(); break;
+        case 17: _t->resetDiagnostics(); break;
+        case 18: _t->showStreamWindow(); break;
+        case 19: _t->startDiagnostics(); break;
+        case 20: _t->cancelDiagnostics(); break;
+        case 21: _t->showDiagnosticsResults(); break;
+        case 22: _t->processTxEvent((*reinterpret_cast< uint*(*)>(_a[1])),(*reinterpret_cast< uint(*)>(_a[2]))); break;
         default: ;
         }
     }
@@ -140,9 +142,9 @@ int GuiController::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 22)
+        if (_id < 23)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 22;
+        _id -= 23;
     }
     return _id;
 }
