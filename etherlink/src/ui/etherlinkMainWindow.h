@@ -4147,14 +4147,15 @@ public:
         toolBar->setObjectName(QString::fromUtf8("toolBar"));
         MainWindow->addToolBar(Qt::TopToolBarArea, toolBar);
 
-        toolBar->addAction(actionDiagnostics);
-        toolBar->addSeparator();
-        toolBar->addSeparator();
         toolBar->addSeparator();
         toolBar->addAction(actionStart);
+        toolBar->addSeparator();
         toolBar->addAction(actionPause);
+        toolBar->addSeparator();
         toolBar->addAction(actionStop);
         toolBar->addSeparator();
+        toolBar->addSeparator();
+        toolBar->addAction(actionDiagnostics);
 
         retranslateUi(MainWindow);
 
@@ -4168,9 +4169,9 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "EtherLink", 0, QApplication::UnicodeUTF8));
         actionDiagnostics->setText(QApplication::translate("MainWindow", "Diagnostics", 0, QApplication::UnicodeUTF8));
-        actionStart->setText(QApplication::translate("MainWindow", "Start Streaming", 0, QApplication::UnicodeUTF8));
-        actionPause->setText(QApplication::translate("MainWindow", "Pause Streaming", 0, QApplication::UnicodeUTF8));
-        actionStop->setText(QApplication::translate("MainWindow", "Stop Streaming", 0, QApplication::UnicodeUTF8));
+        actionStart->setText(QApplication::translate("MainWindow", "Start", 0, QApplication::UnicodeUTF8));
+        actionPause->setText(QApplication::translate("MainWindow", "Pause", 0, QApplication::UnicodeUTF8));
+        actionStop->setText(QApplication::translate("MainWindow", "Stop", 0, QApplication::UnicodeUTF8));
         actionStream->setText(QApplication::translate("MainWindow", "Stream", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         actionStream->setToolTip(QApplication::translate("MainWindow", "Start Streaming", 0, QApplication::UnicodeUTF8));

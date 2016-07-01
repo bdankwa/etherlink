@@ -149,7 +149,7 @@ void EthernetTransmit::reset(int channel){
 		arguments[1] = "-d";
 		arguments[2] = "02:00:00:00:00:11"; //set dest MAC address
 		arguments[3] = "-m";
-		arguments[4] = "34:E6:D7:36:C2:54"; // spoof source MAC address
+		arguments[4] = "34:E6:D7:31:E9:07"; // spoof source MAC address
 		arguments[5] = "-s";
 		arguments[6] = "10.168.10.10"; // spoof source IP address
 		arguments[7] = "-i";
@@ -163,7 +163,7 @@ void EthernetTransmit::reset(int channel){
 		arguments[1] = "-d";
 		arguments[2] = "02:00:00:00:00:12"; //set dest MAC address
 		arguments[3] = "-m";
-		arguments[4] = "34:E6:D7:36:C2:54"; // spoof source MAC address
+		arguments[4] = "34:E6:D7:31:E9:07"; // spoof source MAC address
 		arguments[5] = "-s";
 		arguments[6] = "10.168.10.10"; // spoof source IP address
 		arguments[7] = "-i";

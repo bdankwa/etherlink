@@ -105,6 +105,8 @@ void GuiController::showGui()
 	connectionLabel = new QLabel(mainWind->statusbar);
 	mainWind->statusbar->addPermanentWidget(connectionLabel);
     connectionLabel->setText("NO RX TRAFFIC!");
+    mainWind->statusbar->showMessage("Stopped");
+
     connectionLabel->setPalette(*redPalette);
 
     messageBox = new QMessageBox();
@@ -328,6 +330,7 @@ void GuiController::showTestWindow()
 	if(!(test->isVisible())){
 
 	    mainWind->statusbar->showMessage("Loopback Mode");
+	    ewriter->cancel();
 
 		//a664Filter->start();
 

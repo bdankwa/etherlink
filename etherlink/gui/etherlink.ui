@@ -659,7 +659,7 @@
           </item>
           <item row="0" column="0">
            <layout class="QGridLayout" name="gridLayout_5">
-            <item row="0" column="4">
+            <item row="0" column="3">
              <widget class="QLineEdit" name="lineEdit_SpdVibPacketNumber">
               <property name="text">
                <string>0</string>
@@ -677,20 +677,13 @@
              </widget>
             </item>
             <item row="0" column="1">
-             <widget class="QLabel" name="label_6">
-              <property name="text">
-               <string>(0 - 1023)</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="2">
              <widget class="QPushButton" name="pushButton_spdVib_dec">
               <property name="text">
                <string>&lt;&lt;</string>
               </property>
              </widget>
             </item>
-            <item row="0" column="5">
+            <item row="0" column="4">
              <widget class="QPushButton" name="pushButton_spdVib_inc">
               <property name="text">
                <string>&gt;&gt;</string>
@@ -728,27 +721,20 @@
           </item>
           <item row="0" column="1">
            <layout class="QGridLayout" name="gridLayout_11">
-            <item row="0" column="4">
-             <widget class="QLineEdit" name="lineEdit_PressPacketNumber">
-              <property name="text">
-               <string>0</string>
-              </property>
-              <property name="placeholderText">
-               <string>0</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="2">
+            <item row="0" column="1">
              <widget class="QPushButton" name="pushButton_Press_dec">
               <property name="text">
                <string>&lt;&lt;</string>
               </property>
              </widget>
             </item>
-            <item row="0" column="1">
-             <widget class="QLabel" name="label_13">
+            <item row="0" column="3">
+             <widget class="QLineEdit" name="lineEdit_PressPacketNumber">
               <property name="text">
-               <string>(0 - 255)</string>
+               <string>0</string>
+              </property>
+              <property name="placeholderText">
+               <string>0</string>
               </property>
              </widget>
             </item>
@@ -759,7 +745,7 @@
               </property>
              </widget>
             </item>
-            <item row="0" column="5">
+            <item row="0" column="4">
              <widget class="QPushButton" name="pushButton_Press_inc">
               <property name="text">
                <string>&gt;&gt;</string>
@@ -1424,14 +1410,7 @@
           </item>
           <item row="0" column="1">
            <layout class="QGridLayout" name="gridLayout_17">
-            <item row="0" column="1">
-             <widget class="QLabel" name="label_20">
-              <property name="text">
-               <string>(0 - 255)</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="4">
+            <item row="0" column="3">
              <widget class="QLineEdit" name="lineEdit_CalPacketNumber">
               <property name="text">
                <string>0</string>
@@ -1448,14 +1427,14 @@
               </property>
              </widget>
             </item>
-            <item row="0" column="2">
+            <item row="0" column="1">
              <widget class="QPushButton" name="pushButton_Cal_dec">
               <property name="text">
                <string>&lt;&lt;</string>
               </property>
              </widget>
             </item>
-            <item row="0" column="5">
+            <item row="0" column="4">
              <widget class="QPushButton" name="pushButton_Cal_inc">
               <property name="text">
                <string>&gt;&gt;</string>
@@ -5448,14 +5427,15 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
-   <addaction name="actionDiagnostics"/>
-   <addaction name="separator"/>
-   <addaction name="separator"/>
    <addaction name="separator"/>
    <addaction name="actionStart"/>
+   <addaction name="separator"/>
    <addaction name="actionPause"/>
+   <addaction name="separator"/>
    <addaction name="actionStop"/>
    <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="actionDiagnostics"/>
   </widget>
   <action name="actionDiagnostics">
    <property name="text">
@@ -5464,17 +5444,17 @@
   </action>
   <action name="actionStart">
    <property name="text">
-    <string>Start Streaming</string>
+    <string>Start</string>
    </property>
   </action>
   <action name="actionPause">
    <property name="text">
-    <string>Pause Streaming</string>
+    <string>Pause</string>
    </property>
   </action>
   <action name="actionStop">
    <property name="text">
-    <string>Stop Streaming</string>
+    <string>Stop</string>
    </property>
   </action>
   <action name="actionStream">
