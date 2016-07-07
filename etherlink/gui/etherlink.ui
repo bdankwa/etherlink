@@ -18,7 +18,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>5</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -2121,7 +2121,7 @@
           <item row="5" column="1">
            <layout class="QGridLayout" name="gridLayout_23">
             <item row="1" column="2">
-             <widget class="QLineEdit" name="lineEdit_205">
+             <widget class="QLineEdit" name="lineEdit_bootFault_30">
               <property name="text">
                <string>0</string>
               </property>
@@ -2131,7 +2131,7 @@
              </widget>
             </item>
             <item row="1" column="12">
-             <widget class="QLineEdit" name="lineEdit_215">
+             <widget class="QLineEdit" name="lineEdit_bootFault_20">
               <property name="text">
                <string>0</string>
               </property>
@@ -2141,7 +2141,7 @@
              </widget>
             </item>
             <item row="1" column="14">
-             <widget class="QLineEdit" name="lineEdit_217">
+             <widget class="QLineEdit" name="lineEdit_bootFault_18">
               <property name="text">
                <string>0</string>
               </property>
@@ -2151,7 +2151,7 @@
              </widget>
             </item>
             <item row="1" column="5">
-             <widget class="QLineEdit" name="lineEdit_208">
+             <widget class="QLineEdit" name="lineEdit_bootFault_27">
               <property name="text">
                <string>0</string>
               </property>
@@ -2161,7 +2161,7 @@
              </widget>
             </item>
             <item row="1" column="11">
-             <widget class="QLineEdit" name="lineEdit_214">
+             <widget class="QLineEdit" name="lineEdit_bootFault_21">
               <property name="text">
                <string>0</string>
               </property>
@@ -2171,7 +2171,7 @@
              </widget>
             </item>
             <item row="2" column="1">
-             <widget class="QLineEdit" name="lineEdit_220">
+             <widget class="QLineEdit" name="lineEdit_bootFault_15">
               <property name="text">
                <string>0</string>
               </property>
@@ -2181,7 +2181,7 @@
              </widget>
             </item>
             <item row="1" column="4">
-             <widget class="QLineEdit" name="lineEdit_207">
+             <widget class="QLineEdit" name="lineEdit_bootFault_28">
               <property name="text">
                <string>0</string>
               </property>
@@ -2191,7 +2191,7 @@
              </widget>
             </item>
             <item row="2" column="8">
-             <widget class="QLineEdit" name="lineEdit_227">
+             <widget class="QLineEdit" name="lineEdit_bootFault_8">
               <property name="text">
                <string>0</string>
               </property>
@@ -2201,7 +2201,7 @@
              </widget>
             </item>
             <item row="1" column="13">
-             <widget class="QLineEdit" name="lineEdit_216">
+             <widget class="QLineEdit" name="lineEdit_bootFault_19">
               <property name="text">
                <string>0</string>
               </property>
@@ -2211,7 +2211,7 @@
              </widget>
             </item>
             <item row="1" column="7">
-             <widget class="QLineEdit" name="lineEdit_210">
+             <widget class="QLineEdit" name="lineEdit_bootFault_25">
               <property name="text">
                <string>0</string>
               </property>
@@ -2221,7 +2221,7 @@
              </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QLineEdit" name="lineEdit_112">
+             <widget class="QLineEdit" name="lineEdit_bootFault_31">
               <property name="text">
                <string>0</string>
               </property>
@@ -2231,7 +2231,7 @@
              </widget>
             </item>
             <item row="2" column="5">
-             <widget class="QLineEdit" name="lineEdit_224">
+             <widget class="QLineEdit" name="lineEdit_bootFault_11">
               <property name="text">
                <string>0</string>
               </property>
@@ -2241,7 +2241,7 @@
              </widget>
             </item>
             <item row="2" column="2">
-             <widget class="QLineEdit" name="lineEdit_221">
+             <widget class="QLineEdit" name="lineEdit_bootFault_14">
               <property name="text">
                <string>0</string>
               </property>
@@ -2251,7 +2251,7 @@
              </widget>
             </item>
             <item row="2" column="13">
-             <widget class="QLineEdit" name="lineEdit_232">
+             <widget class="QLineEdit" name="lineEdit_bootFault_3">
               <property name="text">
                <string>0</string>
               </property>
@@ -2261,7 +2261,7 @@
              </widget>
             </item>
             <item row="1" column="3">
-             <widget class="QLineEdit" name="lineEdit_206">
+             <widget class="QLineEdit" name="lineEdit_bootFault_29">
               <property name="text">
                <string>0</string>
               </property>
@@ -2271,7 +2271,7 @@
              </widget>
             </item>
             <item row="2" column="4">
-             <widget class="QLineEdit" name="lineEdit_223">
+             <widget class="QLineEdit" name="lineEdit_bootFault_12">
               <property name="text">
                <string>0</string>
               </property>
@@ -2281,7 +2281,7 @@
              </widget>
             </item>
             <item row="1" column="8">
-             <widget class="QLineEdit" name="lineEdit_211">
+             <widget class="QLineEdit" name="lineEdit_bootFault_24">
               <property name="text">
                <string>0</string>
               </property>
@@ -2291,7 +2291,7 @@
              </widget>
             </item>
             <item row="2" column="6">
-             <widget class="QLineEdit" name="lineEdit_225">
+             <widget class="QLineEdit" name="lineEdit_bootFault_10">
               <property name="text">
                <string>0</string>
               </property>
@@ -2301,7 +2301,7 @@
              </widget>
             </item>
             <item row="1" column="15">
-             <widget class="QLineEdit" name="lineEdit_218">
+             <widget class="QLineEdit" name="lineEdit_bootFault_17">
               <property name="text">
                <string>0</string>
               </property>
@@ -2311,7 +2311,7 @@
              </widget>
             </item>
             <item row="1" column="16">
-             <widget class="QLineEdit" name="lineEdit_219">
+             <widget class="QLineEdit" name="lineEdit_bootFault_16">
               <property name="text">
                <string>0</string>
               </property>
@@ -2321,7 +2321,7 @@
              </widget>
             </item>
             <item row="2" column="7">
-             <widget class="QLineEdit" name="lineEdit_226">
+             <widget class="QLineEdit" name="lineEdit_bootFault_9">
               <property name="text">
                <string>0</string>
               </property>
@@ -2331,7 +2331,7 @@
              </widget>
             </item>
             <item row="1" column="6">
-             <widget class="QLineEdit" name="lineEdit_209">
+             <widget class="QLineEdit" name="lineEdit_bootFault_26">
               <property name="text">
                <string>0</string>
               </property>
@@ -2341,7 +2341,7 @@
              </widget>
             </item>
             <item row="2" column="3">
-             <widget class="QLineEdit" name="lineEdit_222">
+             <widget class="QLineEdit" name="lineEdit_bootFault_13">
               <property name="text">
                <string>0</string>
               </property>
@@ -2351,7 +2351,7 @@
              </widget>
             </item>
             <item row="1" column="10">
-             <widget class="QLineEdit" name="lineEdit_213">
+             <widget class="QLineEdit" name="lineEdit_bootFault_22">
               <property name="text">
                <string>0</string>
               </property>
@@ -2361,7 +2361,7 @@
              </widget>
             </item>
             <item row="2" column="10">
-             <widget class="QLineEdit" name="lineEdit_229">
+             <widget class="QLineEdit" name="lineEdit_bootFault_6">
               <property name="text">
                <string>0</string>
               </property>
@@ -2371,7 +2371,7 @@
              </widget>
             </item>
             <item row="1" column="9">
-             <widget class="QLineEdit" name="lineEdit_212">
+             <widget class="QLineEdit" name="lineEdit_bootFault_23">
               <property name="text">
                <string>0</string>
               </property>
@@ -2381,7 +2381,7 @@
              </widget>
             </item>
             <item row="2" column="11">
-             <widget class="QLineEdit" name="lineEdit_230">
+             <widget class="QLineEdit" name="lineEdit_bootFault_5">
               <property name="text">
                <string>0</string>
               </property>
@@ -2391,7 +2391,7 @@
              </widget>
             </item>
             <item row="2" column="12">
-             <widget class="QLineEdit" name="lineEdit_231">
+             <widget class="QLineEdit" name="lineEdit_bootFault_4">
               <property name="text">
                <string>0</string>
               </property>
@@ -2401,7 +2401,7 @@
              </widget>
             </item>
             <item row="2" column="9">
-             <widget class="QLineEdit" name="lineEdit_228">
+             <widget class="QLineEdit" name="lineEdit_bootFault_7">
               <property name="text">
                <string>0</string>
               </property>
@@ -2411,7 +2411,7 @@
              </widget>
             </item>
             <item row="2" column="14">
-             <widget class="QLineEdit" name="lineEdit_233">
+             <widget class="QLineEdit" name="lineEdit_bootFault_2">
               <property name="text">
                <string>0</string>
               </property>
@@ -2421,7 +2421,7 @@
              </widget>
             </item>
             <item row="2" column="15">
-             <widget class="QLineEdit" name="lineEdit_234">
+             <widget class="QLineEdit" name="lineEdit_bootFault_1">
               <property name="text">
                <string>0</string>
               </property>
@@ -2431,7 +2431,7 @@
              </widget>
             </item>
             <item row="2" column="16">
-             <widget class="QLineEdit" name="lineEdit_235">
+             <widget class="QLineEdit" name="lineEdit_bootFault_0">
               <property name="text">
                <string>0</string>
               </property>
@@ -2747,6 +2747,9 @@
             </item>
             <item row="3" column="8">
              <widget class="QLineEdit" name="lineEdit_ptm8">
+              <property name="toolTip">
+               <string>PTM Calibration Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -2777,6 +2780,9 @@
             </item>
             <item row="3" column="9">
              <widget class="QLineEdit" name="lineEdit_ptm7">
+              <property name="toolTip">
+               <string>PTM Packet 3 Rx Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -2787,6 +2793,9 @@
             </item>
             <item row="3" column="10">
              <widget class="QLineEdit" name="lineEdit_ptm6">
+              <property name="toolTip">
+               <string>P26 NVM Rx Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -2797,6 +2806,9 @@
             </item>
             <item row="3" column="11">
              <widget class="QLineEdit" name="lineEdit_ptm5">
+              <property name="toolTip">
+               <string>P160 NVM Rx Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -2807,6 +2819,9 @@
             </item>
             <item row="3" column="13">
              <widget class="QLineEdit" name="lineEdit_ptm3">
+              <property name="toolTip">
+               <string>PTM Rx Refresh Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -2817,6 +2832,9 @@
             </item>
             <item row="3" column="12">
              <widget class="QLineEdit" name="lineEdit_ptm4">
+              <property name="toolTip">
+               <string>PTM Command Wrap Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -2827,6 +2845,9 @@
             </item>
             <item row="3" column="14">
              <widget class="QLineEdit" name="lineEdit_ptm2">
+              <property name="toolTip">
+               <string>PTM Packet 2 Rx Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -2837,6 +2858,9 @@
             </item>
             <item row="3" column="15">
              <widget class="QLineEdit" name="lineEdit_ptm1">
+              <property name="toolTip">
+               <string>P26 NVM Checksum Fail </string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -2847,6 +2871,9 @@
             </item>
             <item row="3" column="16">
              <widget class="QLineEdit" name="lineEdit_ptm0">
+              <property name="toolTip">
+               <string>P160 NVM Checksum Fail</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -2896,6 +2923,9 @@
            <layout class="QGridLayout" name="gridLayout_21">
             <item row="2" column="8">
              <widget class="QLineEdit" name="lineEdit_pbit8">
+              <property name="toolTip">
+               <string>Engine Vibration Channel 2 Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -2916,6 +2946,9 @@
             </item>
             <item row="2" column="1">
              <widget class="QLineEdit" name="lineEdit_pbit15">
+              <property name="toolTip">
+               <string>McBSP0 fault thrown while trying to send CFPGA configuration</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3096,6 +3129,9 @@
             </item>
             <item row="2" column="4">
              <widget class="QLineEdit" name="lineEdit_pbit12">
+              <property name="toolTip">
+               <string>External RAM pattern test failed </string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3106,6 +3142,9 @@
             </item>
             <item row="2" column="5">
              <widget class="QLineEdit" name="lineEdit_pbit11">
+              <property name="toolTip">
+               <string>DSP internal RAM pattern test failed</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3126,6 +3165,9 @@
             </item>
             <item row="2" column="7">
              <widget class="QLineEdit" name="lineEdit_pbit9">
+              <property name="toolTip">
+               <string>Main Image CRC does not match</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3136,6 +3178,9 @@
             </item>
             <item row="2" column="9">
              <widget class="QLineEdit" name="lineEdit_pbit7">
+              <property name="toolTip">
+               <string>Engine Vibration Channel 1 Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3146,6 +3191,9 @@
             </item>
             <item row="2" column="10">
              <widget class="QLineEdit" name="lineEdit_pbit6">
+              <property name="toolTip">
+               <string>GearBox Vibration Channel Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3156,6 +3204,9 @@
             </item>
             <item row="2" column="11">
              <widget class="QLineEdit" name="lineEdit_pbit5">
+              <property name="toolTip">
+               <string>N1T Channel A Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3166,6 +3217,9 @@
             </item>
             <item row="2" column="12">
              <widget class="QLineEdit" name="lineEdit_pbit4">
+              <property name="toolTip">
+               <string>N3 Channel A Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3176,6 +3230,9 @@
             </item>
             <item row="2" column="13">
              <widget class="QLineEdit" name="lineEdit_pbit3">
+              <property name="toolTip">
+               <string>N2C Channel B Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3186,6 +3243,9 @@
             </item>
             <item row="2" column="14">
              <widget class="QLineEdit" name="lineEdit_pbit2">
+              <property name="toolTip">
+               <string>N1C Channel B Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3196,6 +3256,9 @@
             </item>
             <item row="2" column="16">
              <widget class="QLineEdit" name="lineEdit_pbit0">
+              <property name="toolTip">
+               <string>N1C Channel A Fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3206,6 +3269,9 @@
             </item>
             <item row="2" column="15">
              <widget class="QLineEdit" name="lineEdit_pbit1">
+              <property name="toolTip">
+               <string>N2C Channel A Fault </string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3415,6 +3481,9 @@
             </item>
             <item row="3" column="10">
              <widget class="QLineEdit" name="lineEdit_cbit6">
+              <property name="toolTip">
+               <string>High Rate Task execution time has exceeded a Minor Frame</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3435,6 +3504,9 @@
             </item>
             <item row="3" column="5">
              <widget class="QLineEdit" name="lineEdit_cbit11">
+              <property name="toolTip">
+               <string>McASP bus was enabled when it was expected to be disabled </string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3455,6 +3527,9 @@
             </item>
             <item row="3" column="6">
              <widget class="QLineEdit" name="lineEdit_cbit10">
+              <property name="toolTip">
+               <string>RAM CRC does not match</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3495,6 +3570,9 @@
             </item>
             <item row="3" column="8">
              <widget class="QLineEdit" name="lineEdit_cbit8">
+              <property name="toolTip">
+               <string>AS Background Task has exceeded its maximum allowed execution time</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3505,6 +3583,9 @@
             </item>
             <item row="3" column="9">
              <widget class="QLineEdit" name="lineEdit_cbit7">
+              <property name="toolTip">
+               <string>OS Background Task has exceeded its maximum allowed execution time</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3515,6 +3596,9 @@
             </item>
             <item row="3" column="11">
              <widget class="QLineEdit" name="lineEdit_cbit5">
+              <property name="toolTip">
+               <string>Watchdog timer reset detected </string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3525,6 +3609,9 @@
             </item>
             <item row="3" column="12">
              <widget class="QLineEdit" name="lineEdit_cbit4">
+              <property name="toolTip">
+               <string>Main Task has exceeded its maximum allowed execution time</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3535,6 +3622,9 @@
             </item>
             <item row="3" column="13">
              <widget class="QLineEdit" name="lineEdit_cbit3">
+              <property name="toolTip">
+               <string>Stack has overrun its bounds </string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3545,6 +3635,9 @@
             </item>
             <item row="3" column="14">
              <widget class="QLineEdit" name="lineEdit_cbit2">
+              <property name="toolTip">
+               <string>Stack pointer not properly reset after function return</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3555,6 +3648,9 @@
             </item>
             <item row="3" column="15">
              <widget class="QLineEdit" name="lineEdit_cbit1">
+              <property name="toolTip">
+               <string>I2C bus was enabled when it was expected to be disabled</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3565,6 +3661,9 @@
             </item>
             <item row="3" column="16">
              <widget class="QLineEdit" name="lineEdit_cbit0">
+              <property name="toolTip">
+               <string>GPIO configuration does not match expected value</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3616,7 +3715,10 @@
           <item row="3" column="1">
            <layout class="QGridLayout" name="gridLayout_22">
             <item row="1" column="10">
-             <widget class="QLineEdit" name="lineEdit_183">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_22">
+              <property name="toolTip">
+               <string>The buffer is halted</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3626,7 +3728,10 @@
              </widget>
             </item>
             <item row="2" column="2">
-             <widget class="QLineEdit" name="lineEdit_191">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_14">
+              <property name="toolTip">
+               <string>More than one sector in a section has the same index </string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3636,7 +3741,10 @@
              </widget>
             </item>
             <item row="2" column="3">
-             <widget class="QLineEdit" name="lineEdit_192">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_13">
+              <property name="toolTip">
+               <string>The newest sector for a section is empty</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3646,7 +3754,7 @@
              </widget>
             </item>
             <item row="2" column="16">
-             <widget class="QLineEdit" name="lineEdit_204">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_0">
               <property name="text">
                <string>0</string>
               </property>
@@ -3656,7 +3764,7 @@
              </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QLineEdit" name="lineEdit_111">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_31">
               <property name="text">
                <string>0</string>
               </property>
@@ -3666,7 +3774,10 @@
              </widget>
             </item>
             <item row="1" column="15">
-             <widget class="QLineEdit" name="lineEdit_188">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_17">
+              <property name="toolTip">
+               <string>A record is blank</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3676,7 +3787,10 @@
              </widget>
             </item>
             <item row="1" column="13">
-             <widget class="QLineEdit" name="lineEdit_186">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_19">
+              <property name="toolTip">
+               <string>Unable to locate the previous sector</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3686,7 +3800,7 @@
              </widget>
             </item>
             <item row="1" column="2">
-             <widget class="QLineEdit" name="lineEdit_174">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_30">
               <property name="text">
                <string>0</string>
               </property>
@@ -3696,7 +3810,7 @@
              </widget>
             </item>
             <item row="1" column="3">
-             <widget class="QLineEdit" name="lineEdit_175">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_29">
               <property name="text">
                <string>0</string>
               </property>
@@ -3706,7 +3820,7 @@
              </widget>
             </item>
             <item row="1" column="5">
-             <widget class="QLineEdit" name="lineEdit_177">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_27">
               <property name="text">
                <string>0</string>
               </property>
@@ -3716,7 +3830,7 @@
              </widget>
             </item>
             <item row="1" column="4">
-             <widget class="QLineEdit" name="lineEdit_176">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_28">
               <property name="text">
                <string>0</string>
               </property>
@@ -3726,7 +3840,7 @@
              </widget>
             </item>
             <item row="1" column="7">
-             <widget class="QLineEdit" name="lineEdit_179">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_25">
               <property name="text">
                <string>0</string>
               </property>
@@ -3736,7 +3850,7 @@
              </widget>
             </item>
             <item row="1" column="6">
-             <widget class="QLineEdit" name="lineEdit_178">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_26">
               <property name="text">
                <string>0</string>
               </property>
@@ -3746,7 +3860,10 @@
              </widget>
             </item>
             <item row="2" column="7">
-             <widget class="QLineEdit" name="lineEdit_180">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_9">
+              <property name="toolTip">
+               <string>The CRC of stored data does not match the stored CRC</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3756,7 +3873,10 @@
              </widget>
             </item>
             <item row="1" column="11">
-             <widget class="QLineEdit" name="lineEdit_184">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_21">
+              <property name="toolTip">
+               <string>The passed buffer is invalid</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3766,7 +3886,10 @@
              </widget>
             </item>
             <item row="1" column="8">
-             <widget class="QLineEdit" name="lineEdit_181">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_24">
+              <property name="toolTip">
+               <string>The section's record cursor is at the end of the sector</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3776,7 +3899,10 @@
              </widget>
             </item>
             <item row="1" column="9">
-             <widget class="QLineEdit" name="lineEdit_182">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_23">
+              <property name="toolTip">
+               <string>The buffer is full</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3786,7 +3912,10 @@
              </widget>
             </item>
             <item row="1" column="12">
-             <widget class="QLineEdit" name="lineEdit_185">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_20">
+              <property name="toolTip">
+               <string>Unable to locate the current sector</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3796,7 +3925,10 @@
              </widget>
             </item>
             <item row="1" column="14">
-             <widget class="QLineEdit" name="lineEdit_187">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_18">
+              <property name="toolTip">
+               <string>The newest sector in a section is blank</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3806,7 +3938,10 @@
              </widget>
             </item>
             <item row="2" column="1">
-             <widget class="QLineEdit" name="lineEdit_190">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_15">
+              <property name="toolTip">
+               <string>Marking a record bad during erase failed</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3816,7 +3951,10 @@
              </widget>
             </item>
             <item row="1" column="16">
-             <widget class="QLineEdit" name="lineEdit_189">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_16">
+              <property name="toolTip">
+               <string>The section is uninitialized</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3826,7 +3964,10 @@
              </widget>
             </item>
             <item row="2" column="4">
-             <widget class="QLineEdit" name="lineEdit_193">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_12">
+              <property name="toolTip">
+               <string>The newest sector for a section is empty</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3836,7 +3977,10 @@
              </widget>
             </item>
             <item row="2" column="6">
-             <widget class="QLineEdit" name="lineEdit_195">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_10">
+              <property name="toolTip">
+               <string>A sector is empty</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3846,7 +3990,10 @@
              </widget>
             </item>
             <item row="2" column="5">
-             <widget class="QLineEdit" name="lineEdit_194">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_11">
+              <property name="toolTip">
+               <string>A sector is full</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3856,7 +4003,10 @@
              </widget>
             </item>
             <item row="2" column="8">
-             <widget class="QLineEdit" name="lineEdit_196">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_8">
+              <property name="toolTip">
+               <string>Checking the status flags of a record failed</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3866,7 +4016,10 @@
              </widget>
             </item>
             <item row="2" column="10">
-             <widget class="QLineEdit" name="lineEdit_198">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_6">
+              <property name="toolTip">
+               <string>Attempted to write a record, but did not finish</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3876,7 +4029,10 @@
              </widget>
             </item>
             <item row="2" column="9">
-             <widget class="QLineEdit" name="lineEdit_197">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_7">
+              <property name="toolTip">
+               <string>The record is marked bad</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3886,7 +4042,10 @@
              </widget>
             </item>
             <item row="2" column="11">
-             <widget class="QLineEdit" name="lineEdit_199">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_5">
+              <property name="toolTip">
+               <string>The record has already been written to</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3896,7 +4055,10 @@
              </widget>
             </item>
             <item row="2" column="12">
-             <widget class="QLineEdit" name="lineEdit_200">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_4">
+              <property name="toolTip">
+               <string>Size of passed record exceeds the maximum record size </string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3906,7 +4068,10 @@
              </widget>
             </item>
             <item row="2" column="13">
-             <widget class="QLineEdit" name="lineEdit_201">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_3">
+              <property name="toolTip">
+               <string>Erasing a sector timed out</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3916,7 +4081,10 @@
              </widget>
             </item>
             <item row="2" column="14">
-             <widget class="QLineEdit" name="lineEdit_202">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_2">
+              <property name="toolTip">
+               <string>Attempted to write outside of the defined NVM address space</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3926,7 +4094,10 @@
              </widget>
             </item>
             <item row="2" column="15">
-             <widget class="QLineEdit" name="lineEdit_203">
+             <widget class="QLineEdit" name="lineEdit_nvmFault_1">
+              <property name="toolTip">
+               <string>Size of passed record exceeds the maximum record size</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -3968,7 +4139,7 @@
           <item row="9" column="1">
            <layout class="QGridLayout" name="gridLayout_25">
             <item row="1" column="3">
-             <widget class="QLineEdit" name="lineEdit_267">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_29">
               <property name="text">
                <string>0</string>
               </property>
@@ -3978,7 +4149,7 @@
              </widget>
             </item>
             <item row="1" column="2">
-             <widget class="QLineEdit" name="lineEdit_114">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_30">
               <property name="text">
                <string>0</string>
               </property>
@@ -3988,7 +4159,7 @@
              </widget>
             </item>
             <item row="2" column="7">
-             <widget class="QLineEdit" name="lineEdit_289">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_9">
               <property name="text">
                <string>0</string>
               </property>
@@ -3998,7 +4169,7 @@
              </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QLineEdit" name="lineEdit_268">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_31">
               <property name="text">
                <string>0</string>
               </property>
@@ -4008,7 +4179,7 @@
              </widget>
             </item>
             <item row="1" column="17">
-             <widget class="QLineEdit" name="lineEdit_282">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_16">
               <property name="text">
                <string>0</string>
               </property>
@@ -4018,7 +4189,7 @@
              </widget>
             </item>
             <item row="1" column="5">
-             <widget class="QLineEdit" name="lineEdit_270">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_27">
               <property name="text">
                <string>0</string>
               </property>
@@ -4028,7 +4199,7 @@
              </widget>
             </item>
             <item row="1" column="4">
-             <widget class="QLineEdit" name="lineEdit_269">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_28">
               <property name="text">
                <string>0</string>
               </property>
@@ -4038,7 +4209,7 @@
              </widget>
             </item>
             <item row="1" column="11">
-             <widget class="QLineEdit" name="lineEdit_277">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_21">
               <property name="text">
                <string>0</string>
               </property>
@@ -4048,7 +4219,7 @@
              </widget>
             </item>
             <item row="1" column="9">
-             <widget class="QLineEdit" name="lineEdit_274">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_23">
               <property name="text">
                <string>0</string>
               </property>
@@ -4058,7 +4229,7 @@
              </widget>
             </item>
             <item row="1" column="6">
-             <widget class="QLineEdit" name="lineEdit_271">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_26">
               <property name="text">
                <string>0</string>
               </property>
@@ -4068,7 +4239,7 @@
              </widget>
             </item>
             <item row="1" column="7">
-             <widget class="QLineEdit" name="lineEdit_272">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_25">
               <property name="text">
                <string>0</string>
               </property>
@@ -4078,7 +4249,7 @@
              </widget>
             </item>
             <item row="1" column="8">
-             <widget class="QLineEdit" name="lineEdit_273">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_24">
               <property name="text">
                <string>0</string>
               </property>
@@ -4088,7 +4259,7 @@
              </widget>
             </item>
             <item row="1" column="16">
-             <widget class="QLineEdit" name="lineEdit_281">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_17">
               <property name="text">
                <string>0</string>
               </property>
@@ -4098,7 +4269,7 @@
              </widget>
             </item>
             <item row="1" column="10">
-             <widget class="QLineEdit" name="lineEdit_275">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_22">
               <property name="text">
                <string>0</string>
               </property>
@@ -4108,7 +4279,10 @@
              </widget>
             </item>
             <item row="2" column="10">
-             <widget class="QLineEdit" name="lineEdit_276">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_6">
+              <property name="toolTip">
+               <string>Excessive failure of RS422 reception</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -4118,7 +4292,7 @@
              </widget>
             </item>
             <item row="1" column="12">
-             <widget class="QLineEdit" name="lineEdit_278">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_20">
               <property name="text">
                <string>0</string>
               </property>
@@ -4128,7 +4302,7 @@
              </widget>
             </item>
             <item row="1" column="14">
-             <widget class="QLineEdit" name="lineEdit_280">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_18">
               <property name="text">
                <string>0</string>
               </property>
@@ -4138,7 +4312,7 @@
              </widget>
             </item>
             <item row="1" column="13">
-             <widget class="QLineEdit" name="lineEdit_279">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_19">
               <property name="text">
                <string>0</string>
               </property>
@@ -4148,7 +4322,7 @@
              </widget>
             </item>
             <item row="2" column="1">
-             <widget class="QLineEdit" name="lineEdit_283">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_15">
               <property name="text">
                <string>0</string>
               </property>
@@ -4158,7 +4332,7 @@
              </widget>
             </item>
             <item row="2" column="2">
-             <widget class="QLineEdit" name="lineEdit_284">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_14">
               <property name="text">
                <string>0</string>
               </property>
@@ -4168,7 +4342,7 @@
              </widget>
             </item>
             <item row="2" column="3">
-             <widget class="QLineEdit" name="lineEdit_285">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_13">
               <property name="text">
                <string>0</string>
               </property>
@@ -4178,7 +4352,10 @@
              </widget>
             </item>
             <item row="2" column="16">
-             <widget class="QLineEdit" name="lineEdit_296">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_1">
+              <property name="toolTip">
+               <string>I2C bus fault</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -4188,7 +4365,7 @@
              </widget>
             </item>
             <item row="2" column="4">
-             <widget class="QLineEdit" name="lineEdit_286">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_12">
               <property name="text">
                <string>0</string>
               </property>
@@ -4198,7 +4375,7 @@
              </widget>
             </item>
             <item row="2" column="5">
-             <widget class="QLineEdit" name="lineEdit_287">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_11">
               <property name="text">
                <string>0</string>
               </property>
@@ -4208,7 +4385,7 @@
              </widget>
             </item>
             <item row="2" column="6">
-             <widget class="QLineEdit" name="lineEdit_288">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_10">
               <property name="text">
                <string>0</string>
               </property>
@@ -4218,7 +4395,7 @@
              </widget>
             </item>
             <item row="2" column="8">
-             <widget class="QLineEdit" name="lineEdit_290">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_8">
               <property name="text">
                <string>0</string>
               </property>
@@ -4228,7 +4405,7 @@
              </widget>
             </item>
             <item row="2" column="9">
-             <widget class="QLineEdit" name="lineEdit_291">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_7">
               <property name="text">
                <string>0</string>
               </property>
@@ -4238,7 +4415,10 @@
              </widget>
             </item>
             <item row="2" column="11">
-             <widget class="QLineEdit" name="lineEdit_292">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_5">
+              <property name="toolTip">
+               <string>Excessive failure of RS422 transmission</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -4248,7 +4428,10 @@
              </widget>
             </item>
             <item row="2" column="12">
-             <widget class="QLineEdit" name="lineEdit_293">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_4">
+              <property name="toolTip">
+               <string>Excessive NACKs from I2C-RS422 bridge</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -4258,7 +4441,10 @@
              </widget>
             </item>
             <item row="2" column="13">
-             <widget class="QLineEdit" name="lineEdit_294">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_3">
+              <property name="toolTip">
+               <string>RS422 software receive buffer has overrun</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -4268,7 +4454,10 @@
              </widget>
             </item>
             <item row="2" column="14">
-             <widget class="QLineEdit" name="lineEdit_295">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_2">
+              <property name="toolTip">
+               <string>RS422 software transmit buffer has overrrun </string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -4278,7 +4467,10 @@
              </widget>
             </item>
             <item row="2" column="17">
-             <widget class="QLineEdit" name="lineEdit_297">
+             <widget class="QLineEdit" name="lineEdit_RS422Fault_0">
+              <property name="toolTip">
+               <string>RS422 failed to initialize properly </string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -5024,7 +5216,7 @@
           <item row="7" column="1">
            <layout class="QGridLayout" name="gridLayout_24">
             <item row="1" column="1">
-             <widget class="QLineEdit" name="lineEdit_113">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_31">
               <property name="text">
                <string>0</string>
               </property>
@@ -5034,7 +5226,7 @@
              </widget>
             </item>
             <item row="1" column="2">
-             <widget class="QLineEdit" name="lineEdit_236">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_30">
               <property name="text">
                <string>0</string>
               </property>
@@ -5044,7 +5236,7 @@
              </widget>
             </item>
             <item row="1" column="5">
-             <widget class="QLineEdit" name="lineEdit_239">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_27">
               <property name="text">
                <string>0</string>
               </property>
@@ -5054,7 +5246,7 @@
              </widget>
             </item>
             <item row="1" column="9">
-             <widget class="QLineEdit" name="lineEdit_243">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_23">
               <property name="text">
                <string>0</string>
               </property>
@@ -5064,7 +5256,7 @@
              </widget>
             </item>
             <item row="3" column="15">
-             <widget class="QLineEdit" name="lineEdit_265">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_1">
               <property name="text">
                <string>0</string>
               </property>
@@ -5074,7 +5266,7 @@
              </widget>
             </item>
             <item row="1" column="3">
-             <widget class="QLineEdit" name="lineEdit_237">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_29">
               <property name="text">
                <string>0</string>
               </property>
@@ -5084,7 +5276,7 @@
              </widget>
             </item>
             <item row="1" column="4">
-             <widget class="QLineEdit" name="lineEdit_238">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_28">
               <property name="text">
                <string>0</string>
               </property>
@@ -5094,7 +5286,7 @@
              </widget>
             </item>
             <item row="1" column="6">
-             <widget class="QLineEdit" name="lineEdit_240">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_26">
               <property name="text">
                <string>0</string>
               </property>
@@ -5104,7 +5296,7 @@
              </widget>
             </item>
             <item row="1" column="7">
-             <widget class="QLineEdit" name="lineEdit_241">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_25">
               <property name="text">
                <string>0</string>
               </property>
@@ -5114,7 +5306,7 @@
              </widget>
             </item>
             <item row="1" column="8">
-             <widget class="QLineEdit" name="lineEdit_242">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_24">
               <property name="text">
                <string>0</string>
               </property>
@@ -5124,7 +5316,7 @@
              </widget>
             </item>
             <item row="1" column="10">
-             <widget class="QLineEdit" name="lineEdit_244">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_22">
               <property name="text">
                <string>0</string>
               </property>
@@ -5134,7 +5326,7 @@
              </widget>
             </item>
             <item row="1" column="11">
-             <widget class="QLineEdit" name="lineEdit_245">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_21">
               <property name="text">
                <string>0</string>
               </property>
@@ -5144,7 +5336,7 @@
              </widget>
             </item>
             <item row="1" column="14">
-             <widget class="QLineEdit" name="lineEdit_248">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_18">
               <property name="text">
                <string>0</string>
               </property>
@@ -5154,7 +5346,7 @@
              </widget>
             </item>
             <item row="1" column="13">
-             <widget class="QLineEdit" name="lineEdit_247">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_19">
               <property name="text">
                <string>0</string>
               </property>
@@ -5164,7 +5356,7 @@
              </widget>
             </item>
             <item row="1" column="12">
-             <widget class="QLineEdit" name="lineEdit_246">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_20">
               <property name="text">
                <string>0</string>
               </property>
@@ -5174,7 +5366,7 @@
              </widget>
             </item>
             <item row="1" column="16">
-             <widget class="QLineEdit" name="lineEdit_250">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_16">
               <property name="text">
                <string>0</string>
               </property>
@@ -5184,7 +5376,7 @@
              </widget>
             </item>
             <item row="3" column="1">
-             <widget class="QLineEdit" name="lineEdit_251">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_15">
               <property name="text">
                <string>0</string>
               </property>
@@ -5194,7 +5386,7 @@
              </widget>
             </item>
             <item row="1" column="15">
-             <widget class="QLineEdit" name="lineEdit_249">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_17">
               <property name="text">
                <string>0</string>
               </property>
@@ -5204,7 +5396,7 @@
              </widget>
             </item>
             <item row="3" column="2">
-             <widget class="QLineEdit" name="lineEdit_252">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_14">
               <property name="text">
                <string>0</string>
               </property>
@@ -5214,7 +5406,7 @@
              </widget>
             </item>
             <item row="3" column="3">
-             <widget class="QLineEdit" name="lineEdit_253">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_13">
               <property name="text">
                <string>0</string>
               </property>
@@ -5224,7 +5416,7 @@
              </widget>
             </item>
             <item row="3" column="4">
-             <widget class="QLineEdit" name="lineEdit_254">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_12">
               <property name="text">
                <string>0</string>
               </property>
@@ -5234,7 +5426,7 @@
              </widget>
             </item>
             <item row="3" column="5">
-             <widget class="QLineEdit" name="lineEdit_255">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_11">
               <property name="text">
                <string>0</string>
               </property>
@@ -5244,7 +5436,7 @@
              </widget>
             </item>
             <item row="3" column="6">
-             <widget class="QLineEdit" name="lineEdit_256">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_10">
               <property name="text">
                <string>0</string>
               </property>
@@ -5254,7 +5446,7 @@
              </widget>
             </item>
             <item row="3" column="7">
-             <widget class="QLineEdit" name="lineEdit_257">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_9">
               <property name="text">
                <string>0</string>
               </property>
@@ -5264,7 +5456,7 @@
              </widget>
             </item>
             <item row="3" column="8">
-             <widget class="QLineEdit" name="lineEdit_258">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_8">
               <property name="text">
                <string>0</string>
               </property>
@@ -5274,7 +5466,7 @@
              </widget>
             </item>
             <item row="3" column="9">
-             <widget class="QLineEdit" name="lineEdit_259">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_7">
               <property name="text">
                <string>0</string>
               </property>
@@ -5284,7 +5476,7 @@
              </widget>
             </item>
             <item row="3" column="10">
-             <widget class="QLineEdit" name="lineEdit_260">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_6">
               <property name="text">
                <string>0</string>
               </property>
@@ -5294,7 +5486,7 @@
              </widget>
             </item>
             <item row="3" column="11">
-             <widget class="QLineEdit" name="lineEdit_261">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_5">
               <property name="text">
                <string>0</string>
               </property>
@@ -5304,7 +5496,7 @@
              </widget>
             </item>
             <item row="3" column="12">
-             <widget class="QLineEdit" name="lineEdit_262">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_4">
               <property name="text">
                <string>0</string>
               </property>
@@ -5314,7 +5506,10 @@
              </widget>
             </item>
             <item row="3" column="13">
-             <widget class="QLineEdit" name="lineEdit_263">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_3">
+              <property name="toolTip">
+               <string>McBSP 1 Receive Timeout </string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -5324,7 +5519,10 @@
              </widget>
             </item>
             <item row="3" column="14">
-             <widget class="QLineEdit" name="lineEdit_264">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_2">
+              <property name="toolTip">
+               <string>McBSP 1 Transmit Timeout</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -5334,7 +5532,10 @@
              </widget>
             </item>
             <item row="3" column="16">
-             <widget class="QLineEdit" name="lineEdit_266">
+             <widget class="QLineEdit" name="lineEdit_McBSPFault_0">
+              <property name="toolTip">
+               <string>McBSP 0 Transmit Timeout</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>

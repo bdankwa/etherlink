@@ -47,6 +47,7 @@ private slots:
     void cancelDiagnostics();
     void showDiagnosticsResults();
     void processTxEvent(unsigned int*, unsigned int);
+    void setFault(QLineEdit*, unsigned int);
 
 private:
     Ui_MainWindow *mainWind;

@@ -304,38 +304,38 @@ public:
     QFrame *line_7;
     QFrame *line_8;
     QGridLayout *gridLayout_23;
-    QLineEdit *lineEdit_205;
-    QLineEdit *lineEdit_215;
-    QLineEdit *lineEdit_217;
-    QLineEdit *lineEdit_208;
-    QLineEdit *lineEdit_214;
-    QLineEdit *lineEdit_220;
-    QLineEdit *lineEdit_207;
-    QLineEdit *lineEdit_227;
-    QLineEdit *lineEdit_216;
-    QLineEdit *lineEdit_210;
-    QLineEdit *lineEdit_112;
-    QLineEdit *lineEdit_224;
-    QLineEdit *lineEdit_221;
-    QLineEdit *lineEdit_232;
-    QLineEdit *lineEdit_206;
-    QLineEdit *lineEdit_223;
-    QLineEdit *lineEdit_211;
-    QLineEdit *lineEdit_225;
-    QLineEdit *lineEdit_218;
-    QLineEdit *lineEdit_219;
-    QLineEdit *lineEdit_226;
-    QLineEdit *lineEdit_209;
-    QLineEdit *lineEdit_222;
-    QLineEdit *lineEdit_213;
-    QLineEdit *lineEdit_229;
-    QLineEdit *lineEdit_212;
-    QLineEdit *lineEdit_230;
-    QLineEdit *lineEdit_231;
-    QLineEdit *lineEdit_228;
-    QLineEdit *lineEdit_233;
-    QLineEdit *lineEdit_234;
-    QLineEdit *lineEdit_235;
+    QLineEdit *lineEdit_bootFault_30;
+    QLineEdit *lineEdit_bootFault_20;
+    QLineEdit *lineEdit_bootFault_18;
+    QLineEdit *lineEdit_bootFault_27;
+    QLineEdit *lineEdit_bootFault_21;
+    QLineEdit *lineEdit_bootFault_15;
+    QLineEdit *lineEdit_bootFault_28;
+    QLineEdit *lineEdit_bootFault_8;
+    QLineEdit *lineEdit_bootFault_19;
+    QLineEdit *lineEdit_bootFault_25;
+    QLineEdit *lineEdit_bootFault_31;
+    QLineEdit *lineEdit_bootFault_11;
+    QLineEdit *lineEdit_bootFault_14;
+    QLineEdit *lineEdit_bootFault_3;
+    QLineEdit *lineEdit_bootFault_29;
+    QLineEdit *lineEdit_bootFault_12;
+    QLineEdit *lineEdit_bootFault_24;
+    QLineEdit *lineEdit_bootFault_10;
+    QLineEdit *lineEdit_bootFault_17;
+    QLineEdit *lineEdit_bootFault_16;
+    QLineEdit *lineEdit_bootFault_9;
+    QLineEdit *lineEdit_bootFault_26;
+    QLineEdit *lineEdit_bootFault_13;
+    QLineEdit *lineEdit_bootFault_22;
+    QLineEdit *lineEdit_bootFault_6;
+    QLineEdit *lineEdit_bootFault_23;
+    QLineEdit *lineEdit_bootFault_5;
+    QLineEdit *lineEdit_bootFault_4;
+    QLineEdit *lineEdit_bootFault_7;
+    QLineEdit *lineEdit_bootFault_2;
+    QLineEdit *lineEdit_bootFault_1;
+    QLineEdit *lineEdit_bootFault_0;
     QLabel *label_96;
     QLabel *label_97;
     QLabel *label_94;
@@ -464,75 +464,75 @@ public:
     QLabel *label_83;
     QFrame *line;
     QGridLayout *gridLayout_22;
-    QLineEdit *lineEdit_183;
-    QLineEdit *lineEdit_191;
-    QLineEdit *lineEdit_192;
-    QLineEdit *lineEdit_204;
-    QLineEdit *lineEdit_111;
-    QLineEdit *lineEdit_188;
-    QLineEdit *lineEdit_186;
-    QLineEdit *lineEdit_174;
-    QLineEdit *lineEdit_175;
-    QLineEdit *lineEdit_177;
-    QLineEdit *lineEdit_176;
-    QLineEdit *lineEdit_179;
-    QLineEdit *lineEdit_178;
-    QLineEdit *lineEdit_180;
-    QLineEdit *lineEdit_184;
-    QLineEdit *lineEdit_181;
-    QLineEdit *lineEdit_182;
-    QLineEdit *lineEdit_185;
-    QLineEdit *lineEdit_187;
-    QLineEdit *lineEdit_190;
-    QLineEdit *lineEdit_189;
-    QLineEdit *lineEdit_193;
-    QLineEdit *lineEdit_195;
-    QLineEdit *lineEdit_194;
-    QLineEdit *lineEdit_196;
-    QLineEdit *lineEdit_198;
-    QLineEdit *lineEdit_197;
-    QLineEdit *lineEdit_199;
-    QLineEdit *lineEdit_200;
-    QLineEdit *lineEdit_201;
-    QLineEdit *lineEdit_202;
-    QLineEdit *lineEdit_203;
+    QLineEdit *lineEdit_nvmFault_22;
+    QLineEdit *lineEdit_nvmFault_14;
+    QLineEdit *lineEdit_nvmFault_13;
+    QLineEdit *lineEdit_nvmFault_0;
+    QLineEdit *lineEdit_nvmFault_31;
+    QLineEdit *lineEdit_nvmFault_17;
+    QLineEdit *lineEdit_nvmFault_19;
+    QLineEdit *lineEdit_nvmFault_30;
+    QLineEdit *lineEdit_nvmFault_29;
+    QLineEdit *lineEdit_nvmFault_27;
+    QLineEdit *lineEdit_nvmFault_28;
+    QLineEdit *lineEdit_nvmFault_25;
+    QLineEdit *lineEdit_nvmFault_26;
+    QLineEdit *lineEdit_nvmFault_9;
+    QLineEdit *lineEdit_nvmFault_21;
+    QLineEdit *lineEdit_nvmFault_24;
+    QLineEdit *lineEdit_nvmFault_23;
+    QLineEdit *lineEdit_nvmFault_20;
+    QLineEdit *lineEdit_nvmFault_18;
+    QLineEdit *lineEdit_nvmFault_15;
+    QLineEdit *lineEdit_nvmFault_16;
+    QLineEdit *lineEdit_nvmFault_12;
+    QLineEdit *lineEdit_nvmFault_10;
+    QLineEdit *lineEdit_nvmFault_11;
+    QLineEdit *lineEdit_nvmFault_8;
+    QLineEdit *lineEdit_nvmFault_6;
+    QLineEdit *lineEdit_nvmFault_7;
+    QLineEdit *lineEdit_nvmFault_5;
+    QLineEdit *lineEdit_nvmFault_4;
+    QLineEdit *lineEdit_nvmFault_3;
+    QLineEdit *lineEdit_nvmFault_2;
+    QLineEdit *lineEdit_nvmFault_1;
     QLabel *label_93;
     QLabel *label_90;
     QLabel *label_91;
     QLabel *label_92;
     QGridLayout *gridLayout_25;
-    QLineEdit *lineEdit_267;
-    QLineEdit *lineEdit_114;
-    QLineEdit *lineEdit_289;
-    QLineEdit *lineEdit_268;
-    QLineEdit *lineEdit_282;
-    QLineEdit *lineEdit_270;
-    QLineEdit *lineEdit_269;
-    QLineEdit *lineEdit_277;
-    QLineEdit *lineEdit_274;
-    QLineEdit *lineEdit_271;
-    QLineEdit *lineEdit_272;
-    QLineEdit *lineEdit_273;
-    QLineEdit *lineEdit_281;
-    QLineEdit *lineEdit_275;
-    QLineEdit *lineEdit_276;
-    QLineEdit *lineEdit_278;
-    QLineEdit *lineEdit_280;
-    QLineEdit *lineEdit_279;
-    QLineEdit *lineEdit_283;
-    QLineEdit *lineEdit_284;
-    QLineEdit *lineEdit_285;
-    QLineEdit *lineEdit_296;
-    QLineEdit *lineEdit_286;
-    QLineEdit *lineEdit_287;
-    QLineEdit *lineEdit_288;
-    QLineEdit *lineEdit_290;
-    QLineEdit *lineEdit_291;
-    QLineEdit *lineEdit_292;
-    QLineEdit *lineEdit_293;
-    QLineEdit *lineEdit_294;
-    QLineEdit *lineEdit_295;
-    QLineEdit *lineEdit_297;
+    QLineEdit *lineEdit_RS422Fault_29;
+    QLineEdit *lineEdit_RS422Fault_30;
+    QLineEdit *lineEdit_RS422Fault_9;
+    QLineEdit *lineEdit_RS422Fault_31;
+    QLineEdit *lineEdit_RS422Fault_16;
+    QLineEdit *lineEdit_RS422Fault_27;
+    QLineEdit *lineEdit_RS422Fault_28;
+    QLineEdit *lineEdit_RS422Fault_21;
+    QLineEdit *lineEdit_RS422Fault_23;
+    QLineEdit *lineEdit_RS422Fault_26;
+    QLineEdit *lineEdit_RS422Fault_25;
+    QLineEdit *lineEdit_RS422Fault_24;
+    QLineEdit *lineEdit_RS422Fault_17;
+    QLineEdit *lineEdit_RS422Fault_22;
+    QLineEdit *lineEdit_RS422Fault_6;
+    QLineEdit *lineEdit_RS422Fault_20;
+    QLineEdit *lineEdit_RS422Fault_18;
+    QLineEdit *lineEdit_RS422Fault_19;
+    QLineEdit *lineEdit_RS422Fault_15;
+    QLineEdit *lineEdit_RS422Fault_14;
+    QLineEdit *lineEdit_RS422Fault_13;
+    QLineEdit *lineEdit_RS422Fault_1;
+    QLineEdit *lineEdit_RS422Fault_12;
+    QLineEdit *lineEdit_RS422Fault_11;
+    QLineEdit *lineEdit_RS422Fault_10;
+    QLineEdit *lineEdit_RS422Fault_8;
+    QLineEdit *lineEdit_RS422Fault_7;
+    QLineEdit *lineEdit_RS422Fault_5;
+    QLineEdit *lineEdit_RS422Fault_4;
+    QLineEdit *lineEdit_RS422Fault_3;
+    QLineEdit *lineEdit_RS422Fault_2;
+    QLineEdit *lineEdit_RS422Fault_0;
     QLabel *label_104;
     QLabel *label_105;
     QLabel *label_102;
@@ -612,38 +612,38 @@ public:
     QLabel *label_113;
     QLabel *label_112;
     QGridLayout *gridLayout_24;
-    QLineEdit *lineEdit_113;
-    QLineEdit *lineEdit_236;
-    QLineEdit *lineEdit_239;
-    QLineEdit *lineEdit_243;
-    QLineEdit *lineEdit_265;
-    QLineEdit *lineEdit_237;
-    QLineEdit *lineEdit_238;
-    QLineEdit *lineEdit_240;
-    QLineEdit *lineEdit_241;
-    QLineEdit *lineEdit_242;
-    QLineEdit *lineEdit_244;
-    QLineEdit *lineEdit_245;
-    QLineEdit *lineEdit_248;
-    QLineEdit *lineEdit_247;
-    QLineEdit *lineEdit_246;
-    QLineEdit *lineEdit_250;
-    QLineEdit *lineEdit_251;
-    QLineEdit *lineEdit_249;
-    QLineEdit *lineEdit_252;
-    QLineEdit *lineEdit_253;
-    QLineEdit *lineEdit_254;
-    QLineEdit *lineEdit_255;
-    QLineEdit *lineEdit_256;
-    QLineEdit *lineEdit_257;
-    QLineEdit *lineEdit_258;
-    QLineEdit *lineEdit_259;
-    QLineEdit *lineEdit_260;
-    QLineEdit *lineEdit_261;
-    QLineEdit *lineEdit_262;
-    QLineEdit *lineEdit_263;
-    QLineEdit *lineEdit_264;
-    QLineEdit *lineEdit_266;
+    QLineEdit *lineEdit_McBSPFault_31;
+    QLineEdit *lineEdit_McBSPFault_30;
+    QLineEdit *lineEdit_McBSPFault_27;
+    QLineEdit *lineEdit_McBSPFault_23;
+    QLineEdit *lineEdit_McBSPFault_1;
+    QLineEdit *lineEdit_McBSPFault_29;
+    QLineEdit *lineEdit_McBSPFault_28;
+    QLineEdit *lineEdit_McBSPFault_26;
+    QLineEdit *lineEdit_McBSPFault_25;
+    QLineEdit *lineEdit_McBSPFault_24;
+    QLineEdit *lineEdit_McBSPFault_22;
+    QLineEdit *lineEdit_McBSPFault_21;
+    QLineEdit *lineEdit_McBSPFault_18;
+    QLineEdit *lineEdit_McBSPFault_19;
+    QLineEdit *lineEdit_McBSPFault_20;
+    QLineEdit *lineEdit_McBSPFault_16;
+    QLineEdit *lineEdit_McBSPFault_15;
+    QLineEdit *lineEdit_McBSPFault_17;
+    QLineEdit *lineEdit_McBSPFault_14;
+    QLineEdit *lineEdit_McBSPFault_13;
+    QLineEdit *lineEdit_McBSPFault_12;
+    QLineEdit *lineEdit_McBSPFault_11;
+    QLineEdit *lineEdit_McBSPFault_10;
+    QLineEdit *lineEdit_McBSPFault_9;
+    QLineEdit *lineEdit_McBSPFault_8;
+    QLineEdit *lineEdit_McBSPFault_7;
+    QLineEdit *lineEdit_McBSPFault_6;
+    QLineEdit *lineEdit_McBSPFault_5;
+    QLineEdit *lineEdit_McBSPFault_4;
+    QLineEdit *lineEdit_McBSPFault_3;
+    QLineEdit *lineEdit_McBSPFault_2;
+    QLineEdit *lineEdit_McBSPFault_0;
     QLabel *label_101;
     QLabel *label_100;
     QLabel *label_99;
@@ -2061,197 +2061,197 @@ public:
 
         gridLayout_23 = new QGridLayout();
         gridLayout_23->setObjectName(QString::fromUtf8("gridLayout_23"));
-        lineEdit_205 = new QLineEdit(tab_6);
-        lineEdit_205->setObjectName(QString::fromUtf8("lineEdit_205"));
-        lineEdit_205->setReadOnly(true);
+        lineEdit_bootFault_30 = new QLineEdit(tab_6);
+        lineEdit_bootFault_30->setObjectName(QString::fromUtf8("lineEdit_bootFault_30"));
+        lineEdit_bootFault_30->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_205, 1, 2, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_30, 1, 2, 1, 1);
 
-        lineEdit_215 = new QLineEdit(tab_6);
-        lineEdit_215->setObjectName(QString::fromUtf8("lineEdit_215"));
-        lineEdit_215->setReadOnly(true);
+        lineEdit_bootFault_20 = new QLineEdit(tab_6);
+        lineEdit_bootFault_20->setObjectName(QString::fromUtf8("lineEdit_bootFault_20"));
+        lineEdit_bootFault_20->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_215, 1, 12, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_20, 1, 12, 1, 1);
 
-        lineEdit_217 = new QLineEdit(tab_6);
-        lineEdit_217->setObjectName(QString::fromUtf8("lineEdit_217"));
-        lineEdit_217->setReadOnly(true);
+        lineEdit_bootFault_18 = new QLineEdit(tab_6);
+        lineEdit_bootFault_18->setObjectName(QString::fromUtf8("lineEdit_bootFault_18"));
+        lineEdit_bootFault_18->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_217, 1, 14, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_18, 1, 14, 1, 1);
 
-        lineEdit_208 = new QLineEdit(tab_6);
-        lineEdit_208->setObjectName(QString::fromUtf8("lineEdit_208"));
-        lineEdit_208->setReadOnly(true);
+        lineEdit_bootFault_27 = new QLineEdit(tab_6);
+        lineEdit_bootFault_27->setObjectName(QString::fromUtf8("lineEdit_bootFault_27"));
+        lineEdit_bootFault_27->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_208, 1, 5, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_27, 1, 5, 1, 1);
 
-        lineEdit_214 = new QLineEdit(tab_6);
-        lineEdit_214->setObjectName(QString::fromUtf8("lineEdit_214"));
-        lineEdit_214->setReadOnly(true);
+        lineEdit_bootFault_21 = new QLineEdit(tab_6);
+        lineEdit_bootFault_21->setObjectName(QString::fromUtf8("lineEdit_bootFault_21"));
+        lineEdit_bootFault_21->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_214, 1, 11, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_21, 1, 11, 1, 1);
 
-        lineEdit_220 = new QLineEdit(tab_6);
-        lineEdit_220->setObjectName(QString::fromUtf8("lineEdit_220"));
-        lineEdit_220->setReadOnly(true);
+        lineEdit_bootFault_15 = new QLineEdit(tab_6);
+        lineEdit_bootFault_15->setObjectName(QString::fromUtf8("lineEdit_bootFault_15"));
+        lineEdit_bootFault_15->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_220, 2, 1, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_15, 2, 1, 1, 1);
 
-        lineEdit_207 = new QLineEdit(tab_6);
-        lineEdit_207->setObjectName(QString::fromUtf8("lineEdit_207"));
-        lineEdit_207->setReadOnly(true);
+        lineEdit_bootFault_28 = new QLineEdit(tab_6);
+        lineEdit_bootFault_28->setObjectName(QString::fromUtf8("lineEdit_bootFault_28"));
+        lineEdit_bootFault_28->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_207, 1, 4, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_28, 1, 4, 1, 1);
 
-        lineEdit_227 = new QLineEdit(tab_6);
-        lineEdit_227->setObjectName(QString::fromUtf8("lineEdit_227"));
-        lineEdit_227->setReadOnly(true);
+        lineEdit_bootFault_8 = new QLineEdit(tab_6);
+        lineEdit_bootFault_8->setObjectName(QString::fromUtf8("lineEdit_bootFault_8"));
+        lineEdit_bootFault_8->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_227, 2, 8, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_8, 2, 8, 1, 1);
 
-        lineEdit_216 = new QLineEdit(tab_6);
-        lineEdit_216->setObjectName(QString::fromUtf8("lineEdit_216"));
-        lineEdit_216->setReadOnly(true);
+        lineEdit_bootFault_19 = new QLineEdit(tab_6);
+        lineEdit_bootFault_19->setObjectName(QString::fromUtf8("lineEdit_bootFault_19"));
+        lineEdit_bootFault_19->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_216, 1, 13, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_19, 1, 13, 1, 1);
 
-        lineEdit_210 = new QLineEdit(tab_6);
-        lineEdit_210->setObjectName(QString::fromUtf8("lineEdit_210"));
-        lineEdit_210->setReadOnly(true);
+        lineEdit_bootFault_25 = new QLineEdit(tab_6);
+        lineEdit_bootFault_25->setObjectName(QString::fromUtf8("lineEdit_bootFault_25"));
+        lineEdit_bootFault_25->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_210, 1, 7, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_25, 1, 7, 1, 1);
 
-        lineEdit_112 = new QLineEdit(tab_6);
-        lineEdit_112->setObjectName(QString::fromUtf8("lineEdit_112"));
-        lineEdit_112->setReadOnly(true);
+        lineEdit_bootFault_31 = new QLineEdit(tab_6);
+        lineEdit_bootFault_31->setObjectName(QString::fromUtf8("lineEdit_bootFault_31"));
+        lineEdit_bootFault_31->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_112, 1, 1, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_31, 1, 1, 1, 1);
 
-        lineEdit_224 = new QLineEdit(tab_6);
-        lineEdit_224->setObjectName(QString::fromUtf8("lineEdit_224"));
-        lineEdit_224->setReadOnly(true);
+        lineEdit_bootFault_11 = new QLineEdit(tab_6);
+        lineEdit_bootFault_11->setObjectName(QString::fromUtf8("lineEdit_bootFault_11"));
+        lineEdit_bootFault_11->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_224, 2, 5, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_11, 2, 5, 1, 1);
 
-        lineEdit_221 = new QLineEdit(tab_6);
-        lineEdit_221->setObjectName(QString::fromUtf8("lineEdit_221"));
-        lineEdit_221->setReadOnly(true);
+        lineEdit_bootFault_14 = new QLineEdit(tab_6);
+        lineEdit_bootFault_14->setObjectName(QString::fromUtf8("lineEdit_bootFault_14"));
+        lineEdit_bootFault_14->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_221, 2, 2, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_14, 2, 2, 1, 1);
 
-        lineEdit_232 = new QLineEdit(tab_6);
-        lineEdit_232->setObjectName(QString::fromUtf8("lineEdit_232"));
-        lineEdit_232->setReadOnly(true);
+        lineEdit_bootFault_3 = new QLineEdit(tab_6);
+        lineEdit_bootFault_3->setObjectName(QString::fromUtf8("lineEdit_bootFault_3"));
+        lineEdit_bootFault_3->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_232, 2, 13, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_3, 2, 13, 1, 1);
 
-        lineEdit_206 = new QLineEdit(tab_6);
-        lineEdit_206->setObjectName(QString::fromUtf8("lineEdit_206"));
-        lineEdit_206->setReadOnly(true);
+        lineEdit_bootFault_29 = new QLineEdit(tab_6);
+        lineEdit_bootFault_29->setObjectName(QString::fromUtf8("lineEdit_bootFault_29"));
+        lineEdit_bootFault_29->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_206, 1, 3, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_29, 1, 3, 1, 1);
 
-        lineEdit_223 = new QLineEdit(tab_6);
-        lineEdit_223->setObjectName(QString::fromUtf8("lineEdit_223"));
-        lineEdit_223->setReadOnly(true);
+        lineEdit_bootFault_12 = new QLineEdit(tab_6);
+        lineEdit_bootFault_12->setObjectName(QString::fromUtf8("lineEdit_bootFault_12"));
+        lineEdit_bootFault_12->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_223, 2, 4, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_12, 2, 4, 1, 1);
 
-        lineEdit_211 = new QLineEdit(tab_6);
-        lineEdit_211->setObjectName(QString::fromUtf8("lineEdit_211"));
-        lineEdit_211->setReadOnly(true);
+        lineEdit_bootFault_24 = new QLineEdit(tab_6);
+        lineEdit_bootFault_24->setObjectName(QString::fromUtf8("lineEdit_bootFault_24"));
+        lineEdit_bootFault_24->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_211, 1, 8, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_24, 1, 8, 1, 1);
 
-        lineEdit_225 = new QLineEdit(tab_6);
-        lineEdit_225->setObjectName(QString::fromUtf8("lineEdit_225"));
-        lineEdit_225->setReadOnly(true);
+        lineEdit_bootFault_10 = new QLineEdit(tab_6);
+        lineEdit_bootFault_10->setObjectName(QString::fromUtf8("lineEdit_bootFault_10"));
+        lineEdit_bootFault_10->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_225, 2, 6, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_10, 2, 6, 1, 1);
 
-        lineEdit_218 = new QLineEdit(tab_6);
-        lineEdit_218->setObjectName(QString::fromUtf8("lineEdit_218"));
-        lineEdit_218->setReadOnly(true);
+        lineEdit_bootFault_17 = new QLineEdit(tab_6);
+        lineEdit_bootFault_17->setObjectName(QString::fromUtf8("lineEdit_bootFault_17"));
+        lineEdit_bootFault_17->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_218, 1, 15, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_17, 1, 15, 1, 1);
 
-        lineEdit_219 = new QLineEdit(tab_6);
-        lineEdit_219->setObjectName(QString::fromUtf8("lineEdit_219"));
-        lineEdit_219->setReadOnly(true);
+        lineEdit_bootFault_16 = new QLineEdit(tab_6);
+        lineEdit_bootFault_16->setObjectName(QString::fromUtf8("lineEdit_bootFault_16"));
+        lineEdit_bootFault_16->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_219, 1, 16, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_16, 1, 16, 1, 1);
 
-        lineEdit_226 = new QLineEdit(tab_6);
-        lineEdit_226->setObjectName(QString::fromUtf8("lineEdit_226"));
-        lineEdit_226->setReadOnly(true);
+        lineEdit_bootFault_9 = new QLineEdit(tab_6);
+        lineEdit_bootFault_9->setObjectName(QString::fromUtf8("lineEdit_bootFault_9"));
+        lineEdit_bootFault_9->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_226, 2, 7, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_9, 2, 7, 1, 1);
 
-        lineEdit_209 = new QLineEdit(tab_6);
-        lineEdit_209->setObjectName(QString::fromUtf8("lineEdit_209"));
-        lineEdit_209->setReadOnly(true);
+        lineEdit_bootFault_26 = new QLineEdit(tab_6);
+        lineEdit_bootFault_26->setObjectName(QString::fromUtf8("lineEdit_bootFault_26"));
+        lineEdit_bootFault_26->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_209, 1, 6, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_26, 1, 6, 1, 1);
 
-        lineEdit_222 = new QLineEdit(tab_6);
-        lineEdit_222->setObjectName(QString::fromUtf8("lineEdit_222"));
-        lineEdit_222->setReadOnly(true);
+        lineEdit_bootFault_13 = new QLineEdit(tab_6);
+        lineEdit_bootFault_13->setObjectName(QString::fromUtf8("lineEdit_bootFault_13"));
+        lineEdit_bootFault_13->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_222, 2, 3, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_13, 2, 3, 1, 1);
 
-        lineEdit_213 = new QLineEdit(tab_6);
-        lineEdit_213->setObjectName(QString::fromUtf8("lineEdit_213"));
-        lineEdit_213->setReadOnly(true);
+        lineEdit_bootFault_22 = new QLineEdit(tab_6);
+        lineEdit_bootFault_22->setObjectName(QString::fromUtf8("lineEdit_bootFault_22"));
+        lineEdit_bootFault_22->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_213, 1, 10, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_22, 1, 10, 1, 1);
 
-        lineEdit_229 = new QLineEdit(tab_6);
-        lineEdit_229->setObjectName(QString::fromUtf8("lineEdit_229"));
-        lineEdit_229->setReadOnly(true);
+        lineEdit_bootFault_6 = new QLineEdit(tab_6);
+        lineEdit_bootFault_6->setObjectName(QString::fromUtf8("lineEdit_bootFault_6"));
+        lineEdit_bootFault_6->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_229, 2, 10, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_6, 2, 10, 1, 1);
 
-        lineEdit_212 = new QLineEdit(tab_6);
-        lineEdit_212->setObjectName(QString::fromUtf8("lineEdit_212"));
-        lineEdit_212->setReadOnly(true);
+        lineEdit_bootFault_23 = new QLineEdit(tab_6);
+        lineEdit_bootFault_23->setObjectName(QString::fromUtf8("lineEdit_bootFault_23"));
+        lineEdit_bootFault_23->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_212, 1, 9, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_23, 1, 9, 1, 1);
 
-        lineEdit_230 = new QLineEdit(tab_6);
-        lineEdit_230->setObjectName(QString::fromUtf8("lineEdit_230"));
-        lineEdit_230->setReadOnly(true);
+        lineEdit_bootFault_5 = new QLineEdit(tab_6);
+        lineEdit_bootFault_5->setObjectName(QString::fromUtf8("lineEdit_bootFault_5"));
+        lineEdit_bootFault_5->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_230, 2, 11, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_5, 2, 11, 1, 1);
 
-        lineEdit_231 = new QLineEdit(tab_6);
-        lineEdit_231->setObjectName(QString::fromUtf8("lineEdit_231"));
-        lineEdit_231->setReadOnly(true);
+        lineEdit_bootFault_4 = new QLineEdit(tab_6);
+        lineEdit_bootFault_4->setObjectName(QString::fromUtf8("lineEdit_bootFault_4"));
+        lineEdit_bootFault_4->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_231, 2, 12, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_4, 2, 12, 1, 1);
 
-        lineEdit_228 = new QLineEdit(tab_6);
-        lineEdit_228->setObjectName(QString::fromUtf8("lineEdit_228"));
-        lineEdit_228->setReadOnly(true);
+        lineEdit_bootFault_7 = new QLineEdit(tab_6);
+        lineEdit_bootFault_7->setObjectName(QString::fromUtf8("lineEdit_bootFault_7"));
+        lineEdit_bootFault_7->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_228, 2, 9, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_7, 2, 9, 1, 1);
 
-        lineEdit_233 = new QLineEdit(tab_6);
-        lineEdit_233->setObjectName(QString::fromUtf8("lineEdit_233"));
-        lineEdit_233->setReadOnly(true);
+        lineEdit_bootFault_2 = new QLineEdit(tab_6);
+        lineEdit_bootFault_2->setObjectName(QString::fromUtf8("lineEdit_bootFault_2"));
+        lineEdit_bootFault_2->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_233, 2, 14, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_2, 2, 14, 1, 1);
 
-        lineEdit_234 = new QLineEdit(tab_6);
-        lineEdit_234->setObjectName(QString::fromUtf8("lineEdit_234"));
-        lineEdit_234->setReadOnly(true);
+        lineEdit_bootFault_1 = new QLineEdit(tab_6);
+        lineEdit_bootFault_1->setObjectName(QString::fromUtf8("lineEdit_bootFault_1"));
+        lineEdit_bootFault_1->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_234, 2, 15, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_1, 2, 15, 1, 1);
 
-        lineEdit_235 = new QLineEdit(tab_6);
-        lineEdit_235->setObjectName(QString::fromUtf8("lineEdit_235"));
-        lineEdit_235->setReadOnly(true);
+        lineEdit_bootFault_0 = new QLineEdit(tab_6);
+        lineEdit_bootFault_0->setObjectName(QString::fromUtf8("lineEdit_bootFault_0"));
+        lineEdit_bootFault_0->setReadOnly(true);
 
-        gridLayout_23->addWidget(lineEdit_235, 2, 16, 1, 1);
+        gridLayout_23->addWidget(lineEdit_bootFault_0, 2, 16, 1, 1);
 
         label_96 = new QLabel(tab_6);
         label_96->setObjectName(QString::fromUtf8("label_96"));
@@ -2996,197 +2996,197 @@ public:
 
         gridLayout_22 = new QGridLayout();
         gridLayout_22->setObjectName(QString::fromUtf8("gridLayout_22"));
-        lineEdit_183 = new QLineEdit(tab_6);
-        lineEdit_183->setObjectName(QString::fromUtf8("lineEdit_183"));
-        lineEdit_183->setReadOnly(true);
+        lineEdit_nvmFault_22 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_22->setObjectName(QString::fromUtf8("lineEdit_nvmFault_22"));
+        lineEdit_nvmFault_22->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_183, 1, 10, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_22, 1, 10, 1, 1);
 
-        lineEdit_191 = new QLineEdit(tab_6);
-        lineEdit_191->setObjectName(QString::fromUtf8("lineEdit_191"));
-        lineEdit_191->setReadOnly(true);
+        lineEdit_nvmFault_14 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_14->setObjectName(QString::fromUtf8("lineEdit_nvmFault_14"));
+        lineEdit_nvmFault_14->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_191, 2, 2, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_14, 2, 2, 1, 1);
 
-        lineEdit_192 = new QLineEdit(tab_6);
-        lineEdit_192->setObjectName(QString::fromUtf8("lineEdit_192"));
-        lineEdit_192->setReadOnly(true);
+        lineEdit_nvmFault_13 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_13->setObjectName(QString::fromUtf8("lineEdit_nvmFault_13"));
+        lineEdit_nvmFault_13->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_192, 2, 3, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_13, 2, 3, 1, 1);
 
-        lineEdit_204 = new QLineEdit(tab_6);
-        lineEdit_204->setObjectName(QString::fromUtf8("lineEdit_204"));
-        lineEdit_204->setReadOnly(true);
+        lineEdit_nvmFault_0 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_0->setObjectName(QString::fromUtf8("lineEdit_nvmFault_0"));
+        lineEdit_nvmFault_0->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_204, 2, 16, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_0, 2, 16, 1, 1);
 
-        lineEdit_111 = new QLineEdit(tab_6);
-        lineEdit_111->setObjectName(QString::fromUtf8("lineEdit_111"));
-        lineEdit_111->setReadOnly(true);
+        lineEdit_nvmFault_31 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_31->setObjectName(QString::fromUtf8("lineEdit_nvmFault_31"));
+        lineEdit_nvmFault_31->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_111, 1, 1, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_31, 1, 1, 1, 1);
 
-        lineEdit_188 = new QLineEdit(tab_6);
-        lineEdit_188->setObjectName(QString::fromUtf8("lineEdit_188"));
-        lineEdit_188->setReadOnly(true);
+        lineEdit_nvmFault_17 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_17->setObjectName(QString::fromUtf8("lineEdit_nvmFault_17"));
+        lineEdit_nvmFault_17->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_188, 1, 15, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_17, 1, 15, 1, 1);
 
-        lineEdit_186 = new QLineEdit(tab_6);
-        lineEdit_186->setObjectName(QString::fromUtf8("lineEdit_186"));
-        lineEdit_186->setReadOnly(true);
+        lineEdit_nvmFault_19 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_19->setObjectName(QString::fromUtf8("lineEdit_nvmFault_19"));
+        lineEdit_nvmFault_19->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_186, 1, 13, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_19, 1, 13, 1, 1);
 
-        lineEdit_174 = new QLineEdit(tab_6);
-        lineEdit_174->setObjectName(QString::fromUtf8("lineEdit_174"));
-        lineEdit_174->setReadOnly(true);
+        lineEdit_nvmFault_30 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_30->setObjectName(QString::fromUtf8("lineEdit_nvmFault_30"));
+        lineEdit_nvmFault_30->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_174, 1, 2, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_30, 1, 2, 1, 1);
 
-        lineEdit_175 = new QLineEdit(tab_6);
-        lineEdit_175->setObjectName(QString::fromUtf8("lineEdit_175"));
-        lineEdit_175->setReadOnly(true);
+        lineEdit_nvmFault_29 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_29->setObjectName(QString::fromUtf8("lineEdit_nvmFault_29"));
+        lineEdit_nvmFault_29->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_175, 1, 3, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_29, 1, 3, 1, 1);
 
-        lineEdit_177 = new QLineEdit(tab_6);
-        lineEdit_177->setObjectName(QString::fromUtf8("lineEdit_177"));
-        lineEdit_177->setReadOnly(true);
+        lineEdit_nvmFault_27 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_27->setObjectName(QString::fromUtf8("lineEdit_nvmFault_27"));
+        lineEdit_nvmFault_27->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_177, 1, 5, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_27, 1, 5, 1, 1);
 
-        lineEdit_176 = new QLineEdit(tab_6);
-        lineEdit_176->setObjectName(QString::fromUtf8("lineEdit_176"));
-        lineEdit_176->setReadOnly(true);
+        lineEdit_nvmFault_28 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_28->setObjectName(QString::fromUtf8("lineEdit_nvmFault_28"));
+        lineEdit_nvmFault_28->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_176, 1, 4, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_28, 1, 4, 1, 1);
 
-        lineEdit_179 = new QLineEdit(tab_6);
-        lineEdit_179->setObjectName(QString::fromUtf8("lineEdit_179"));
-        lineEdit_179->setReadOnly(true);
+        lineEdit_nvmFault_25 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_25->setObjectName(QString::fromUtf8("lineEdit_nvmFault_25"));
+        lineEdit_nvmFault_25->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_179, 1, 7, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_25, 1, 7, 1, 1);
 
-        lineEdit_178 = new QLineEdit(tab_6);
-        lineEdit_178->setObjectName(QString::fromUtf8("lineEdit_178"));
-        lineEdit_178->setReadOnly(true);
+        lineEdit_nvmFault_26 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_26->setObjectName(QString::fromUtf8("lineEdit_nvmFault_26"));
+        lineEdit_nvmFault_26->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_178, 1, 6, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_26, 1, 6, 1, 1);
 
-        lineEdit_180 = new QLineEdit(tab_6);
-        lineEdit_180->setObjectName(QString::fromUtf8("lineEdit_180"));
-        lineEdit_180->setReadOnly(true);
+        lineEdit_nvmFault_9 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_9->setObjectName(QString::fromUtf8("lineEdit_nvmFault_9"));
+        lineEdit_nvmFault_9->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_180, 2, 7, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_9, 2, 7, 1, 1);
 
-        lineEdit_184 = new QLineEdit(tab_6);
-        lineEdit_184->setObjectName(QString::fromUtf8("lineEdit_184"));
-        lineEdit_184->setReadOnly(true);
+        lineEdit_nvmFault_21 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_21->setObjectName(QString::fromUtf8("lineEdit_nvmFault_21"));
+        lineEdit_nvmFault_21->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_184, 1, 11, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_21, 1, 11, 1, 1);
 
-        lineEdit_181 = new QLineEdit(tab_6);
-        lineEdit_181->setObjectName(QString::fromUtf8("lineEdit_181"));
-        lineEdit_181->setReadOnly(true);
+        lineEdit_nvmFault_24 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_24->setObjectName(QString::fromUtf8("lineEdit_nvmFault_24"));
+        lineEdit_nvmFault_24->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_181, 1, 8, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_24, 1, 8, 1, 1);
 
-        lineEdit_182 = new QLineEdit(tab_6);
-        lineEdit_182->setObjectName(QString::fromUtf8("lineEdit_182"));
-        lineEdit_182->setReadOnly(true);
+        lineEdit_nvmFault_23 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_23->setObjectName(QString::fromUtf8("lineEdit_nvmFault_23"));
+        lineEdit_nvmFault_23->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_182, 1, 9, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_23, 1, 9, 1, 1);
 
-        lineEdit_185 = new QLineEdit(tab_6);
-        lineEdit_185->setObjectName(QString::fromUtf8("lineEdit_185"));
-        lineEdit_185->setReadOnly(true);
+        lineEdit_nvmFault_20 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_20->setObjectName(QString::fromUtf8("lineEdit_nvmFault_20"));
+        lineEdit_nvmFault_20->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_185, 1, 12, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_20, 1, 12, 1, 1);
 
-        lineEdit_187 = new QLineEdit(tab_6);
-        lineEdit_187->setObjectName(QString::fromUtf8("lineEdit_187"));
-        lineEdit_187->setReadOnly(true);
+        lineEdit_nvmFault_18 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_18->setObjectName(QString::fromUtf8("lineEdit_nvmFault_18"));
+        lineEdit_nvmFault_18->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_187, 1, 14, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_18, 1, 14, 1, 1);
 
-        lineEdit_190 = new QLineEdit(tab_6);
-        lineEdit_190->setObjectName(QString::fromUtf8("lineEdit_190"));
-        lineEdit_190->setReadOnly(true);
+        lineEdit_nvmFault_15 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_15->setObjectName(QString::fromUtf8("lineEdit_nvmFault_15"));
+        lineEdit_nvmFault_15->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_190, 2, 1, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_15, 2, 1, 1, 1);
 
-        lineEdit_189 = new QLineEdit(tab_6);
-        lineEdit_189->setObjectName(QString::fromUtf8("lineEdit_189"));
-        lineEdit_189->setReadOnly(true);
+        lineEdit_nvmFault_16 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_16->setObjectName(QString::fromUtf8("lineEdit_nvmFault_16"));
+        lineEdit_nvmFault_16->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_189, 1, 16, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_16, 1, 16, 1, 1);
 
-        lineEdit_193 = new QLineEdit(tab_6);
-        lineEdit_193->setObjectName(QString::fromUtf8("lineEdit_193"));
-        lineEdit_193->setReadOnly(true);
+        lineEdit_nvmFault_12 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_12->setObjectName(QString::fromUtf8("lineEdit_nvmFault_12"));
+        lineEdit_nvmFault_12->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_193, 2, 4, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_12, 2, 4, 1, 1);
 
-        lineEdit_195 = new QLineEdit(tab_6);
-        lineEdit_195->setObjectName(QString::fromUtf8("lineEdit_195"));
-        lineEdit_195->setReadOnly(true);
+        lineEdit_nvmFault_10 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_10->setObjectName(QString::fromUtf8("lineEdit_nvmFault_10"));
+        lineEdit_nvmFault_10->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_195, 2, 6, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_10, 2, 6, 1, 1);
 
-        lineEdit_194 = new QLineEdit(tab_6);
-        lineEdit_194->setObjectName(QString::fromUtf8("lineEdit_194"));
-        lineEdit_194->setReadOnly(true);
+        lineEdit_nvmFault_11 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_11->setObjectName(QString::fromUtf8("lineEdit_nvmFault_11"));
+        lineEdit_nvmFault_11->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_194, 2, 5, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_11, 2, 5, 1, 1);
 
-        lineEdit_196 = new QLineEdit(tab_6);
-        lineEdit_196->setObjectName(QString::fromUtf8("lineEdit_196"));
-        lineEdit_196->setReadOnly(true);
+        lineEdit_nvmFault_8 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_8->setObjectName(QString::fromUtf8("lineEdit_nvmFault_8"));
+        lineEdit_nvmFault_8->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_196, 2, 8, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_8, 2, 8, 1, 1);
 
-        lineEdit_198 = new QLineEdit(tab_6);
-        lineEdit_198->setObjectName(QString::fromUtf8("lineEdit_198"));
-        lineEdit_198->setReadOnly(true);
+        lineEdit_nvmFault_6 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_6->setObjectName(QString::fromUtf8("lineEdit_nvmFault_6"));
+        lineEdit_nvmFault_6->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_198, 2, 10, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_6, 2, 10, 1, 1);
 
-        lineEdit_197 = new QLineEdit(tab_6);
-        lineEdit_197->setObjectName(QString::fromUtf8("lineEdit_197"));
-        lineEdit_197->setReadOnly(true);
+        lineEdit_nvmFault_7 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_7->setObjectName(QString::fromUtf8("lineEdit_nvmFault_7"));
+        lineEdit_nvmFault_7->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_197, 2, 9, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_7, 2, 9, 1, 1);
 
-        lineEdit_199 = new QLineEdit(tab_6);
-        lineEdit_199->setObjectName(QString::fromUtf8("lineEdit_199"));
-        lineEdit_199->setReadOnly(true);
+        lineEdit_nvmFault_5 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_5->setObjectName(QString::fromUtf8("lineEdit_nvmFault_5"));
+        lineEdit_nvmFault_5->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_199, 2, 11, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_5, 2, 11, 1, 1);
 
-        lineEdit_200 = new QLineEdit(tab_6);
-        lineEdit_200->setObjectName(QString::fromUtf8("lineEdit_200"));
-        lineEdit_200->setReadOnly(true);
+        lineEdit_nvmFault_4 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_4->setObjectName(QString::fromUtf8("lineEdit_nvmFault_4"));
+        lineEdit_nvmFault_4->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_200, 2, 12, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_4, 2, 12, 1, 1);
 
-        lineEdit_201 = new QLineEdit(tab_6);
-        lineEdit_201->setObjectName(QString::fromUtf8("lineEdit_201"));
-        lineEdit_201->setReadOnly(true);
+        lineEdit_nvmFault_3 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_3->setObjectName(QString::fromUtf8("lineEdit_nvmFault_3"));
+        lineEdit_nvmFault_3->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_201, 2, 13, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_3, 2, 13, 1, 1);
 
-        lineEdit_202 = new QLineEdit(tab_6);
-        lineEdit_202->setObjectName(QString::fromUtf8("lineEdit_202"));
-        lineEdit_202->setReadOnly(true);
+        lineEdit_nvmFault_2 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_2->setObjectName(QString::fromUtf8("lineEdit_nvmFault_2"));
+        lineEdit_nvmFault_2->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_202, 2, 14, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_2, 2, 14, 1, 1);
 
-        lineEdit_203 = new QLineEdit(tab_6);
-        lineEdit_203->setObjectName(QString::fromUtf8("lineEdit_203"));
-        lineEdit_203->setReadOnly(true);
+        lineEdit_nvmFault_1 = new QLineEdit(tab_6);
+        lineEdit_nvmFault_1->setObjectName(QString::fromUtf8("lineEdit_nvmFault_1"));
+        lineEdit_nvmFault_1->setReadOnly(true);
 
-        gridLayout_22->addWidget(lineEdit_203, 2, 15, 1, 1);
+        gridLayout_22->addWidget(lineEdit_nvmFault_1, 2, 15, 1, 1);
 
         label_93 = new QLabel(tab_6);
         label_93->setObjectName(QString::fromUtf8("label_93"));
@@ -3213,197 +3213,197 @@ public:
 
         gridLayout_25 = new QGridLayout();
         gridLayout_25->setObjectName(QString::fromUtf8("gridLayout_25"));
-        lineEdit_267 = new QLineEdit(tab_6);
-        lineEdit_267->setObjectName(QString::fromUtf8("lineEdit_267"));
-        lineEdit_267->setReadOnly(true);
+        lineEdit_RS422Fault_29 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_29->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_29"));
+        lineEdit_RS422Fault_29->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_267, 1, 3, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_29, 1, 3, 1, 1);
 
-        lineEdit_114 = new QLineEdit(tab_6);
-        lineEdit_114->setObjectName(QString::fromUtf8("lineEdit_114"));
-        lineEdit_114->setReadOnly(true);
+        lineEdit_RS422Fault_30 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_30->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_30"));
+        lineEdit_RS422Fault_30->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_114, 1, 2, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_30, 1, 2, 1, 1);
 
-        lineEdit_289 = new QLineEdit(tab_6);
-        lineEdit_289->setObjectName(QString::fromUtf8("lineEdit_289"));
-        lineEdit_289->setReadOnly(true);
+        lineEdit_RS422Fault_9 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_9->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_9"));
+        lineEdit_RS422Fault_9->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_289, 2, 7, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_9, 2, 7, 1, 1);
 
-        lineEdit_268 = new QLineEdit(tab_6);
-        lineEdit_268->setObjectName(QString::fromUtf8("lineEdit_268"));
-        lineEdit_268->setReadOnly(true);
+        lineEdit_RS422Fault_31 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_31->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_31"));
+        lineEdit_RS422Fault_31->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_268, 1, 1, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_31, 1, 1, 1, 1);
 
-        lineEdit_282 = new QLineEdit(tab_6);
-        lineEdit_282->setObjectName(QString::fromUtf8("lineEdit_282"));
-        lineEdit_282->setReadOnly(true);
+        lineEdit_RS422Fault_16 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_16->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_16"));
+        lineEdit_RS422Fault_16->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_282, 1, 17, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_16, 1, 17, 1, 1);
 
-        lineEdit_270 = new QLineEdit(tab_6);
-        lineEdit_270->setObjectName(QString::fromUtf8("lineEdit_270"));
-        lineEdit_270->setReadOnly(true);
+        lineEdit_RS422Fault_27 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_27->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_27"));
+        lineEdit_RS422Fault_27->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_270, 1, 5, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_27, 1, 5, 1, 1);
 
-        lineEdit_269 = new QLineEdit(tab_6);
-        lineEdit_269->setObjectName(QString::fromUtf8("lineEdit_269"));
-        lineEdit_269->setReadOnly(true);
+        lineEdit_RS422Fault_28 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_28->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_28"));
+        lineEdit_RS422Fault_28->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_269, 1, 4, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_28, 1, 4, 1, 1);
 
-        lineEdit_277 = new QLineEdit(tab_6);
-        lineEdit_277->setObjectName(QString::fromUtf8("lineEdit_277"));
-        lineEdit_277->setReadOnly(true);
+        lineEdit_RS422Fault_21 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_21->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_21"));
+        lineEdit_RS422Fault_21->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_277, 1, 11, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_21, 1, 11, 1, 1);
 
-        lineEdit_274 = new QLineEdit(tab_6);
-        lineEdit_274->setObjectName(QString::fromUtf8("lineEdit_274"));
-        lineEdit_274->setReadOnly(true);
+        lineEdit_RS422Fault_23 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_23->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_23"));
+        lineEdit_RS422Fault_23->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_274, 1, 9, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_23, 1, 9, 1, 1);
 
-        lineEdit_271 = new QLineEdit(tab_6);
-        lineEdit_271->setObjectName(QString::fromUtf8("lineEdit_271"));
-        lineEdit_271->setReadOnly(true);
+        lineEdit_RS422Fault_26 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_26->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_26"));
+        lineEdit_RS422Fault_26->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_271, 1, 6, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_26, 1, 6, 1, 1);
 
-        lineEdit_272 = new QLineEdit(tab_6);
-        lineEdit_272->setObjectName(QString::fromUtf8("lineEdit_272"));
-        lineEdit_272->setReadOnly(true);
+        lineEdit_RS422Fault_25 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_25->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_25"));
+        lineEdit_RS422Fault_25->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_272, 1, 7, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_25, 1, 7, 1, 1);
 
-        lineEdit_273 = new QLineEdit(tab_6);
-        lineEdit_273->setObjectName(QString::fromUtf8("lineEdit_273"));
-        lineEdit_273->setReadOnly(true);
+        lineEdit_RS422Fault_24 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_24->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_24"));
+        lineEdit_RS422Fault_24->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_273, 1, 8, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_24, 1, 8, 1, 1);
 
-        lineEdit_281 = new QLineEdit(tab_6);
-        lineEdit_281->setObjectName(QString::fromUtf8("lineEdit_281"));
-        lineEdit_281->setReadOnly(true);
+        lineEdit_RS422Fault_17 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_17->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_17"));
+        lineEdit_RS422Fault_17->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_281, 1, 16, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_17, 1, 16, 1, 1);
 
-        lineEdit_275 = new QLineEdit(tab_6);
-        lineEdit_275->setObjectName(QString::fromUtf8("lineEdit_275"));
-        lineEdit_275->setReadOnly(true);
+        lineEdit_RS422Fault_22 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_22->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_22"));
+        lineEdit_RS422Fault_22->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_275, 1, 10, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_22, 1, 10, 1, 1);
 
-        lineEdit_276 = new QLineEdit(tab_6);
-        lineEdit_276->setObjectName(QString::fromUtf8("lineEdit_276"));
-        lineEdit_276->setReadOnly(true);
+        lineEdit_RS422Fault_6 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_6->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_6"));
+        lineEdit_RS422Fault_6->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_276, 2, 10, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_6, 2, 10, 1, 1);
 
-        lineEdit_278 = new QLineEdit(tab_6);
-        lineEdit_278->setObjectName(QString::fromUtf8("lineEdit_278"));
-        lineEdit_278->setReadOnly(true);
+        lineEdit_RS422Fault_20 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_20->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_20"));
+        lineEdit_RS422Fault_20->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_278, 1, 12, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_20, 1, 12, 1, 1);
 
-        lineEdit_280 = new QLineEdit(tab_6);
-        lineEdit_280->setObjectName(QString::fromUtf8("lineEdit_280"));
-        lineEdit_280->setReadOnly(true);
+        lineEdit_RS422Fault_18 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_18->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_18"));
+        lineEdit_RS422Fault_18->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_280, 1, 14, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_18, 1, 14, 1, 1);
 
-        lineEdit_279 = new QLineEdit(tab_6);
-        lineEdit_279->setObjectName(QString::fromUtf8("lineEdit_279"));
-        lineEdit_279->setReadOnly(true);
+        lineEdit_RS422Fault_19 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_19->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_19"));
+        lineEdit_RS422Fault_19->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_279, 1, 13, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_19, 1, 13, 1, 1);
 
-        lineEdit_283 = new QLineEdit(tab_6);
-        lineEdit_283->setObjectName(QString::fromUtf8("lineEdit_283"));
-        lineEdit_283->setReadOnly(true);
+        lineEdit_RS422Fault_15 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_15->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_15"));
+        lineEdit_RS422Fault_15->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_283, 2, 1, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_15, 2, 1, 1, 1);
 
-        lineEdit_284 = new QLineEdit(tab_6);
-        lineEdit_284->setObjectName(QString::fromUtf8("lineEdit_284"));
-        lineEdit_284->setReadOnly(true);
+        lineEdit_RS422Fault_14 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_14->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_14"));
+        lineEdit_RS422Fault_14->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_284, 2, 2, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_14, 2, 2, 1, 1);
 
-        lineEdit_285 = new QLineEdit(tab_6);
-        lineEdit_285->setObjectName(QString::fromUtf8("lineEdit_285"));
-        lineEdit_285->setReadOnly(true);
+        lineEdit_RS422Fault_13 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_13->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_13"));
+        lineEdit_RS422Fault_13->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_285, 2, 3, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_13, 2, 3, 1, 1);
 
-        lineEdit_296 = new QLineEdit(tab_6);
-        lineEdit_296->setObjectName(QString::fromUtf8("lineEdit_296"));
-        lineEdit_296->setReadOnly(true);
+        lineEdit_RS422Fault_1 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_1->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_1"));
+        lineEdit_RS422Fault_1->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_296, 2, 16, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_1, 2, 16, 1, 1);
 
-        lineEdit_286 = new QLineEdit(tab_6);
-        lineEdit_286->setObjectName(QString::fromUtf8("lineEdit_286"));
-        lineEdit_286->setReadOnly(true);
+        lineEdit_RS422Fault_12 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_12->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_12"));
+        lineEdit_RS422Fault_12->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_286, 2, 4, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_12, 2, 4, 1, 1);
 
-        lineEdit_287 = new QLineEdit(tab_6);
-        lineEdit_287->setObjectName(QString::fromUtf8("lineEdit_287"));
-        lineEdit_287->setReadOnly(true);
+        lineEdit_RS422Fault_11 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_11->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_11"));
+        lineEdit_RS422Fault_11->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_287, 2, 5, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_11, 2, 5, 1, 1);
 
-        lineEdit_288 = new QLineEdit(tab_6);
-        lineEdit_288->setObjectName(QString::fromUtf8("lineEdit_288"));
-        lineEdit_288->setReadOnly(true);
+        lineEdit_RS422Fault_10 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_10->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_10"));
+        lineEdit_RS422Fault_10->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_288, 2, 6, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_10, 2, 6, 1, 1);
 
-        lineEdit_290 = new QLineEdit(tab_6);
-        lineEdit_290->setObjectName(QString::fromUtf8("lineEdit_290"));
-        lineEdit_290->setReadOnly(true);
+        lineEdit_RS422Fault_8 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_8->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_8"));
+        lineEdit_RS422Fault_8->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_290, 2, 8, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_8, 2, 8, 1, 1);
 
-        lineEdit_291 = new QLineEdit(tab_6);
-        lineEdit_291->setObjectName(QString::fromUtf8("lineEdit_291"));
-        lineEdit_291->setReadOnly(true);
+        lineEdit_RS422Fault_7 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_7->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_7"));
+        lineEdit_RS422Fault_7->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_291, 2, 9, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_7, 2, 9, 1, 1);
 
-        lineEdit_292 = new QLineEdit(tab_6);
-        lineEdit_292->setObjectName(QString::fromUtf8("lineEdit_292"));
-        lineEdit_292->setReadOnly(true);
+        lineEdit_RS422Fault_5 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_5->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_5"));
+        lineEdit_RS422Fault_5->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_292, 2, 11, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_5, 2, 11, 1, 1);
 
-        lineEdit_293 = new QLineEdit(tab_6);
-        lineEdit_293->setObjectName(QString::fromUtf8("lineEdit_293"));
-        lineEdit_293->setReadOnly(true);
+        lineEdit_RS422Fault_4 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_4->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_4"));
+        lineEdit_RS422Fault_4->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_293, 2, 12, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_4, 2, 12, 1, 1);
 
-        lineEdit_294 = new QLineEdit(tab_6);
-        lineEdit_294->setObjectName(QString::fromUtf8("lineEdit_294"));
-        lineEdit_294->setReadOnly(true);
+        lineEdit_RS422Fault_3 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_3->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_3"));
+        lineEdit_RS422Fault_3->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_294, 2, 13, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_3, 2, 13, 1, 1);
 
-        lineEdit_295 = new QLineEdit(tab_6);
-        lineEdit_295->setObjectName(QString::fromUtf8("lineEdit_295"));
-        lineEdit_295->setReadOnly(true);
+        lineEdit_RS422Fault_2 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_2->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_2"));
+        lineEdit_RS422Fault_2->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_295, 2, 14, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_2, 2, 14, 1, 1);
 
-        lineEdit_297 = new QLineEdit(tab_6);
-        lineEdit_297->setObjectName(QString::fromUtf8("lineEdit_297"));
-        lineEdit_297->setReadOnly(true);
+        lineEdit_RS422Fault_0 = new QLineEdit(tab_6);
+        lineEdit_RS422Fault_0->setObjectName(QString::fromUtf8("lineEdit_RS422Fault_0"));
+        lineEdit_RS422Fault_0->setReadOnly(true);
 
-        gridLayout_25->addWidget(lineEdit_297, 2, 17, 1, 1);
+        gridLayout_25->addWidget(lineEdit_RS422Fault_0, 2, 17, 1, 1);
 
         label_104 = new QLabel(tab_6);
         label_104->setObjectName(QString::fromUtf8("label_104"));
@@ -3864,197 +3864,197 @@ public:
 
         gridLayout_24 = new QGridLayout();
         gridLayout_24->setObjectName(QString::fromUtf8("gridLayout_24"));
-        lineEdit_113 = new QLineEdit(tab_6);
-        lineEdit_113->setObjectName(QString::fromUtf8("lineEdit_113"));
-        lineEdit_113->setReadOnly(true);
+        lineEdit_McBSPFault_31 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_31->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_31"));
+        lineEdit_McBSPFault_31->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_113, 1, 1, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_31, 1, 1, 1, 1);
 
-        lineEdit_236 = new QLineEdit(tab_6);
-        lineEdit_236->setObjectName(QString::fromUtf8("lineEdit_236"));
-        lineEdit_236->setReadOnly(true);
+        lineEdit_McBSPFault_30 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_30->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_30"));
+        lineEdit_McBSPFault_30->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_236, 1, 2, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_30, 1, 2, 1, 1);
 
-        lineEdit_239 = new QLineEdit(tab_6);
-        lineEdit_239->setObjectName(QString::fromUtf8("lineEdit_239"));
-        lineEdit_239->setReadOnly(true);
+        lineEdit_McBSPFault_27 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_27->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_27"));
+        lineEdit_McBSPFault_27->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_239, 1, 5, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_27, 1, 5, 1, 1);
 
-        lineEdit_243 = new QLineEdit(tab_6);
-        lineEdit_243->setObjectName(QString::fromUtf8("lineEdit_243"));
-        lineEdit_243->setReadOnly(true);
+        lineEdit_McBSPFault_23 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_23->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_23"));
+        lineEdit_McBSPFault_23->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_243, 1, 9, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_23, 1, 9, 1, 1);
 
-        lineEdit_265 = new QLineEdit(tab_6);
-        lineEdit_265->setObjectName(QString::fromUtf8("lineEdit_265"));
-        lineEdit_265->setReadOnly(true);
+        lineEdit_McBSPFault_1 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_1->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_1"));
+        lineEdit_McBSPFault_1->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_265, 3, 15, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_1, 3, 15, 1, 1);
 
-        lineEdit_237 = new QLineEdit(tab_6);
-        lineEdit_237->setObjectName(QString::fromUtf8("lineEdit_237"));
-        lineEdit_237->setReadOnly(true);
+        lineEdit_McBSPFault_29 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_29->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_29"));
+        lineEdit_McBSPFault_29->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_237, 1, 3, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_29, 1, 3, 1, 1);
 
-        lineEdit_238 = new QLineEdit(tab_6);
-        lineEdit_238->setObjectName(QString::fromUtf8("lineEdit_238"));
-        lineEdit_238->setReadOnly(true);
+        lineEdit_McBSPFault_28 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_28->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_28"));
+        lineEdit_McBSPFault_28->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_238, 1, 4, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_28, 1, 4, 1, 1);
 
-        lineEdit_240 = new QLineEdit(tab_6);
-        lineEdit_240->setObjectName(QString::fromUtf8("lineEdit_240"));
-        lineEdit_240->setReadOnly(true);
+        lineEdit_McBSPFault_26 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_26->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_26"));
+        lineEdit_McBSPFault_26->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_240, 1, 6, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_26, 1, 6, 1, 1);
 
-        lineEdit_241 = new QLineEdit(tab_6);
-        lineEdit_241->setObjectName(QString::fromUtf8("lineEdit_241"));
-        lineEdit_241->setReadOnly(true);
+        lineEdit_McBSPFault_25 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_25->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_25"));
+        lineEdit_McBSPFault_25->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_241, 1, 7, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_25, 1, 7, 1, 1);
 
-        lineEdit_242 = new QLineEdit(tab_6);
-        lineEdit_242->setObjectName(QString::fromUtf8("lineEdit_242"));
-        lineEdit_242->setReadOnly(true);
+        lineEdit_McBSPFault_24 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_24->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_24"));
+        lineEdit_McBSPFault_24->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_242, 1, 8, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_24, 1, 8, 1, 1);
 
-        lineEdit_244 = new QLineEdit(tab_6);
-        lineEdit_244->setObjectName(QString::fromUtf8("lineEdit_244"));
-        lineEdit_244->setReadOnly(true);
+        lineEdit_McBSPFault_22 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_22->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_22"));
+        lineEdit_McBSPFault_22->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_244, 1, 10, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_22, 1, 10, 1, 1);
 
-        lineEdit_245 = new QLineEdit(tab_6);
-        lineEdit_245->setObjectName(QString::fromUtf8("lineEdit_245"));
-        lineEdit_245->setReadOnly(true);
+        lineEdit_McBSPFault_21 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_21->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_21"));
+        lineEdit_McBSPFault_21->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_245, 1, 11, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_21, 1, 11, 1, 1);
 
-        lineEdit_248 = new QLineEdit(tab_6);
-        lineEdit_248->setObjectName(QString::fromUtf8("lineEdit_248"));
-        lineEdit_248->setReadOnly(true);
+        lineEdit_McBSPFault_18 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_18->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_18"));
+        lineEdit_McBSPFault_18->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_248, 1, 14, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_18, 1, 14, 1, 1);
 
-        lineEdit_247 = new QLineEdit(tab_6);
-        lineEdit_247->setObjectName(QString::fromUtf8("lineEdit_247"));
-        lineEdit_247->setReadOnly(true);
+        lineEdit_McBSPFault_19 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_19->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_19"));
+        lineEdit_McBSPFault_19->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_247, 1, 13, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_19, 1, 13, 1, 1);
 
-        lineEdit_246 = new QLineEdit(tab_6);
-        lineEdit_246->setObjectName(QString::fromUtf8("lineEdit_246"));
-        lineEdit_246->setReadOnly(true);
+        lineEdit_McBSPFault_20 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_20->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_20"));
+        lineEdit_McBSPFault_20->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_246, 1, 12, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_20, 1, 12, 1, 1);
 
-        lineEdit_250 = new QLineEdit(tab_6);
-        lineEdit_250->setObjectName(QString::fromUtf8("lineEdit_250"));
-        lineEdit_250->setReadOnly(true);
+        lineEdit_McBSPFault_16 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_16->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_16"));
+        lineEdit_McBSPFault_16->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_250, 1, 16, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_16, 1, 16, 1, 1);
 
-        lineEdit_251 = new QLineEdit(tab_6);
-        lineEdit_251->setObjectName(QString::fromUtf8("lineEdit_251"));
-        lineEdit_251->setReadOnly(true);
+        lineEdit_McBSPFault_15 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_15->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_15"));
+        lineEdit_McBSPFault_15->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_251, 3, 1, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_15, 3, 1, 1, 1);
 
-        lineEdit_249 = new QLineEdit(tab_6);
-        lineEdit_249->setObjectName(QString::fromUtf8("lineEdit_249"));
-        lineEdit_249->setReadOnly(true);
+        lineEdit_McBSPFault_17 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_17->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_17"));
+        lineEdit_McBSPFault_17->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_249, 1, 15, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_17, 1, 15, 1, 1);
 
-        lineEdit_252 = new QLineEdit(tab_6);
-        lineEdit_252->setObjectName(QString::fromUtf8("lineEdit_252"));
-        lineEdit_252->setReadOnly(true);
+        lineEdit_McBSPFault_14 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_14->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_14"));
+        lineEdit_McBSPFault_14->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_252, 3, 2, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_14, 3, 2, 1, 1);
 
-        lineEdit_253 = new QLineEdit(tab_6);
-        lineEdit_253->setObjectName(QString::fromUtf8("lineEdit_253"));
-        lineEdit_253->setReadOnly(true);
+        lineEdit_McBSPFault_13 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_13->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_13"));
+        lineEdit_McBSPFault_13->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_253, 3, 3, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_13, 3, 3, 1, 1);
 
-        lineEdit_254 = new QLineEdit(tab_6);
-        lineEdit_254->setObjectName(QString::fromUtf8("lineEdit_254"));
-        lineEdit_254->setReadOnly(true);
+        lineEdit_McBSPFault_12 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_12->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_12"));
+        lineEdit_McBSPFault_12->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_254, 3, 4, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_12, 3, 4, 1, 1);
 
-        lineEdit_255 = new QLineEdit(tab_6);
-        lineEdit_255->setObjectName(QString::fromUtf8("lineEdit_255"));
-        lineEdit_255->setReadOnly(true);
+        lineEdit_McBSPFault_11 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_11->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_11"));
+        lineEdit_McBSPFault_11->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_255, 3, 5, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_11, 3, 5, 1, 1);
 
-        lineEdit_256 = new QLineEdit(tab_6);
-        lineEdit_256->setObjectName(QString::fromUtf8("lineEdit_256"));
-        lineEdit_256->setReadOnly(true);
+        lineEdit_McBSPFault_10 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_10->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_10"));
+        lineEdit_McBSPFault_10->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_256, 3, 6, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_10, 3, 6, 1, 1);
 
-        lineEdit_257 = new QLineEdit(tab_6);
-        lineEdit_257->setObjectName(QString::fromUtf8("lineEdit_257"));
-        lineEdit_257->setReadOnly(true);
+        lineEdit_McBSPFault_9 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_9->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_9"));
+        lineEdit_McBSPFault_9->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_257, 3, 7, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_9, 3, 7, 1, 1);
 
-        lineEdit_258 = new QLineEdit(tab_6);
-        lineEdit_258->setObjectName(QString::fromUtf8("lineEdit_258"));
-        lineEdit_258->setReadOnly(true);
+        lineEdit_McBSPFault_8 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_8->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_8"));
+        lineEdit_McBSPFault_8->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_258, 3, 8, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_8, 3, 8, 1, 1);
 
-        lineEdit_259 = new QLineEdit(tab_6);
-        lineEdit_259->setObjectName(QString::fromUtf8("lineEdit_259"));
-        lineEdit_259->setReadOnly(true);
+        lineEdit_McBSPFault_7 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_7->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_7"));
+        lineEdit_McBSPFault_7->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_259, 3, 9, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_7, 3, 9, 1, 1);
 
-        lineEdit_260 = new QLineEdit(tab_6);
-        lineEdit_260->setObjectName(QString::fromUtf8("lineEdit_260"));
-        lineEdit_260->setReadOnly(true);
+        lineEdit_McBSPFault_6 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_6->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_6"));
+        lineEdit_McBSPFault_6->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_260, 3, 10, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_6, 3, 10, 1, 1);
 
-        lineEdit_261 = new QLineEdit(tab_6);
-        lineEdit_261->setObjectName(QString::fromUtf8("lineEdit_261"));
-        lineEdit_261->setReadOnly(true);
+        lineEdit_McBSPFault_5 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_5->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_5"));
+        lineEdit_McBSPFault_5->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_261, 3, 11, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_5, 3, 11, 1, 1);
 
-        lineEdit_262 = new QLineEdit(tab_6);
-        lineEdit_262->setObjectName(QString::fromUtf8("lineEdit_262"));
-        lineEdit_262->setReadOnly(true);
+        lineEdit_McBSPFault_4 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_4->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_4"));
+        lineEdit_McBSPFault_4->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_262, 3, 12, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_4, 3, 12, 1, 1);
 
-        lineEdit_263 = new QLineEdit(tab_6);
-        lineEdit_263->setObjectName(QString::fromUtf8("lineEdit_263"));
-        lineEdit_263->setReadOnly(true);
+        lineEdit_McBSPFault_3 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_3->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_3"));
+        lineEdit_McBSPFault_3->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_263, 3, 13, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_3, 3, 13, 1, 1);
 
-        lineEdit_264 = new QLineEdit(tab_6);
-        lineEdit_264->setObjectName(QString::fromUtf8("lineEdit_264"));
-        lineEdit_264->setReadOnly(true);
+        lineEdit_McBSPFault_2 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_2->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_2"));
+        lineEdit_McBSPFault_2->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_264, 3, 14, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_2, 3, 14, 1, 1);
 
-        lineEdit_266 = new QLineEdit(tab_6);
-        lineEdit_266->setObjectName(QString::fromUtf8("lineEdit_266"));
-        lineEdit_266->setReadOnly(true);
+        lineEdit_McBSPFault_0 = new QLineEdit(tab_6);
+        lineEdit_McBSPFault_0->setObjectName(QString::fromUtf8("lineEdit_McBSPFault_0"));
+        lineEdit_McBSPFault_0->setReadOnly(true);
 
-        gridLayout_24->addWidget(lineEdit_266, 3, 16, 1, 1);
+        gridLayout_24->addWidget(lineEdit_McBSPFault_0, 3, 16, 1, 1);
 
         label_101 = new QLabel(tab_6);
         label_101->setObjectName(QString::fromUtf8("label_101"));
@@ -4141,7 +4141,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        tabWidget->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(5);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -4394,38 +4394,38 @@ public:
         tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("MainWindow", "Pressure Cal", 0, QApplication::UnicodeUTF8));
         tabWidget->setTabText(tabWidget->indexOf(tab_4), QApplication::translate("MainWindow", "Level E", 0, QApplication::UnicodeUTF8));
         tabWidget->setTabText(tabWidget->indexOf(tab_5), QApplication::translate("MainWindow", "User Defined", 0, QApplication::UnicodeUTF8));
-        lineEdit_205->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_215->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_217->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_208->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_214->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_220->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_207->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_227->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_216->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_210->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_112->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_224->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_221->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_232->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_206->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_223->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_211->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_225->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_218->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_219->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_226->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_209->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_222->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_213->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_229->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_212->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_230->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_231->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_228->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_233->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_234->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_235->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_30->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_20->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_18->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_27->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_21->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_15->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_28->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_8->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_19->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_25->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_31->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_11->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_14->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_3->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_29->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_12->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_24->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_10->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_17->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_16->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_9->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_26->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_13->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_22->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_6->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_23->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_5->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_4->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_7->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_2->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_1->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_bootFault_0->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_96->setText(QApplication::translate("MainWindow", "16", 0, QApplication::UnicodeUTF8));
         label_97->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_94->setText(QApplication::translate("MainWindow", "31", 0, QApplication::UnicodeUTF8));
@@ -4460,23 +4460,56 @@ public:
         lineEdit_ptm11->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm13->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm9->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_ptm8->setToolTip(QApplication::translate("MainWindow", "PTM Calibration Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_ptm8->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm10->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_ptm12->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_ptm7->setToolTip(QApplication::translate("MainWindow", "PTM Packet 3 Rx Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_ptm7->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_ptm6->setToolTip(QApplication::translate("MainWindow", "P26 NVM Rx Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_ptm6->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_ptm5->setToolTip(QApplication::translate("MainWindow", "P160 NVM Rx Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_ptm5->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_ptm3->setToolTip(QApplication::translate("MainWindow", "PTM Rx Refresh Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_ptm3->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_ptm4->setToolTip(QApplication::translate("MainWindow", "PTM Command Wrap Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_ptm4->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_ptm2->setToolTip(QApplication::translate("MainWindow", "PTM Packet 2 Rx Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_ptm2->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_ptm1->setToolTip(QApplication::translate("MainWindow", "P26 NVM Checksum Fail ", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_ptm1->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_ptm0->setToolTip(QApplication::translate("MainWindow", "P160 NVM Checksum Fail", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_ptm0->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_116->setText(QApplication::translate("MainWindow", "16", 0, QApplication::UnicodeUTF8));
         label_117->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_114->setText(QApplication::translate("MainWindow", "31", 0, QApplication::UnicodeUTF8));
         label_115->setText(QApplication::translate("MainWindow", "15", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit8->setToolTip(QApplication::translate("MainWindow", "Engine Vibration Channel 2 Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit8->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_pbit29->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit15->setToolTip(QApplication::translate("MainWindow", "McBSP0 fault thrown while trying to send CFPGA configuration", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit15->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_pbit21->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_pbit31->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
@@ -4495,17 +4528,50 @@ public:
         lineEdit_pbit20->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_pbit19->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_pbit14->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit12->setToolTip(QApplication::translate("MainWindow", "External RAM pattern test failed ", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit12->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit11->setToolTip(QApplication::translate("MainWindow", "DSP internal RAM pattern test failed", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit11->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_pbit10->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit9->setToolTip(QApplication::translate("MainWindow", "Main Image CRC does not match", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit9->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit7->setToolTip(QApplication::translate("MainWindow", "Engine Vibration Channel 1 Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit7->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit6->setToolTip(QApplication::translate("MainWindow", "GearBox Vibration Channel Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit6->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit5->setToolTip(QApplication::translate("MainWindow", "N1T Channel A Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit5->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit4->setToolTip(QApplication::translate("MainWindow", "N3 Channel A Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit4->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit3->setToolTip(QApplication::translate("MainWindow", "N2C Channel B Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit3->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit2->setToolTip(QApplication::translate("MainWindow", "N1C Channel B Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit2->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit0->setToolTip(QApplication::translate("MainWindow", "N1C Channel A Fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit0->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_pbit1->setToolTip(QApplication::translate("MainWindow", "N2C Channel A Fault ", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_pbit1->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_86->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_88->setText(QApplication::translate("MainWindow", "16", 0, QApplication::UnicodeUTF8));
@@ -4527,94 +4593,220 @@ public:
         lineEdit_cbit21->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_cbit20->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_cbit19->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_cbit6->setToolTip(QApplication::translate("MainWindow", "High Rate Task execution time has exceeded a Minor Frame", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_cbit6->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_cbit16->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_cbit11->setToolTip(QApplication::translate("MainWindow", "McASP bus was enabled when it was expected to be disabled ", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_cbit11->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_cbit17->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_cbit10->setToolTip(QApplication::translate("MainWindow", "RAM CRC does not match", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_cbit10->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_cbit12->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_cbit13->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         lineEdit_cbit9->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_cbit8->setToolTip(QApplication::translate("MainWindow", "AS Background Task has exceeded its maximum allowed execution time", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_cbit8->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_cbit7->setToolTip(QApplication::translate("MainWindow", "OS Background Task has exceeded its maximum allowed execution time", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_cbit7->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_cbit5->setToolTip(QApplication::translate("MainWindow", "Watchdog timer reset detected ", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_cbit5->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_cbit4->setToolTip(QApplication::translate("MainWindow", "Main Task has exceeded its maximum allowed execution time", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_cbit4->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_cbit3->setToolTip(QApplication::translate("MainWindow", "Stack has overrun its bounds ", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_cbit3->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_cbit2->setToolTip(QApplication::translate("MainWindow", "Stack pointer not properly reset after function return", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_cbit2->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_cbit1->setToolTip(QApplication::translate("MainWindow", "I2C bus was enabled when it was expected to be disabled", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_cbit1->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_cbit0->setToolTip(QApplication::translate("MainWindow", "GPIO configuration does not match expected value", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         lineEdit_cbit0->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_84->setText(QApplication::translate("MainWindow", "16", 0, QApplication::UnicodeUTF8));
         label_82->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_85->setText(QApplication::translate("MainWindow", "31", 0, QApplication::UnicodeUTF8));
         label_83->setText(QApplication::translate("MainWindow", "15", 0, QApplication::UnicodeUTF8));
-        lineEdit_183->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_191->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_192->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_204->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_111->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_188->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_186->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_174->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_175->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_177->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_176->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_179->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_178->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_180->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_184->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_181->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_182->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_185->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_187->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_190->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_189->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_193->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_195->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_194->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_196->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_198->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_197->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_199->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_200->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_201->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_202->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_203->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_22->setToolTip(QApplication::translate("MainWindow", "The buffer is halted", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_22->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_14->setToolTip(QApplication::translate("MainWindow", "More than one sector in a section has the same index ", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_14->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_13->setToolTip(QApplication::translate("MainWindow", "The newest sector for a section is empty", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_13->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_nvmFault_0->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_nvmFault_31->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_17->setToolTip(QApplication::translate("MainWindow", "A record is blank", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_17->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_19->setToolTip(QApplication::translate("MainWindow", "Unable to locate the previous sector", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_19->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_nvmFault_30->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_nvmFault_29->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_nvmFault_27->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_nvmFault_28->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_nvmFault_25->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_nvmFault_26->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_9->setToolTip(QApplication::translate("MainWindow", "The CRC of stored data does not match the stored CRC", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_9->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_21->setToolTip(QApplication::translate("MainWindow", "The passed buffer is invalid", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_21->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_24->setToolTip(QApplication::translate("MainWindow", "The section's record cursor is at the end of the sector", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_24->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_23->setToolTip(QApplication::translate("MainWindow", "The buffer is full", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_23->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_20->setToolTip(QApplication::translate("MainWindow", "Unable to locate the current sector", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_20->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_18->setToolTip(QApplication::translate("MainWindow", "The newest sector in a section is blank", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_18->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_15->setToolTip(QApplication::translate("MainWindow", "Marking a record bad during erase failed", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_15->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_16->setToolTip(QApplication::translate("MainWindow", "The section is uninitialized", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_16->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_12->setToolTip(QApplication::translate("MainWindow", "The newest sector for a section is empty", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_12->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_10->setToolTip(QApplication::translate("MainWindow", "A sector is empty", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_10->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_11->setToolTip(QApplication::translate("MainWindow", "A sector is full", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_11->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_8->setToolTip(QApplication::translate("MainWindow", "Checking the status flags of a record failed", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_8->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_6->setToolTip(QApplication::translate("MainWindow", "Attempted to write a record, but did not finish", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_6->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_7->setToolTip(QApplication::translate("MainWindow", "The record is marked bad", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_7->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_5->setToolTip(QApplication::translate("MainWindow", "The record has already been written to", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_5->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_4->setToolTip(QApplication::translate("MainWindow", "Size of passed record exceeds the maximum record size ", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_4->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_3->setToolTip(QApplication::translate("MainWindow", "Erasing a sector timed out", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_3->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_2->setToolTip(QApplication::translate("MainWindow", "Attempted to write outside of the defined NVM address space", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_2->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_nvmFault_1->setToolTip(QApplication::translate("MainWindow", "Size of passed record exceeds the maximum record size", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_nvmFault_1->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_93->setText(QApplication::translate("MainWindow", "16", 0, QApplication::UnicodeUTF8));
         label_90->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_91->setText(QApplication::translate("MainWindow", "15", 0, QApplication::UnicodeUTF8));
         label_92->setText(QApplication::translate("MainWindow", "31", 0, QApplication::UnicodeUTF8));
-        lineEdit_267->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_114->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_289->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_268->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_282->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_270->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_269->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_277->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_274->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_271->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_272->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_273->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_281->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_275->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_276->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_278->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_280->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_279->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_283->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_284->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_285->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_296->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_286->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_287->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_288->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_290->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_291->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_292->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_293->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_294->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_295->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_297->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_29->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_30->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_9->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_31->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_16->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_27->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_28->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_21->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_23->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_26->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_25->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_24->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_17->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_22->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_RS422Fault_6->setToolTip(QApplication::translate("MainWindow", "Excessive failure of RS422 reception", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_RS422Fault_6->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_20->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_18->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_19->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_15->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_14->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_13->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_RS422Fault_1->setToolTip(QApplication::translate("MainWindow", "I2C bus fault", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_RS422Fault_1->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_12->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_11->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_10->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_8->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_RS422Fault_7->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_RS422Fault_5->setToolTip(QApplication::translate("MainWindow", "Excessive failure of RS422 transmission", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_RS422Fault_5->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_RS422Fault_4->setToolTip(QApplication::translate("MainWindow", "Excessive NACKs from I2C-RS422 bridge", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_RS422Fault_4->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_RS422Fault_3->setToolTip(QApplication::translate("MainWindow", "RS422 software receive buffer has overrun", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_RS422Fault_3->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_RS422Fault_2->setToolTip(QApplication::translate("MainWindow", "RS422 software transmit buffer has overrrun ", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_RS422Fault_2->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_RS422Fault_0->setToolTip(QApplication::translate("MainWindow", "RS422 failed to initialize properly ", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_RS422Fault_0->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_104->setText(QApplication::translate("MainWindow", "16", 0, QApplication::UnicodeUTF8));
         label_105->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_102->setText(QApplication::translate("MainWindow", "31", 0, QApplication::UnicodeUTF8));
@@ -4691,38 +4883,47 @@ public:
         label_110->setText(QApplication::translate("MainWindow", "31", 0, QApplication::UnicodeUTF8));
         label_113->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_112->setText(QApplication::translate("MainWindow", "16", 0, QApplication::UnicodeUTF8));
-        lineEdit_113->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_236->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_239->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_243->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_265->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_237->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_238->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_240->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_241->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_242->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_244->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_245->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_248->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_247->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_246->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_250->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_251->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_249->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_252->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_253->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_254->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_255->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_256->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_257->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_258->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_259->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_260->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_261->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_262->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_263->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_264->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        lineEdit_266->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_31->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_30->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_27->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_23->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_1->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_29->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_28->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_26->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_25->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_24->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_22->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_21->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_18->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_19->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_20->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_16->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_15->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_17->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_14->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_13->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_12->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_11->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_10->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_9->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_8->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_7->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_6->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_5->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+        lineEdit_McBSPFault_4->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_McBSPFault_3->setToolTip(QApplication::translate("MainWindow", "McBSP 1 Receive Timeout ", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_McBSPFault_3->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_McBSPFault_2->setToolTip(QApplication::translate("MainWindow", "McBSP 1 Transmit Timeout", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_McBSPFault_2->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        lineEdit_McBSPFault_0->setToolTip(QApplication::translate("MainWindow", "McBSP 0 Transmit Timeout", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        lineEdit_McBSPFault_0->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_101->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
         label_100->setText(QApplication::translate("MainWindow", "16", 0, QApplication::UnicodeUTF8));
         label_99->setText(QApplication::translate("MainWindow", "15", 0, QApplication::UnicodeUTF8));
